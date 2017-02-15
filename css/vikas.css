@@ -1,0 +1,134 @@
+.problems-content .problem-item:nth-child(4){
+    background: url(../img/problemwesolve-img3.jpg) no-repeat;
+    margin-right: 25px;
+        background-size: contain
+}
+.problems-content .problem-item:nth-child(5){
+    background: url(../img/problemwesolve-img1.jpg) no-repeat;
+    margin-right: 25px;
+        background-size: contain
+
+}
+.problems-content .problem-item:nth-child(6){
+    background: url(../img/problemwesolve-img2.jpg) no-repeat;
+        background-size: contain
+}
+.problems-content .problem-item:nth-child(7){
+    background: url(../img/problemwesolve-img2.jpg) no-repeat;
+    margin-right: 25px;
+        background-size: contain
+}
+.problems-content .problem-item:nth-child(8){
+    background: url(../img/problemwesolve-img3.jpg) no-repeat;
+    margin-right: 25px;
+        background-size: contain
+}
+.problems-content .problem-item:nth-child(9){
+    background: url(../img/problemwesolve-img1.jpg) no-repeat;
+        background-size: contain
+}
+.problem-item > span {
+    font-size: 12px;
+    margin-left: 40px;
+    position: relative;
+    top: 30px;
+}
+.problems-head select{
+    border: 0; border-bottom: 1px solid #ccc; border-radius: 0; box-shadow:none;
+    background: url(../img/br_down.png) no-repeat right;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  -webkit-appearance: none;width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0px;
+    height: 34px;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc;
+}
+.problems-head select:focus{
+    box-shadow: none;
+    border-bottom: 1px solid #179bd7;
+}
+.featured-case-study{
+    padding: 50px 80px 0px;
+}
+.featured-case-study-bg{
+    background-color: #89c1d9;
+    height: 225px;
+    float: left;
+}
+.featured-case-study-bg.item1{
+    width: 240px;
+}
+.featured-case-study-bg.item2 {
+    width: 385px;
+}
+.featured-case-study-bg.item3 {
+    width: 385px;
+}
+.featured-case-study-img-bg{
+    background: rgba(0, 0, 0, 0) url("../img/services-intro-background.png") no-repeat scroll 0 0 / contain ;
+    content: "";
+    height: 100%;
+    left: 25px;
+    position: relative;
+    top: 25px;
+    z-index: 2;
+}
+.featured-case-study-bg.item2 img{
+    width: 100%;
+    height: 100%;
+}
+.featured-case-study-bg.item3 > h4 {
+    color: #fff;
+    font-family: lato-black;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.featured-case-study-bg.item3 > p {
+    color: #fff;
+    margin-left: 30px;
+    width: 89%;
+}
+.featured-case-study-bg.item3 > .btn {
+    color: #fff;
+    margin-left: 20px;
+}
+.featured-case-study-img-bg > h3 {
+    color: #fff;
+    font-family: "Lato-Black";
+    left: 30px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 25px;
+    width: 50%;
+}
+.problems-content .problem-item h4 {
+    font-weight: bold;
+}
+.health-care .page-i {
+    color: #fff;
+    min-height: 18.857em;
+    position: relative;
+    width: 16.2em;
+}
+.problems-content {
+    padding: 10px 0;
+}
+.problems-content .problem-item {
+    margin: 10px 0;
+}
+.page-i{
+    min-height: 20em;
+}
+.explore-industries-bg {
+    height: 23.457em;
+}
+.problems-head-bg {
+    background: #179bd7 url("../img/banners/problems-we-solve.jpg") no-repeat scroll 0 0 / cover ;
+    height: 8.5em;
+}

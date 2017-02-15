@@ -1,0 +1,176 @@
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+.lh-history::before {
+    width: 26.9em;
+}
+.about-who-we-are img, .about-what-we-do img {
+    width: 12em;
+}
+.top-most-recent img {
+    width: 9.9em;
+}
+.top-more-news .top-more-news-op img {
+    width: 5em;
+}
+.list-unstyled.locations-list { -moz-column-gap: 1.5em; -webkit-column-gap: 1.5em; column-gap: 1.5em; }
+.aboutus-who-what { margin-left: 0px;
+}
+.featured-case-study {
+    padding: 50px 15px 0;
+}
+.featured-case-study-bg.item1 {
+    width: 220px;
+}
+.featured-case-study-bg.item2 {
+    width: 355px;
+}
+.featured-case-study-bg.item3 {
+    width: 365px;
+}
+.featured-case-study-bg {
+    height: 210px;
+}
+.problems-content .problem-item {
+    height: 170px;
+    width: 31.5%;
+    margin: 10px 0;
+}
+.problems-content .problem-item h4 {
+    margin-top: 45px;
+    width: 90%;
+}
+.problems-content .problem-item a {
+    bottom: 0;
+    position: absolute;
+}
+.footer-address {
+    padding: 0;
+}
+.foot-links li {
+    padding-left: 0px;
+}
+.footer-left-pad {
+    padding-left: 0;
+}
+.industries-newsevents .top-more-news .top-more-news-op div {
+    width: 19.786em;
+}
+.problemsolve-thumb {
+    min-height: 9.4em;
+    padding: 10px 10px 0;
+}
+.i-letmehelpu .media .media-body div {
+    margin-top: 24px
+}
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px){
+	body{
+		overflow-x: hidden;
+	}
+.navbar-wrapper .navbar-default .navbar-nav > li > a span:nth-child(2), .navbar-wrapper-op .navbar-default .navbar-nav > li > a span:nth-child(2),.navbar-wrapper .navbar-default .navbar-nav > li > a, .navbar-wrapper-op .navbar-default .navbar-nav > li > a {
+    font-size: 14px!important;
+    line-height: 16px!important;
+}
+.navbar-wrapper .navbar-default .navbar-nav > li > a, .navbar-wrapper-op .navbar-default .navbar-nav > li > a {
+    padding: 10px 9px!important;
+}
+.intro-page p {
+    padding-right: 0;
+}
+.intro-page-sub {
+    padding-right: 0;
+}
+.intro-page-sub p {
+    padding-right: 0;
+}
+.lh-history {
+    left: 0px;
+    position: relative;
+}
+.lh-history::before {
+    width: 22.3em;
+}
+.lh-history-desc {
+    padding: 15px 0 30px 43px;
+}
+.more-news-events .top-more-news .more-news {
+    display: inline-block;
+    width: 100%;
+}
+.top-more-news {
+    min-height: 100%;
+}
+.top-more-news .top-more-news-op img {
+    width: 8em;
+}
+.top-more-news .top-more-news-op div {
+    width: 50%;
+}
+.tabbable-panel::before {
+    top: 19px;
+}
+.tabbable-panel {
+    width: 45em;
+}
+.tabbable-line > .nav-tabs {
+    padding-left: 0;
+}
+.about-what-we-do{
+	margin-left: 0px !important;
+}
+.insights-thumb {
+    display: table;
+    padding: 0;
+}
+.locations h3 {
+    padding-left: 0px;
+}
+.locations h4 {
+    padding: 0 10px 0 0;
+}
+.locations .col-sm-6{
+	padding-left: 0px;
+}
+.list-unstyled.locations-list {
+    padding-left: 0;
+}
+.footer-left-pad {
+    padding-left: 0px;
+}
+.foot-links li {
+    padding-left: 0px;
+}
+.featured-case-study {
+    padding: 50px 15px 0;
+}
+.featured-case-study-bg.item1 {
+    width: 200px;
+}
+.featured-case-study-bg.item2 {
+    width: 240px;
+}
+.featured-case-study-bg.item3 {
+    width: 280px;
+}
+.problems-we-solve-list.more-tems .col-sm-4 {
+    margin-bottom: 15px;
+}
+.problemsolve-thumb {
+    padding: 10px;
+}
+.problems-we-solve-list h3 {
+    margin: 0 0 10px;
+}
+.i-letmehelpu .media .media-body div p{
+	font-size: 12px;
+}
+.i-letmehelpu .media .media-body div {
+    margin-top: 24px;
+}
+.industries-newsevents .top-more-news .top-more-news-op div {
+    width: 15.886em;
+}
+.industries-newsevents {
+    min-height: auto!important;
+}
+}
