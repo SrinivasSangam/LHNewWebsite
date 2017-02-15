@@ -173,4 +173,7 @@
 .industries-newsevents {
     min-height: auto!important;
 }
+.problems-we-solve-list.more-tems{
+	padding-bottom: 10px;
+}
 }
