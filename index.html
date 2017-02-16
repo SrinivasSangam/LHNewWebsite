@@ -71,7 +71,7 @@
             <li class="dropdown"> <a onclick="location.href='industries-we-serve.html'" href="industries-we-serve.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Industries</span> <!--<span class="caret hidden-xs"></span>--><span>We Serve</span><span class="caret visible-xs" style="float: right;margin: 8px;"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="industries/financial-services.html">Financial Services</a></li>
-                <li><a href="industries/banking.html">Banking</a></li>
+                
                 <li><a href="industries/commercial.html">Commercial</a></li>
                 <li><a href="industries/healthcare.html">Healthcare</a></li>
                 <li><a href="industries/lifesciences.html">Life Sciences</a></li>
@@ -494,71 +494,62 @@
 
 <!-- Bootstrap core JavaScript --> 
 <!-- Placed at the end of the document so the pages load faster --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap/bootstrap.min.js"></script> 
 <script src="js/bootstrap-dropdownhover.min.js"></script> 
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug --> 
 <script src="js/ie10-viewport-bug-workaround.js"></script> 
 <script type="text/javascript">
-    $(function () {
+  $(function () {
 
-      var totalItems = $('.item').length;
-      var currentIndex = $('.item.active').index() + 1;
-      $('.currentSlide').html('0'+currentIndex+' / 0'+totalItems+'');
+    var totalItems = $('.item').length;
+    var currentIndex = $('.item.active').index() + 1;
+    $('.currentSlide').html('0'+currentIndex+' / 0'+totalItems+'');
 
-      $('#myCarousel').carousel({
-        interval: 6000
-      });  
+    $('#myCarousel').carousel({
+      interval: 6000
+    });  
 
-      $('#myCarousel').bind('slid', function() {
-        currentIndex = $('.item.active').index() + 1;
-        $('.currentSlide').html(''+currentIndex+'/'+totalItems+'');
-      });     
+    $('#myCarousel').bind('slid', function() {
+      currentIndex = $('.item.active').index() + 1;
+      $('.currentSlide').html(''+currentIndex+'/'+totalItems+'');
+    });     
+  });
+  $(document).ready(function(){
+    updateImageSize();
+    $(window).resize(function(){
+      updateImageSize();
     });
-    $(document).ready(function(){
-        updateImageSize();
-        $(window).resize(function(){
-            updateImageSize();
-        });
-    });
-    function updateImageSize() {
-      //alert('hi');
-        $(".carousel-inner .item").each(function(){
-            var ratio_cont = $(this).width()/$(this).height();
-            //console.log("\nWidth:"+$(this).width()+"\nHeight:   "+$(this).height());
-            var $img = $(this).find("img");
-            console.log("\nImg-Width:"+$img.width()+"\nImg-Height:   "+$img.height());
-            var ratio_img = $img.width()/$img.height();        
-            var carouselCaption = $( ".carousel-caption" );
-            var carouselCaptionOffset = carouselCaption.offset();        
-            var carouselIndicators = $( ".carousel-indicators" );
-            var carouselIndicatorsOffset = carouselIndicators.offset();       
-            if (ratio_cont > ratio_img)
-            {
-                $(".carousel-inner").css({"width": "100%", "height": $img.height()+"px"});
-                $(".carousel-caption").css({"margin-top": $img.height()/100*3.3333+"%"});
-                $(".carousel-indicators").css({"top": $img.height()/100*88+"px"});
-                
-            }
-            else if (ratio_cont < ratio_img)
-            {
-                $(".carousel-inner").css({"width": "auto", "height": $img.height()+"px"});
-                $(".carousel-caption").css({"margin-top": $img.height()/100*5.3333+"%"});
-                //console.log(("$.navbar-brand).left);
-                //$(".carousel-indicators").css({"top": $img.height()/100*75+"px", "left":carouselCaptionOffset.left+"px"});
-                
-            }else
+  });
+  function updateImageSize() {
 
-            if (ratio_img <= 1024 || ratio_img <= 980){          
-              $(".carousel-caption").css({"margin-top": "18%"});
-              $(".carousel-indicators").css({"top": $img.height()/100*85+"px"});
-            }
-            
-        }); 
-    };
+    $(".carousel-inner .item").each(function(){
+      console.log("Item: "+$(this).width());
+      var ratio_cont = $(this).width()/$(this).height();
+      var $img = $(this).find("img");
+      var ratio_img = $img.width()/$img.height();        
+      var carouselCaption = $( ".carousel-caption" );
+      var carouselCaptionOffset = carouselCaption.offset();        
+      var carouselIndicators = $( ".carousel-indicators" );
+      var carouselIndicatorsOffset = carouselIndicators.offset();       
+      if (ratio_cont > ratio_img){
+        $(".carousel-inner").css({"width": "100%", "height": $img.height()+"px"});
+        $(".carousel-caption").css({"margin-top": $img.height()/100*3.3333+"%"});
+        console.log("c1: "+$img.height()/100*3.3333+"%");
+        $(".carousel-indicators").css({"top": $img.height()/100*88+"px"});
+      } else if (ratio_cont < ratio_img){
+        $(".carousel-inner").css({"width": "auto", "height": $img.height()+"px"});
+        $(".carousel-caption").css({"margin-top": $img.height()/100*5.3333+"%"});
+        console.log("c2: "+$img.height()/100*5.3333+"%");              
+      } else if (ratio_img <= 1024 || ratio_img <= 980){          
+        $(".carousel-caption").css({"margin-top": "18%"});
+        $(".carousel-indicators").css({"top": $img.height()/100*85+"px"});
+      }
+    }); 
+  }
 
-  </script>
+</script>
 
 </body>
 </html>

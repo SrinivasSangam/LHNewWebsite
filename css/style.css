@@ -271,7 +271,9 @@ a.socialIcon:hover, .socialHoverClass { color: #44BCDD; }
 .services-list li { border-bottom: 1px solid rgba(255,255,255,0.2); line-height: 40px; z-index: 2 }
 .services-list li.last{ border-bottom: 0px; }
 .services-list li a { font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; color: #fff; font-size: 15px; padding: 20px 0px }
-.problemsolve-thumb { min-height: 11.5em; color: #fff; padding: 32px 65px 0 25px; font-size: 1.286em }
+a.problemsolve-thumb{display: block;color: #fff}
+a.problemsolve-thumb:hover{color: #fff;}
+.problemsolve-thumb { min-height: 11.5em; color: #fff; padding: 32px 65px 0 25px; font-size: 1.286em;}
 .problemsolve-thumb a.btn { color: #fff; padding-left: 0 }
 .problemsolve-thumb.pws-bg1 { background: url("../img/casestudy-healthcare.jpg") no-repeat; background-size: contain; }
 .problemsolve-thumb p { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; line-height: 24px }
@@ -802,6 +804,12 @@ color: #999;
 .services-content .service-item.research { background: url(../img/research.jpg) no-repeat; background-size: cover }
 .services-content .service-item.development { background: url(../img/development.jpg) no-repeat; background-size: cover }
 
+/* asset-wealth-management */
+
+.case-am-item { background: #fff; margin: 10px; padding: 30px;  width: 31.3%; height: 460px; }
+.case-am-item h4 { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; text-transform: uppercase; }
+.case-am-item p{font-size: 12px; line-height: 17px;}
+
 /*banking */
 
 .case-bank-item { background: #fff; margin: 10px; padding: 30px;  width: 31.3%; height: 400px; }
@@ -1116,7 +1124,8 @@ a.navbar-brand { width: 9em }
 
 	
 }
-@media only screen and (max-width: 1024px){.sm-border-lr{border-left: 7px solid #f2f2f2; border-right: 7px solid #f2f2f2 }}
+
+
 @media only screen and (min-width: 768px){
 	.client-engage .client-engage-txt{margin-top: 20px}	
     .insights-thumb.right-border{border-right:7px solid #f2f2f2;}   
@@ -1193,8 +1202,11 @@ a.navbar-brand { width: 9em }
 	.s-services-thumb-txt p{font-size: 14px; line-height: 18px;}
 	.s-services-thumb-txt h4{font-size: 14px; line-height: 14px; margin: 0}
 	*/
+	.sm-border-lr{border-left: 7px solid #f2f2f2; border-right: 7px solid #f2f2f2; }
+	.insights-thumb.right-border{border-right: 0;}
 	
 }
+
 @media only screen and (max-width: 980px)
 {
 	.explore-solutions-list{padding: 30px 0px}
