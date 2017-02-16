@@ -66,7 +66,7 @@
   .carousel-caption h1, .carousel-caption .lead { font-size: 2.2vw;line-height: 2.549vh;margin-bottom: 20px;}
 }
 @media (max-width: 1200px) and (orientation: landscape) {  
-  .carousel-caption h1, .carousel-caption .lead { font-size: 2.345vw;line-height: 3.6465vh;margin-bottom: 20px;}
+  .carousel-caption h1, .carousel-caption .lead { font-size: 2.345vw;line-height: 6.6465vh;margin-bottom: 20px;}
 }
 
 @media only screen and (min-width: 1280px){

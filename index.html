@@ -71,7 +71,7 @@
             <li class="dropdown"> <a onclick="location.href='industries-we-serve.html'" href="industries-we-serve.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Industries</span> <!--<span class="caret hidden-xs"></span>--><span>We Serve</span><span class="caret visible-xs" style="float: right;margin: 8px;"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="industries/financial-services.html">Financial Services</a></li>
-                
+                <li><a href="industries/banking.html">Banking</a></li>
                 <li><a href="industries/commercial.html">Commercial</a></li>
                 <li><a href="industries/healthcare.html">Healthcare</a></li>
                 <li><a href="industries/lifesciences.html">Life Sciences</a></li>
@@ -244,7 +244,7 @@
             <p class="industry-thumb-txt">There is no substitute for understanding your customer. Our consultants draw upon years of experience as well as deep industry knowledge to ensure our clients' success. 
 
  </p>
-            <a href="industries-we-serve.html" class="btn btn-link" style="width:80px!important">Know more</a> </div>
+            <a href="industries-we-serve.html" class="btn btn-link" style="width:100px">Know more</a> </div>
           <div class="industry-thumb" > <a href="industries/commercial.html" class="commercial">
             <h4>Commercial</h4>
             <span href="" class="btn pull-right"><i class="fa fa-arrow-right" aria-hidden="true"></i></span> </a> </div>
@@ -323,22 +323,22 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-4 col-md-4">
-          <div class="problemsolve-thumb pws-bg1a">
+          <a href="casestudies/mobile-member-engagement.html" class="problemsolve-thumb pws-bg1a">
             <h3>Healthcare</h3>
             <p>“Member 360” Mobile Services Application</p>
-            <a href="casestudies/mobile-member-engagement.html" class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> </div>
+            <span class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></span> </a>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4">
-          <div class="problemsolve-thumb pws-bg2a">
+          <a href="casestudies/direct-and-mobile-marketing.html" class="problemsolve-thumb pws-bg2a">
             <h3>Banking</h3>
             <p>Direct and Mobile Marketing in a Regulated Consumer Industry</p>
-            <a href="casestudies/direct-and-mobile-marketing.html" class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> </div>
+            <span class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></span> </a>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4">
-          <div class="problemsolve-thumb pws-bg3a">
+          <a href="casestudies/operational-expense-calculator.html" class="problemsolve-thumb pws-bg3a">
             <h3>Commercial</h3>
             <p>Building an interactive partner portal for improved services</p>
-            <a href="casestudies/operational-expense-calculator.html" class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> </div>
+            <span class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></span> </a>
         </div>
       </div>
     </div>
@@ -494,62 +494,67 @@
 
 <!-- Bootstrap core JavaScript --> 
 <!-- Placed at the end of the document so the pages load faster --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/bootstrap/bootstrap.min.js"></script> 
 <script src="js/bootstrap-dropdownhover.min.js"></script> 
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug --> 
 <script src="js/ie10-viewport-bug-workaround.js"></script> 
 <script type="text/javascript">
-  $(function () {
+    $(function () {
 
-    var totalItems = $('.item').length;
-    var currentIndex = $('.item.active').index() + 1;
-    $('.currentSlide').html('0'+currentIndex+' / 0'+totalItems+'');
+      var totalItems = $('.item').length;
+      var currentIndex = $('.item.active').index() + 1;
+      $('.currentSlide').html('0'+currentIndex+' / 0'+totalItems+'');
 
-    $('#myCarousel').carousel({
-      interval: 6000
-    });  
+      $('#myCarousel').carousel({
+        interval: 6000
+      });  
 
-    $('#myCarousel').bind('slid', function() {
-      currentIndex = $('.item.active').index() + 1;
-      $('.currentSlide').html(''+currentIndex+'/'+totalItems+'');
-    });     
-  });
-  $(document).ready(function(){
-    updateImageSize();
-    $(window).resize(function(){
-      updateImageSize();
+      $('#myCarousel').bind('slid', function() {
+        currentIndex = $('.item.active').index() + 1;
+        $('.currentSlide').html(''+currentIndex+'/'+totalItems+'');
+      });     
     });
-  });
-  function updateImageSize() {
+    $(document).ready(function(){
+        updateImageSize();
+        $(window).resize(function(){
+            updateImageSize();
+        });
+    });
+    function updateImageSize() {      
+      $(".carousel-inner .item").each(function(){
+        var ratio_cont = $(this).width()/$(this).height();            
+        var $img = $(this).find("img");            
+        var ratio_img = $img.width()/$img.height();        
+        var carouselCaption = $( ".carousel-caption" );
+        var carouselCaptionOffset = carouselCaption.offset();        
+        var carouselIndicators = $( ".carousel-indicators" );
+        var carouselIndicatorsOffset = carouselIndicators.offset();       
+        if (ratio_cont > ratio_img)
+        {
+          if($(this).width() <= 1024 ){
+            $(".carousel-inner").css({"width": "100%", "height": $img.height()+"px"});
+            $(".carousel-caption").css({"margin-top": img.height()/100*6+"%"});
+            $(".carousel-indicators").css({"top": $img.height()/100*80+"px"});
+          }else{
+            $(".carousel-inner").css({"width": "100%", "height": $img.height()+"px"});
+            $(".carousel-caption").css({"margin-top": $img.height()/100*3.3333+"%"});
+            $(".carousel-indicators").css({"top": $img.height()/100*88+"px"});   
+          }             
+        }
+        else if (ratio_cont < ratio_img)
+        {
+          $(".carousel-inner").css({"width": "auto", "height": $img.height()+"px"});
+          $(".carousel-caption").css({"margin-top": $img.height()/100*5.3333+"%"});
+        }else if (ratio_img <= 1024 || ratio_img <= 980){          
+          $(".carousel-caption").css({"margin-top": "18%"});
+          $(".carousel-indicators").css({"top": $img.height()/100*85+"px"});
+        }            
+      }); 
+    }
 
-    $(".carousel-inner .item").each(function(){
-      console.log("Item: "+$(this).width());
-      var ratio_cont = $(this).width()/$(this).height();
-      var $img = $(this).find("img");
-      var ratio_img = $img.width()/$img.height();        
-      var carouselCaption = $( ".carousel-caption" );
-      var carouselCaptionOffset = carouselCaption.offset();        
-      var carouselIndicators = $( ".carousel-indicators" );
-      var carouselIndicatorsOffset = carouselIndicators.offset();       
-      if (ratio_cont > ratio_img){
-        $(".carousel-inner").css({"width": "100%", "height": $img.height()+"px"});
-        $(".carousel-caption").css({"margin-top": $img.height()/100*3.3333+"%"});
-        console.log("c1: "+$img.height()/100*3.3333+"%");
-        $(".carousel-indicators").css({"top": $img.height()/100*88+"px"});
-      } else if (ratio_cont < ratio_img){
-        $(".carousel-inner").css({"width": "auto", "height": $img.height()+"px"});
-        $(".carousel-caption").css({"margin-top": $img.height()/100*5.3333+"%"});
-        console.log("c2: "+$img.height()/100*5.3333+"%");              
-      } else if (ratio_img <= 1024 || ratio_img <= 980){          
-        $(".carousel-caption").css({"margin-top": "18%"});
-        $(".carousel-indicators").css({"top": $img.height()/100*85+"px"});
-      }
-    }); 
-  }
-
-</script>
+  </script>
 
 </body>
 </html>
