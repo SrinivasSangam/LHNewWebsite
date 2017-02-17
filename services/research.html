@@ -31,10 +31,36 @@
 <link href="../css/carousel.css" rel="stylesheet">
 <link href="../css/animate.css" rel="stylesheet">
 <link rel="stylesheet" href="../css/bootstrap-dropdownhover.min.css">
-<link href="../css/style2.css" rel="stylesheet">
+<link href="../css/style2.css" rel="stylesheet"><link href="../css/responsive.css" rel="stylesheet">
+
+<!-- Google Tracking code-->
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17763982-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!--
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17763982-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> -->
 </head>
-<!-- NAVBAR
-================================================== -->
+
 <body>
 <div class="navbar-wrapper-op">
   <div class="top-nav">
@@ -62,34 +88,35 @@
             <li><a href="../problems-we-solve.html" role="button" aria-haspopup="true" aria-expanded="false"><span>Problems</span> <span>We Solve</span><span class="caret visible-xs" style="float: right;margin: 8px;"></span></a> </li>
             <li class="dropdown"> <a onclick="location.href='../solutions-we-deliver.html'" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Solutions</span> <!--<span class="caret hidden-xs"></span>--> <span>We Deliver</span><span class="caret visible-xs" style="float: right;margin: 8px;"></span></a>
               <ul class="dropdown-menu">
+                <li><a href="../solutions/liquidcommerce.html">LiquidCommerce</a></li>
+                <li><a href="../solutions/liquidengagement.html">LiquidEngagement</a></li>
                 <li><a href="../solutions/liquidmarketing.html">LiquidMarketing</a></li>
                 <li><a href="../solutions/liquidsales.html">LiquidSales</a></li>
-                <li><a href="../solutions/liquidcommerce.html">LiquidCommerce</a></li>
                 <li><a href="../solutions/liquidservice.html">LiquidService</a></li>
-                <li><a href="../solutions/liquidengagement.html">LiquidEngagement</a></li>
               </ul>
             </li>
             <li class="dropdown"> <a onclick="location.href='../industries-we-serve.html'" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Industries</span> <!--<span class="caret hidden-xs"></span>--><span>We Serve</span><span class="caret visible-xs" style="float: right;margin: 8px;"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="../industries/financial-services.html">Financial Services</a></li>
                 <li><a href="../industries/banking.html">Banking</a></li>
                 <li><a href="../industries/commercial.html">Commercial</a></li>
+                <li><a href="../industries/financial-services.html">Financial Services</a></li>
                 <li><a href="../industries/healthcare.html">Healthcare</a></li>
-                <li><a href="../industries/lifesciences.html">Life Sciences</a></li>
                 <li><a href="../industries/insurance.html">Insurance</a></li>
+                <li><a href="../industries/lifesciences.html">Life Sciences</a></li>
+                <li><a href="../industries/retail.html">Retail</a></li>
               </ul>
             </li>
             <li class="dropdown"> <a onclick="location.href='../services.html'" href="../services.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Services</span> <!--<span class="caret hidden-xs"></span>--> <span>We Provide</span><span class="caret visible-xs" style="float: right;margin: 8px;"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="../services/strategy.html">Strategy</a></li>
-                <li><a href="../services/research.html">Research</a></li>
-                <li><a href="#">Insights</a></li>
-                <li><a href="../services/creative-ui.html">Creative &amp; UI</a></li>
-                <li><a href="#">Content</a></li>
                 <li><a href="../services/architecture.html">Architecture</a></li>
-                <li><a href="../services/development.html">Development</a></li>
+                <li><a href="../services/content.html">Content</a></li>
+                <li><a href="../services/creative-ui.html">Creative &amp; UI</a></li>
                 <li><a href="../services/data.html">Data</a></li>
+                <li><a href="../services/development.html">Development</a></li>
+                <li><a href="../services/insights.html">Insights</a></li>
                 <li><a href="../services/media.html">Media</a></li>
+                <li><a href="../services/research.html">Research</a></li>
+                <li><a href="../services/strategy.html">Strategy</a></li>
               </ul>
             </li>
             <li> <a href="http://blog.liquidhub.com" target="_blank" role="button" aria-haspopup="true" aria-expanded="false"><span>What We're <!--<span class="caret hidden-xs"></span>--></span><span>Thinking</span><span class="caret visible-xs" style="float: right;margin: 8px;"></span></a> </li>
@@ -130,18 +157,78 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-9 col-xs-12">
+      <div class="col-xs-12 col-sm-7 ">
         <div class="architecture-title">
           <h3>Research <span>–  Facilitating research with innovation</span></h3>
         </div>
         <div class="intro-page" >
-          <p style="padding-top:-10px!importantimportant"> Media engagement is all about targeting the right audience on social networks. Achieving the right media mix that effectively reaches out to your customers and prospects, and continually optimizing that mix and the messaging to ensure top performance is critical to the success of any campaign. </p>
+          <p style="padding-top:-10px!important" >Our research and design professionals use a collection of methods to observe and gain unique insights. We help our clients see and understand how people interact with technology and their overall feelings for the brand – employees, customers, and partners.</p>
         </div>
         <div class="intro-page-sub">
-          <p>LiquidHub has specifically designed labs for performing various research activities. Our designers, human factor experts, and researchers come together to observe, document and improve the human experience. </p>
+          <p>As part of our strategy, we regularly conduct original research for our clients in order to gain a better understanding of their audiences and customers, and the mental models that guide behavior and decision making.</p>
+
+          <p>In our lab, remotely, in an office, a car, or on the street, our designers, human factor experts, and researchers come together to observe, document and improve the human experience.   As well as developing questionnaires, guides, and supporting materials, our research services include:</p>
         </div>
       </div>
-      <div class="col-sm-3 hidden-xs"> <img src="../img/services-research.jpg" class="img-responsive" style="margin-top: 75px;"> </div>
+      <div class="col-xs-12 col-sm-5 "> 
+        <div style="overflow: auto; margin-top: 70px">
+          <div class="media">
+            <div class="media-left"><img src="../img/nih-logo.jpg" class="" style="width: 150px"> </div>
+            <div class="media-body">
+              <p>Our team has received training from the United States National Institutes of Health (NIH) and have passed their certification course, "Human Participant Protections: Education for Research Teams.”</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"><img src="../img/hf-es-logo.jpg" class="" style="width: 150px"> </div>
+            <div class="media-body">
+              <p>We strictly adhere to Article IV of the Human Factors and Ergonomics Society’s Code of Ethics regarding Subject Precautions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="intro-page-sub" style="padding-right: 0">
+              <h4 style="font-weight: 600">In the Lab</h4>
+              <ul>
+                <li>Eye Tracking</li>
+                <li>Generative Research</li>
+                <li>Heuristic Review</li>
+                <li>Card Sorting, Tree Testing</li>
+                <li>One-Click Testing</li>
+                <li>Task-based Analysis</li>
+                <li>Focus Groups</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="intro-page-sub" style="padding-right: 0">
+              <h4 style="font-weight: 600">With your Customers</h4>
+              <ul>
+                <li>Remote Moderated Mobile and Desktop Testing</li>
+                <li>Contextual Inquiry</li>
+                <li>Unmoderated Testing</li>
+                <li>LIVEOUT (LiquidHub’s proprietary method)</li>
+                <li>Shop Alongs</li>
+                <li>Surveys</li>                
+              </ul>
+            </div>            
+          </div>
+          <div class="col-sm-4">
+            <div class="intro-page-sub" style="padding-right: 0">
+              <h4 style="font-weight: 600">Among your Workforce</h4>
+              <ul>
+                <li>Remote Moderated Mobile and Desktop Testing</li>
+                <li>Contextual Inquiry</li>
+                <li>Workshops</li>
+                <li>Ride Alongs</li>
+              </ul>
+            </div>            
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -246,30 +333,41 @@
     </div>
   </div>
 </div>
-<div class="problems-head">
+<div class="problems-we-solve" style="margin-top: 70px;">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h3 style="text-transform: uppercase; margin-top: 0; font-weight: 600">problems we solve</h3>
-      </div>
-      <div class="col-md-6"><span class="pull-right">View all</span></div>
+        <h2>Problems We Solve</h2>
+        </div>
+      <div class="col-md-6"><span class="pull-right"><a href="../problems-we-solve.html" style="color: #179bd7;display: inline-block;font-size: 15px;font-weight: bold;margin-top: 25px;">View all</a></span></div>
     </div>
   </div>
-</div>
-<div class="problems-content">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="problem-item">
-          <h4>How do you improve the rapid response system to save more lives?</h4>
-          <a href="" class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> </div>
-        <div class="problem-item">
-          <h4>How to solve the challenges of today and tomorrow, in the education system</h4>
-          <a href="" class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> </div>
-        <div class="problem-item">
-          <h4>How can an awareness building campaign lead a company’s digital transformation?</h4>
-          <a href="" class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> </div>
+  <div class="problems-we-solve-list">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4 more-item">
+          <a href="casestudies/service-commercial.html" class="problemsolve-thumb item5">
+            <h3>Service | Commercial</h3>
+            <p>Validating experiences through human-centered research and testing.</p>
+            <span class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></span> 
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <a href="casestudies/service-life-sciences.html" class="problemsolve-thumb item7">
+            <h3>Service | Life Sciences</h3>
+            <p>Aligning interactions across channels to provide a seamless experience for patients.</p>
+            <span class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></span> 
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <a href="casestudies/self-service-mobile-banking.html" class="problemsolve-thumb item9">
+            <h3>Service | Banking</h3>
+            <p>Developing mobile app to facilitate easy usability.</p>
+            <span class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></span> 
+          </a>
+        </div>
       </div>
+
     </div>
   </div>
 </div>
@@ -300,7 +398,6 @@
 </div>
 
 <!-- ./Section Content ================================================== --> 
-
 <!-- Footer -->
 <footer>
   <div class="footer">
@@ -360,6 +457,25 @@
 </footer>
 <!-- #/Footer --> 
 
+<!--- TRACKING CODES ---> 
+  
+  <!-- Pardot Tracking code--> 
+  <script type="text/javascript">// <![CDATA[
+    piAId = '67392';
+    piCId = '1232';
+ 
+    (function() {
+        function async_load(){
+            var s = document.createElement('script'); s.type = 'text/javascript';
+            s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+            var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+        }
+        if(window.attachEvent) { window.attachEvent('onload', async_load); }
+        else { window.addEventListener('load', async_load, false); }
+    })();
+// ]]></script> 
+  <!-- End of Pardot Tracking code--> 
+  <!-- END TRACKING CODES -->
 <!-- Bootstrap core JavaScript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 

@@ -124,6 +124,12 @@
 .case-studies-content {
     padding: 10px;
 }
+.i-casestudies-bg::after, .i-letmehelpu .media::before , .explore-industries-bg{
+	display:none;
+}
+ .insights-thumb-content p.ellipsis{
+	height: 6em;
+}
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1023px){
@@ -342,5 +348,24 @@
 }
 .services-content .service-item {
     width: 25%;
+}
+.industries-margin .insights-thumb-content p.ellipsis{
+	height: 75%;
+}
+.i-casestudies-bg::after , .i-letmehelpu .media::before, .explore-industries-bg.industries-we-serve .explore-industries-bg {
+	display:none;
+}
+.explore-industries-bg {
+	display:none;
+}
+.problems-content .problem-item h4 {
+    font-size: 16px;
+}
+.problems-content .problem-item a {
+    bottom: 0;
+    position: absolute;
+}
+ .insights-thumb-content p.ellipsis{
+	height: 9em;
 }
 }

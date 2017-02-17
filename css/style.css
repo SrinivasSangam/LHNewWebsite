@@ -20,8 +20,8 @@ p { font-size: 1.071em }
 #main-nav .container .row { position: relative; }
 #navbar { position: absolute; right: 0; }
 .navbar-wrapper .navbar-default, .navbar-wrapper-op .navbar-default { background: none; border: none; margin-bottom: 40px}
-.navbar-wrapper .navbar-nav>li>.dropdown-menu, .navbar-wrapper-op .navbar-nav>li>.dropdown-menu { background: #f2f2f2; border: 0px; }
-.navbar-wrapper .navbar-nav .dropdown-menu > li > a, .navbar-wrapper-op .navbar-nav .dropdown-menu > li > a {font-size: 15px;line-height: 24px;  }
+.navbar-wrapper .navbar-nav>li>.dropdown-menu, .navbar-wrapper-op .navbar-nav>li>.dropdown-menu { background: #f2f2f2; border: 0px; min-width: 150px}
+.navbar-wrapper .navbar-nav .dropdown-menu > li > a, .navbar-wrapper-op .navbar-nav .dropdown-menu > li > a {font-size: 15px;line-height: 21px;  }
 .navbar-wrapper .navbar-nav .dropdown-menu > li > a:focus, .navbar-wrapper .navbar-nav .dropdown-menu > li > a:hover, .navbar-wrapper-op .navbar-nav .dropdown-menu > li > a:focus, .navbar-wrapper-op .navbar-nav .dropdown-menu > li > a:hover { background: #179bd7; color: #fff }
 .navbar-wrapper .navbar-default .navbar-nav>li>a { padding: 10px 25px; color: #fff; font-size: 1.286002em; line-height: 24px; font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; }
 .navbar-wrapper .navbar-default .navbar-nav > li > a span:nth-child(2) { display: block }
@@ -214,6 +214,7 @@ a.socialIcon:hover, .socialHoverClass { color: #44BCDD; }
 .casestudies a.view-casestudies, .problems-we-solve a.viewall { display: inline-block; float: right; margin-top: 23px; font-weight: 600; line-height: 1.45em; }
 .casestudies-list, .problems-we-solve-list { background: url('../img/pattern-blue-line.png'); padding-top: 30px; padding-bottom: 30px }
 .problems-we-solve-list h3 { margin: 0 0 15px 0; font-size: 12px; border: 1px solid rgba(255,255,255,.3); display: inline-block; padding: 3px 10px; font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; }
+.problems-we-solve-list .problemsolve-thumb span{position: absolute;bottom: 15px;}
 .casestudies-thumb { background: #fff; padding: 25px; }
 .casestudies-thumb h3 { font-weight: 600; font-size: 1.286em; color: #1e407b; text-transform: uppercase; margin-top: 40px; margin-bottom: 20px }
 .casestudies-thumb p { margin-bottom: 20px }
@@ -265,8 +266,9 @@ a.socialIcon:hover, .socialHoverClass { color: #44BCDD; }
 .service-we-provide-intro p { font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 12px; line-height: 19px; margin-top: 23px; }
 .service-we-provide-intro a.btn { float: right; color: #fff; position: absolute; right: -8px; bottom: -54px }
 .service-we-provide-intro-bg { position: absolute; content: ""; background: url(../img/services-intro-background.png)no-repeat; top: 30px; width: 377px; left: 30px; height: 275px; background-size: contain; z-index: 2; }
-.services-list-wrap { padding-left: 0; }
-.services-list-wrap:before { height: 334px; position: absolute; content: ""; background: url(../img/services-list-background.jpg)no-repeat left top; width: 870px; top: 0; background-size: cover; }
+.services-list-wrap { padding-left: 0; background: #007e97;margin-left: -10px}
+
+/*.services-list-wrap:before { height: 334px; position: absolute; content: ""; background: url(../img/services-list-background.jpg)no-repeat left top; width: 870px; top: 0; background-size: cover; }*/
 .services-list { padding-left: 65px; padding-top: 64px }
 .services-list li { border-bottom: 1px solid rgba(255,255,255,0.2); line-height: 40px; z-index: 2 }
 .services-list li.last{ border-bottom: 0px; }
@@ -739,16 +741,17 @@ color: #999;
 .news-events .panel-group { margin-bottom: 0; }
 .news-events .panel.panel-default { margin-top: 0px; display: inline-block; width: 100%; }
 .news-events .panel-primary>.panel-heading { background-color: transparent; border-color: transparent; border-radius: 0px; padding-bottom: 0px; }
-.news-events .nav-tabs { border-bottom: 1px solid #179bd7; }
+.news-events .nav-tabs { border-bottom: 1px solid #1e407b; }
 .news-events .panel-body { padding-top: 0px; }
-.news-events .tab-content { margin-top: -2px; background-color: transparent; border: 0; padding: 13px; border: 1px solid #179bd7; border-top: 0px; }
-.news-events .panel-group>.panel-default:nth-child(odd)>.panel-heading { background-color: #fff; border: 1px solid #ccc; border-radius: 0px; display: inline-block; width: 100%; }
-.news-events .panel-group .panel-heading strong, .news-events .panel-group .panel-body strong { color: #179bd7; }
-.news-events .panel-group>.panel-default:nth-child(even)>.panel-heading { color: #333; background-color: #f5f5f5; border-left: 1px solid #ccc; border-right: 1px solid #ccc; display: inline-block; width: 100%; }
-.with-nav-tabs.panel-primary .nav-tabs > li.active > a, .with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover, .with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus { color: #fff; background-color: #179bd7; border-radius: 0px; border-color: #179bd7; border-bottom-color: transparent; }
+.news-events .tab-content { margin-top: -2px; background-color: transparent; border: 0; padding: 15px 0px; border: 1px solid transparent; border-top: 0px; }
+.news-events .panel-group>.panel-default>.panel-heading { background-color: #fff; border-bottom: 1px solid #ccc; border-radius: 0px; display: inline-block; width: 100%; }
+.news-events .panel-group .panel-heading strong, .news-events .panel-group .panel-body strong { color: #333; }
+.news-events .panel-group>.panel-default:nth-child(even)>.panel-heading { color: #333; display: inline-block; width: 100%; }
+.with-nav-tabs.panel-primary .nav-tabs > li {margin-bottom: 0;}
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a, .with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover, .with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus { color: #fff; background-color: #1e407b; border-radius: 0px; border-color: #1e407b; border-bottom-color: transparent; }
 .with-nav-tabs.panel-primary .nav-tabs > .open > a, .with-nav-tabs.panel-primary .nav-tabs > .open > a:hover, .with-nav-tabs.panel-primary .nav-tabs > .open > a:focus, .with-nav-tabs.panel-primary .nav-tabs > li > a:hover, .with-nav-tabs.panel-primary .nav-tabs > li > a:focus { color: #fff; border-color: transparent; background-color: #179bd7; border-radius: 0px; }
-.with-nav-tabs.panel-primary .nav-tabs > li > a { border: 1px solid #179bd7; border-radius: 0px; }
-.date-box { color: #179bd7; border-radius: 0px; float: left; line-height: 20px; border: 1px solid #179bd7; text-align: center; padding: 20px; margin-right: 15px; margin-bottom: 20px; }
+.with-nav-tabs.panel-primary .nav-tabs > li > a { border: 1px solid #ccc;border-radius: 0px;background: #ccc;color: #000; }
+.date-box { color: #179bd7; border-radius: 0px; float: left; line-height: 20px; border-right: 1px solid #ccc; text-align: center; padding: 20px; margin-right: 15px; margin-bottom: 20px; }
 .date-box:after { content: ''; display: block; clear: both; }
 .date-box .day { font-size: 18px; }
 .date-box .year { margin-top: 5px; }
@@ -757,6 +760,17 @@ color: #999;
 .mediacontactsblue { background-color: #179bd7; padding: 10px 10px 30px 10px; text-align: left; color: #fff; }
 .mediacontactsblue h3, .news-events h3 { font-size: 1em; font-weight: 600; text-transform: uppercase; color: #ff8429; letter-spacing: 1px; }
 .mediacontactsblue p, .news-events p { font-size: 1.1em; font-weight: 400; line-height: 1.75; }
+.media-sub-content {
+    padding: 10px;
+}
+h4.media-sub-heading {
+    min-height: 60px;
+    line-height: 27px;
+}
+
+  
+.media-sub-impact h4 { color: #1e407b; font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica;   margin-top: 20px;}
+ 
 /* .media-content {
     margin-left: 170px;
   }
@@ -766,15 +780,23 @@ color: #999;
   }*/
 /*news and events*/
 
+/* commercial */
+
+.case-commercial-content { background: url(../img/pattern-blue-line.png); padding: 20px; }
+.case-commercial-content h4{color: #1e407b; text-transform: uppercase; font-size: 18px;}
+.case-commercial-content .case-item { background: #fff; margin: 10px; padding: 30px 30px 0 30px; width: 31.3%; min-height: 280px; }
+.case-commercial-content .case-item h4 { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; text-transform: capitalize; }
+ .case-commercial-content .case-item p{font-size: 12px; line-height: 17px;}
 /*architecture*/
 .architecture-title { padding-bottom: 35px; }
 .architecture-title h3 { font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; margin-top: 0;text-transform: uppercase;}
 .architecture-title h3 span { font-family: "Lato-LightItalic", Arial, Gotham, Helvetica Neue, Helvetica; text-transform: capitalize;}
 .architecture .companies-moto .media { margin-left: 20px; }
 .case-studies-head h3, .problems-head h3, .services-head h3 { font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; }
+.case-short ul.bullets li:before{left: 35px;}
 .case-studies-head span, .problems-head span, .services-head span { font-size: 15px; color: #179bd7; font-weight: bold; }
-.case-studies-content { background: url(../img/pattern-green-line.png); padding: 40px 0 40px 10px; }
-.case-studies-content .case-item { background: #fff; margin: 10px; padding: 30px; width: 31.3%; min-height: 312px; }
+.case-studies-content { background: url(../img/pattern-green-line.png); padding: 10px 0 10px 10px; }
+.case-studies-content .case-item { background: #fff; margin: 10px; padding: 30px; width: 31.3%; min-height: 280px; }
 .case-studies-content.liquidmarketing .case-item { min-height: 312px; }
 .architecture-intro{font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; }
 /*.liquidmarketing .page-s { width: 19em; }*/
@@ -817,7 +839,7 @@ color: #999;
 .case-bank-item p{font-size: 12px; line-height: 17px;}
 .case-bank-short {margin-left:200px;    width: 100%;}
 /* health care*/
-.healthcare-content {color:red; font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica;}
+.healthcare-content {font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica;}
 
 .case-health-item { background: #fff; margin: 10px; padding: 30px;  width: 47.3%; height: 450px; }
 .case-health-item h4 { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; text-transform: uppercase; }
@@ -1262,12 +1284,12 @@ Large Devices
 
 .services-list-wrap:before { height: 335px;width: 870px; right: -90px}
 .service-we-provide-intro-wrap .service-we-provide-intro-bg{ background-size: 100% 100%; width: 380px }
-.service-we-provide-intro-wrap .service-we-provide-intro{padding: 75px 22px 0 55px}
+.service-we-provide-intro-wrap .service-we-provide-intro{padding: 120px 22px 0 55px}
 .service-we-provide-intro-wrap, .services-list { min-height: 335px }
 .service-we-provide-intro-wrap { background: #b2c77d; width:380px }
 .services-list-wrap .services-list{padding-left: 65px}
 .service-we-provide-intro-wrap .service-we-provide-intro p{margin-right: 34px;font-size: 12px; line-height: 19px}
-.service-we-provide-intro-wrap .service-we-provide-intro a.btn { right: 30px; bottom: -75px; }
+.service-we-provide-intro-wrap .service-we-provide-intro a.btn { right: 30px; bottom: -102px; }
 }
 .m-t-0 { margin-top: 0px; }
 .footer-links { font-size: 15px; line-height: 24px; margin-left:0 }
@@ -1338,4 +1360,37 @@ Services We Provide Styles
 
 }
 
+.healthcare-casestudy-title{color: #1e407b; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 18px; margin-top: 20px; margin-bottom: 20px; text-transform: uppercase;}
+.swp-page-data{margin-top: 50px; margin-bottom: 50px}
+.swp-page-data .media-body.pleft{padding-left: 20px}
+.swp-page-data .media-body.pright{padding-right: 20px}
+.swp-page-data .media-body h5.media-heading{color: #179bd7; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 18px; margin-top: 0; margin-bottom: 10px; text-transform: uppercase;}
+.swp-page-data .media-body p{font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica;font-size: 15px; line-height: 21px;}
+.swp-page-data .media-object{width: 250px}
 
+.swp-page-insights{margin-top: 50px; margin-bottom: 50px}
+.swp-page-insights .media-body.pleft{padding-left: 20px}
+.swp-page-insights .media-body.pright{padding-right: 20px}
+.swp-page-insights .media-body h5.media-heading{color: #179bd7; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 18px; margin-top: 0; margin-bottom: 10px; text-transform: uppercase;}
+.swp-page-insights .media-body p{font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica;font-size: 15px; line-height: 21px;}
+.swp-page-insights .media-object{width: 250px}
+
+.iws-page-lifesciences{margin-bottom: 30px; background: url(../img/pattern-blue-line.png); padding: 50px 0;}
+.iws-page-lifesciences .panel{border: 0px;-webkit-box-shadow:none;box-shadow: none; background: #fff; min-height: 620px}
+.iws-page-lifesciences .panel .panel-image img{padding: 30px 30px 0}
+.iws-page-lifesciences .panel .panel-heading{background: none; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; color: #1e407b; text-transform: uppercase; border: 0; margin-top: 10px; margin-bottom: 10px;text-align: center;padding: 10px 30px;}
+.iws-page-lifesciences .panel .panel-heading .panel-title{font-size: 18px;min-height: 40px}
+.iws-page-lifesciences .panel .panel-body{padding: 0 30px}
+.iws-page-lifesciences .panel .panel-body ul.bullets{padding-left: 0}
+.iws-page-lifesciences .panel .panel-body ul.bullets li{ font-size: 15px; margin-left: 20px}
+.iws-page-lifesciences .panel .panel-body ul.bullets  li:before{left:40px;}
+
+.iws-page-retail{margin-bottom: 30px; background: url(../img/pattern-blue-line.png); padding: 50px 0;}
+.iws-page-retail .panel{border: 0px;-webkit-box-shadow:none;box-shadow: none; background: #fff; min-height: 550px}
+.iws-page-retail .panel .panel-image img{padding: 30px}
+.iws-page-retail .panel .panel-heading{background: none; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; color: #1e407b; text-transform: uppercase; border: 0; margin-top: 10px; margin-bottom: 10px;text-align: center;padding: 10px 0;}
+.iws-page-retail .panel .panel-heading .panel-title{font-size: 18px;font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
+.iws-page-retail .panel .panel-body{padding: 0 25px}
+.iws-page-retail .panel .panel-body ul.bullets{padding-left: 0}
+.iws-page-retail .panel .panel-body ul.bullets li{ font-size: 15px; margin-left: 20px}
+.iws-page-retail .panel .panel-body ul.bullets  li:before{left:40px;}
