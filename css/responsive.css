@@ -130,6 +130,9 @@
  .insights-thumb-content p.ellipsis{
 	height: 6em;
 }
+.commercial-img img {
+	height: 15em;	
+	}
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1023px){
@@ -368,4 +371,7 @@
  .insights-thumb-content p.ellipsis{
 	height: 9em;
 }
+.commercial-img img {
+	height: 16em;	
+	}
 }

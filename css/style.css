@@ -336,8 +336,11 @@ a.problemsolve-thumb:hover{color: #fff;}
 .ip-head-title h1 { text-transform: uppercase; font-size: 1.714em; font-weight: 600; color: #fff; margin: 0; line-height: 1.714em; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; }
 .intro-page { font-size: 1.286em }
 .intro-page p { display: block; border-left: 8px solid #ffa635; padding-left: 35px; font-size: 18px; padding-right: 70px; line-height: 27px; }
-.intro-page-sub { margin-left: 45px; margin-top: 20px; padding-right: 70px }
+.intro-page-sub { margin-left: 45px; margin-top: 30px; padding-right: 70px }
 .intro-page-sub p { font-size: 1.071em; line-height: 24px; font-family: "Lato-Regular"; padding-right: 80px; }
+.intro-page-sub .media .media-left img{width: 350px}
+.intro-page-sub .media .media-body{padding-left: 20px}
+.intro-page-sub .media .media-body p{padding-right: 0}
 .lh-history { position: absolute; top: -75px; z-index: 2; }
 .lh-history:before { background: url('../img/aboutus-history-bg.png') no-repeat; background-size: cover; height: 31.313em; width: 27.9em; content: ''; z-index: -1; position: absolute; top: -18px; bottom: 0; left: 0; }
 .lh-history-desc { font-size: 0.857em; padding: 15px 78px 30px 43px; color: #fff; font-family: "Lato-Regular"; line-height: 17px; }
@@ -541,6 +544,12 @@ color: #999;
 .page-i h4 { font-size: 18px; margin-top: 35px; margin-bottom: 25px; text-transform: uppercase; font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica; width: 160px; line-height: 21px; height:55px }
 .page-i a.btn { color: #fff; position: absolute; bottom: 10px; right: 10px }
 .page-i p{line-height: 17px; font-size: 12px;}
+/*Commercial*/
+.solutions-list {display: inline-block; margin-top: 30px; width: 100%;}  
+.solutions-list .solutions-list-head img{ float: left; width: 50px;}
+.solutions-list .solutions-list-head h4{ display: inline; line-height: 50px; padding-left: 15px; text-transform: capitalize; color: #1e407b;font-family: "Lato-Bold";}
+.solutions-list .solutions-list-head h4 span{ color: #FAA635;}
+.solutions-list-content { margin-left: 5px; margin-top: 20px;}
 /*Industries We Serve*/
 .industries-head-bg { background: url('../img/banners/industries-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; margin-top: 0px; }
 .companies-moto .media { margin-top: 50px; margin-left: 45px }
@@ -580,6 +589,7 @@ color: #999;
 .i-casestudies-thumb-txt { padding: 20px 10px 15px 40px; }
 .i-casestudies-inner h3 { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; text-transform: uppercase; color: #1e407b; font-weight: 600; font-size: 1.714em; margin-bottom: 30px; margin-left: 15px; }
 .i-casestudies .view-all-case { bottom: -40px; font-family: "Lato-Black"; left: 350px; position: absolute; width: 140px; }
+.i-casestudies.commercial .view-all-case {bottom: -65px;}
 .i-letmehelpu { margin-top: 70px; margin-bottom: 80px; position: relative; }
 .i-letmehelpu .media { border: 1px solid #f2f2f2; }
 .i-letmehelpu .media:before { float: right; position: absolute; content: ""; background: url(../img/services-letmehelpub4-bg.png) no-repeat; top: 0px; width: 2.500em; height: 8.643em; background-size: contain; left: -20px; }
@@ -613,31 +623,22 @@ color: #999;
 .explore-solutions h3 { text-transform: uppercase; color: #1e407b; font-weight: 600; font-size: 1.714em; margin-bottom: 30px }
 .explore-solutions h3 span { color: #999; font-size: 0.6em; text-transform: none; font-weight: normal; margin-left: 25px }
 .explore-solutions-list { display: inline-block; padding: 30px;width: 100%;}
-.page-s { color: #fff; float: left; height: 15em; margin-right: 4px; padding: 30px; position: relative; width: 15em; }
-.page-s-marketing { color: black; height: 16.1em; padding-left: 20px;  }
-.page-s-sales { color: black; height: 16.1em; padding-left: 20px;  }
-.page-s-commerce { color: black; height: 16.1em; padding-left: 20px;  }
-.page-s-services { color: black;height: 16.1em; padding-left: 20px;  }
-.page-s-integratedsolutions { color: black; height: 16.1em; padding-left: 20px; }
-.page-s h4 { margin-top: 40px; margin-bottom: 25px; margin-left: 10px; font-weight: bold; color: #1c427c; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; }
-.solutions-item h4 { margin-top: 40px; margin-bottom: 35px; margin-left: 10px; font-weight: bold; color: #1c427c; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; }
+.explore-solutions-list .page-s{padding: 0px;height: 16.1em;}
+.explore-solutions-list .page-s img{width: 100%;}
+.explore-solutions-list .page-s span{position: absolute;right: 0px;bottom: 15px;}
+.page-s{ color: #fff; float: left; height: 15em; margin-right: 4px; padding: 30px; position: relative; width: 15em; }
+.page-s h4 { margin-top: 27px;  margin-left: 20px; font-weight: bold; color: #fff; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; }
+.solutions-item h4 { margin-top: 27px;margin-left: 20px;font-weight: bold;color: #fff; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; }
+.solutions-item span{position: absolute;right: 15px;bottom: 15px;}
 .page-s a.btn { color: #333333; position: absolute; bottom: 10px }
-.explore-solutions-list .solutions-item{padding: 40px 30px 30px;}
-.explore-solutions-list a{color: #333;}
-.explore-solutions-list .solutions-item:nth-child(odd) { background-color: #fff; }
-.explore-solutions-list .solutions-item:nth-child(even) { background-color: #fcfbf5; }
-.explore-solutions-list .page-s:nth-child(odd) { background-color: #fff; }
-.explore-solutions-list .page-s:nth-child(even) { background-color: #fcfbf5; }
-.explore-solutions-list .solutions-item .transparent-bg{background: url('../img/pattern-orange-line.png');height: 100%;position: absolute;right: 0;top: 0;width: 3px;}
-.solutions-thumb-icon {  width: 2.143em;display: table-cell; }
-.solutions-thumb-icon img { height: 4em; margin-left: 10px; }
-.marketing-thumb-icon { width: 2.143em; display: table-cell; padding-top: 2px; }
-.sales-thumb-icon { width: 2.143em; display: table-cell; padding-top: 2px; }
-.marketing-thumb-icon img { height: 4em; margin-left: 10px; }
-.services-thumb-icon img { height: 4em; margin-left: 10px; }
-.commerce-thumb-icon img { height: 4em; margin-left: 10px; }
-.sales-thumb-icon img { height: 4em; margin-left: 10px; }
-.integratedsolutions-thumb-icon img { height: 4em; margin-left: 10px; }
+.explore-solutions-list .solutions-item{padding: 0px;height: 19em;}
+.explore-solutions-list .solutions-item img{width: 100%;}
+.explore-solutions-list a{color: #fff;}
+.explore-solutions-list .solutions-item:nth-child(odd) { background-color: #f7ba40; }
+.explore-solutions-list .solutions-item:nth-child(even) { background-color: #f7a540; }
+.explore-solutions-list .page-s:nth-child(odd) { background-color: #f7ba40; }
+.explore-solutions-list .page-s:nth-child(even) { background-color: #f7a540; }
+.explore-solutions-list .solutions-item .transparent-bg{background: url('../img/pattern-orange-line.png');height: 100%;position: absolute;right: 0;top: 0;width: 10px;}
 .s-casestudies { margin-top: 75px; overflow: auto; position: relative; padding-bottom: 100px }
 /*.s-casestudies:after{float:right;position: absolute; content: "View all Case Studies"; no-repeat; bottom: 10px;  height: 9.643em; background-size: 100% 100%; left: 500px; padding-top:50px;color:#179bd7; font-weight: bold;font-size: 0.8em;}*/
 .s-casestudies:before { position: absolute; content: ""; background: url(../img/industries-casestudies-bg.png) no-repeat center center; top: 34%; width: 53.714em; height: 14.643em; background-size: contain; left: 16%; z-index: -10 }
@@ -723,7 +724,7 @@ color: #999;
 
 .bullets { list-style: none; padding-left: 20px }
 .bullets li:before { font-family: 'FontAwesome'; content: "\f105"; position: absolute; left: 60px; list-style-type: none; color: #179bd7 }
-/*08Feb2017-ngummadi*/
+
 .about-who-we-are, .about-what-we-do { padding-left: 15px; }
 .aboutus-who-what-inner { margin-left: 30px; margin-top: 40px; margin-bottom: 50px; overflow: auto; }
 .about-who-we-are img, .about-what-we-do img { width: 18.214em; margin-bottom: 15px; }
@@ -733,9 +734,9 @@ color: #999;
 .more-about-lh { font-weight: 600; font-size: 1.286em; margin: 14px 40px 30px; color: #fff;font-family: "Lato-Black";font-size: 18px;line-height: 21px; }
 .lh-history-icons { padding: 0 15px; overflow: auto }
 .awards-certifications { margin-top: 20px }
-/*08Feb2017-ngummadi*/
 
 .sme-intro { border-left: 8px solid #faa635 }
+
 /*news and events*/
 .news-events .panel { border-radius: 0px; border: 0px; box-shadow: none; }
 .news-events .panel-group { margin-bottom: 0; }
@@ -749,44 +750,36 @@ color: #999;
 .news-events .panel-group>.panel-default:nth-child(even)>.panel-heading { color: #333; display: inline-block; width: 100%; }
 .with-nav-tabs.panel-primary .nav-tabs > li {margin-bottom: 0;}
 .with-nav-tabs.panel-primary .nav-tabs > li.active > a, .with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover, .with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus { color: #fff; background-color: #1e407b; border-radius: 0px; border-color: #1e407b; border-bottom-color: transparent; }
-.with-nav-tabs.panel-primary .nav-tabs > .open > a, .with-nav-tabs.panel-primary .nav-tabs > .open > a:hover, .with-nav-tabs.panel-primary .nav-tabs > .open > a:focus, .with-nav-tabs.panel-primary .nav-tabs > li > a:hover, .with-nav-tabs.panel-primary .nav-tabs > li > a:focus { color: #fff; border-color: transparent; background-color: #179bd7; border-radius: 0px; }
+.with-nav-tabs.panel-primary .nav-tabs > .open > a, .with-nav-tabs.panel-primary .nav-tabs > .open > a:hover, .with-nav-tabs.panel-primary .nav-tabs > .open > a:focus, .with-nav-tabs.panel-primary .nav-tabs > li > a:hover, .with-nav-tabs.panel-primary .nav-tabs > li > a:focus { color: #333; border-color: transparent;text-decoration: underline; border-radius: 0px; }
 .with-nav-tabs.panel-primary .nav-tabs > li > a { border: 1px solid #ccc;border-radius: 0px;background: #ccc;color: #000; }
 .date-box { color: #179bd7; border-radius: 0px; float: left; line-height: 20px; border-right: 1px solid #ccc; text-align: center; padding: 20px; margin-right: 15px; margin-bottom: 20px; }
 .date-box:after { content: ''; display: block; clear: both; }
 .date-box .day { font-size: 18px; }
 .date-box .year { margin-top: 5px; }
-.bluedatebox { /*background-color: #152751;*/
-}
-.mediacontactsblue { background-color: #179bd7; padding: 10px 10px 30px 10px; text-align: left; color: #fff; }
+.bluedatebox { /*background-color: #152751;*/}
+.mediacontactsblue { background-color: #1e407b; padding: 10px 10px 30px 10px; text-align: left; color: #fff; }
 .mediacontactsblue h3, .news-events h3 { font-size: 1em; font-weight: 600; text-transform: uppercase; color: #ff8429; letter-spacing: 1px; }
 .mediacontactsblue p, .news-events p { font-size: 1.1em; font-weight: 400; line-height: 1.75; }
-.media-sub-content {
-    padding: 10px;
-}
-h4.media-sub-heading {
-    min-height: 60px;
-    line-height: 27px;
-}
-
-  
+.media-sub-content {    padding: 10px;}
+h4.media-sub-heading {    min-height: 60px;    line-height: 27px;}  
 .media-sub-impact h4 { color: #1e407b; font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica;   margin-top: 20px;}
- 
-/* .media-content {
-    margin-left: 170px;
-  }
-  
-  .media-impact {
-    margin-left: 50px;
-  }*/
-/*news and events*/
+ /* 
+.media-content {    margin-left: 170px;  }  
+.media-impact {    margin-left: 50px;  }
+*/
+
 
 /* commercial */
-
+.commercial .media-body{ width: 75%; float: left;}
+.commercial .media-left {    width: 25%; float: left; text-align: center;}
+.commercial .media-content {    padding-left: 40px; float: left;}
+.commercial .media img.media-object { width: auto; margin: 0 auto; height: 11em;}
 .case-commercial-content { background: url(../img/pattern-blue-line.png); padding: 20px; }
 .case-commercial-content h4{color: #1e407b; text-transform: uppercase; font-size: 18px;}
-.case-commercial-content .case-item { background: #fff; margin: 10px; padding: 30px 30px 0 30px; width: 31.3%; min-height: 280px; }
-.case-commercial-content .case-item h4 { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; text-transform: capitalize; }
+.case-commercial-content .case-item { background: #fff; margin: 10px; padding: 30px 30px 0 30px; width: 30.3%; min-height: 280px; }
+.case-commercial-content .case-item h4 { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; text-transform: uppercase; }
  .case-commercial-content .case-item p{font-size: 12px; line-height: 17px;}
+ .commercial-page-sub { margin-left: 30px}
 /*architecture*/
 .architecture-title { padding-bottom: 35px; }
 .architecture-title h3 { font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; margin-top: 0;text-transform: uppercase;}
@@ -844,9 +837,14 @@ h4.media-sub-heading {
 .case-health-item { background: #fff; margin: 10px; padding: 30px;  width: 47.3%; height: 450px; }
 .case-health-item h4 { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; text-transform: uppercase; }
 .case-health-item p{font-size: 12px; line-height: 17px;}
-.healthcare-help span .btn-default{ background-color: #b4b6ba; color:#fff;border-radius: 0px;}
+.healthcare-help  .btn-default{ background-color: #b4b6ba; color:#fff;border-radius: 0px;}
 .healthcare-help  .connect-with-us { background-color: #179bd7; color:#179bd7;}
-.healthcare-help-span a.btn { display: inline-block; border: 3px solid #179bd7; border-radius: 0; margin-top: -2px; margin-left: 20px; width: 155px; font-size: 15px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; height: 30px; padding: 2px;}
+.healthcare-sub-help .healthcare-help-span a.btn { display: inline-block; border: 3px solid #179bd7; border-radius: 0; margin-top: -2px; margin-left: 20px; width: 155px; font-size: 15px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; height: 30px; padding: 2px;}
+.healthcare-help .healthcare-help-span a.btn { display: inline-block; border: 3px solid #179bd7; border-radius: 0; margin-top: -2px; margin-left: 20px; width: 155px; font-size: 15px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; height: 30px; padding: 2px;}
+.healthcare-download .healthcare-help-span a.btn { display: inline-block; border: 3px solid #179bd7; border-radius: 0; margin-top: -2px; margin-left: 20px; width: 142px; font-size: 15px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; height: 30px; padding: 2px;}
+
+.commercial-img img {height:15em;}
+
 @media (max-width: 1024px) {
 .case-studies-content .case-item { width: 31.2%; min-height: 293px; }
 .problems-content .problem-item { width: 31.5%; }
@@ -1350,30 +1348,44 @@ Services We Provide Styles
   .swp #ourServices-Carousel .carousel-indicators{left: 50%}
 }
 @media (min-width: 1440px){
-	.services-list-wrap::before{width: 997px;right: -217px;}
+  .services-list-wrap::before{width: 997px;right: -217px;}
   .swp.s-successstories:before{left: 17%}
   .swp.s-successstories:after{right: 294px;bottom: 132px}  
   .swp #successStories-Carousel .carousel-indicators{left: 30%}
 
   .swp.s-ourservices:before{left: 32%}
   .swp #ourServices-Carousel .carousel-indicators{left: 50%}
-
 }
 
 .healthcare-casestudy-title{color: #1e407b; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 18px; margin-top: 20px; margin-bottom: 20px; text-transform: uppercase;}
 .swp-page-data{margin-top: 50px; margin-bottom: 50px}
 .swp-page-data .media-body.pleft{padding-left: 20px}
 .swp-page-data .media-body.pright{padding-right: 20px}
-.swp-page-data .media-body h5.media-heading{color: #179bd7; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 18px; margin-top: 0; margin-bottom: 10px; text-transform: uppercase;}
+.swp-page-data .media-body h5.media-heading{color: #179bd7; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 18px; margin-top: 0; margin-bottom: 10px;}
 .swp-page-data .media-body p{font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica;font-size: 15px; line-height: 21px;}
-.swp-page-data .media-object{width: 250px}
+.swp-page-data .media-object{width: 250px;filter: grayscale(100%); -webkit-filter: grayscale(100%); filter: url(/elements/grayscale.svg#desaturate); filter: gray; -webkit-filter: grayscale(1); }
 
 .swp-page-insights{margin-top: 50px; margin-bottom: 50px}
 .swp-page-insights .media-body.pleft{padding-left: 20px}
 .swp-page-insights .media-body.pright{padding-right: 20px}
-.swp-page-insights .media-body h5.media-heading{color: #179bd7; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 18px; margin-top: 0; margin-bottom: 10px; text-transform: uppercase;}
+.swp-page-insights .media-body h5.media-heading{color: #179bd7; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 18px; margin-top: 0; margin-bottom: 10px; }
 .swp-page-insights .media-body p{font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica;font-size: 15px; line-height: 21px;}
-.swp-page-insights .media-object{width: 250px}
+.swp-page-insights .media-object{width: 250px;filter: grayscale(100%); -webkit-filter: grayscale(100%); filter: url(/elements/grayscale.svg#desaturate); filter: gray; -webkit-filter: grayscale(1); }
+
+.iws-intro-page-sub-title{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; text-transform: uppercase; color: #1e407b; margin-bottom: 20px}
+.iws-page-solution-title{color: #1e407b;font-size: 24px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; text-transform: uppercase;}
+
+.iws-page-healthcare{margin-bottom: 30px; background: url(../img/pattern-blue-line.png); padding: 50px 0;}
+
+.iws-page-insurance{margin-bottom: 30px; background: url(../img/pattern-blue-line.png); padding: 50px 0;}
+.iws-page-insurance .panel{border: 0px;-webkit-box-shadow:none;box-shadow: none; background: #fff; min-height: 480px}
+.iws-page-insurance .panel .panel-image img{padding: 30px}
+.iws-page-insurance .panel .panel-heading{background: none; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; color: #1e407b; text-transform: uppercase; border: 0; margin-top: 10px; margin-bottom: 10px;text-align: center;padding: 10px 5px;}
+.iws-page-insurance .panel .panel-heading .panel-title{font-size: 18px;font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
+.iws-page-insurance .panel .panel-body{padding: 0 25px}
+.iws-page-insurance .panel .panel-body ul.bullets{padding-left: 0}
+.iws-page-insurance .panel .panel-body ul.bullets li{ font-size: 15px; margin-left: 20px}
+.iws-page-insurance .panel .panel-body ul.bullets  li:before{left:40px;}
 
 .iws-page-lifesciences{margin-bottom: 30px; background: url(../img/pattern-blue-line.png); padding: 50px 0;}
 .iws-page-lifesciences .panel{border: 0px;-webkit-box-shadow:none;box-shadow: none; background: #fff; min-height: 620px}
