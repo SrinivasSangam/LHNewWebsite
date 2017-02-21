@@ -63,7 +63,7 @@
 </head>
 <!-- NAVBAR
   ================================================== -->
-<body>
+<body onload="updateImageSize()">
 <div class="navbar-wrapper">
   <div class="top-nav">
     <div class="container-fluid">
@@ -525,13 +525,13 @@
         $('.currentSlide').html(''+currentIndex+'/'+totalItems+'');
       });     
     });
-    $(document).ready(function(){
+    $(document).ready(function(){      
         updateImageSize();
         $(window).resize(function(){
             updateImageSize();
         });
     });
-    function updateImageSize() {      
+    function updateImageSize() {     
       $(".carousel-inner .item").each(function(){
         var ratio_cont = $(this).width()/$(this).height();            
         var $img = $(this).find("img");            
