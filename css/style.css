@@ -121,8 +121,12 @@ ul.custom-bullet { list-style: none; padding-left: 0px }
 ul.custom-bullet li:before { font-family: 'FontAwesome'; content: "\f105"; position: absolute; left: 16px; list-style-type: none; color: #179bd7; font-size: 14px; font-weight: 600; }
 ul.custom-bullet li { padding-left: 20px }
 .page-title h3 { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; margin-bottom: 35px; text-transform: uppercase;margin-top: 0; }
-.contacthub, .contacthub h3 { color: #333 }
-.contacthub a { color: #179fd7 }
+.corporate-headquarters{font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; }
+.corporate-headquarters h2,.global-locations h2{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; color: #1e407b; font-size: 24px; text-transform: uppercase;}
+.global-locations .row{margin-bottom: 25px}
+.contactus-form h3 span{display: block; text-transform: uppercase;}
+.contactus-form h3 span:first-child{ color: #1e407b; font-size: 24px;font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; }
+.contactus-form h3 span:last-child{color: #333; font-size: 15px; text-transform: none;}
 .btn-link { color: #179bd7; }
 footer { margin: 30px 0 0 0; background: #f6f6f6; padding-top: 30px }
 footer p { line-height: 26px; font-size: 16px; font-family: 'Lato-Light', Arial, Gotham, Helvetica Neue, Helvetica; }
@@ -178,7 +182,7 @@ a.socialIcon:hover, .socialHoverClass { color: #44BCDD; }
 .client-engage { margin-top: 65px }
 .client-engage .client-engage-num, .client-engage .client-engage-txt { color: #179bd7 }
 .client-engage .client-engage-num { font-family: 'Lato-Light', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 4.8em }
-.client-engage .client-engage-num span { font-family: 'Lato-Light', Arial, Gotham, Helvetica Neue, Helvetica; font-size: .68em }
+.client-engage .client-engage-num span { font-family: 'Lato-Light', Arial, Gotham, Helvetica Neue, Helvetica; font-size: .6em }
 .client-engage .client-engage-txt { font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; margin-top: 10px; font-size: 0.974029em; text-align: center }
 .client-engage .client-engage-txt span{ font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
 .connect-with-us h2 { font-size: 1.714em; color: #1e407B; display: inline-block; }
@@ -1406,3 +1410,13 @@ Services We Provide Styles
 .iws-page-retail .panel .panel-body ul.bullets{padding-left: 0}
 .iws-page-retail .panel .panel-body ul.bullets li{ font-size: 15px; margin-left: 20px}
 .iws-page-retail .panel .panel-body ul.bullets  li:before{left:40px;}
+
+.march-madness-header-banner { background: url('../img/banners/march-madness-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
+.adobe-happyhour-header-banner { background: url('../img/banners/adobe-happyhour-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
+.ea-webinar-header-banner{ background: url('../img/banners/ea-webinar-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
+.personalization-individualized-exp-header-banner{ background: url('../img/banners/personalization-individualized-exp-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
+.strength-customer-experience-header-banner{ background: url('../img/banners/strength-customer-experience-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
+.advisorfocus-webinar-header-banner{ background: url('../img/banners/advisorfocus-webinar-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
+.blended-experiences-header-banner{ background: url('../img/banners/blended-experiences-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
+.himss-header-banner{ background: url('../img/banners/himss-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
+.pick-the-right-partner-for-success-header-banner{ background: url('../img/banners/pick-the-right-partner-for-success-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }

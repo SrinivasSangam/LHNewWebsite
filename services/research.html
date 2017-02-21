@@ -31,7 +31,7 @@
 <link href="../css/carousel.css" rel="stylesheet">
 <link href="../css/animate.css" rel="stylesheet">
 <link rel="stylesheet" href="../css/bootstrap-dropdownhover.min.css">
-<link href="../css/style2.css" rel="stylesheet"><link href="../css/responsive.css" rel="stylesheet">
+<link href="../css/responsive.css" rel="stylesheet">
 
 <!-- Google Tracking code-->
 
@@ -388,21 +388,21 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-4 col-md-4 more-item">
-          <a href="casestudies/service-commercial.html" class="problemsolve-thumb item5">
+          <a href="../casestudies/service-commercial.html" class="problemsolve-thumb item5">
             <h3>Service | Commercial</h3>
             <p>Validating experiences through human-centered research and testing.</p>
             <span class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></span> 
           </a>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4">
-          <a href="casestudies/service-life-sciences.html" class="problemsolve-thumb item7">
+          <a href="../casestudies/service-life-sciences.html" class="problemsolve-thumb item7">
             <h3>Service | Life Sciences</h3>
             <p>Aligning interactions across channels to provide a seamless experience for patients.</p>
             <span class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></span> 
           </a>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4">
-          <a href="casestudies/self-service-mobile-banking.html" class="problemsolve-thumb item9">
+          <a href="../casestudies/self-service-mobile-banking.html" class="problemsolve-thumb item9">
             <h3>Service | Banking</h3>
             <p>Developing mobile app to facilitate easy usability.</p>
             <span class="btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></span> 
@@ -456,22 +456,22 @@
           <div class="row">
             <div class="col-sm-4 footer-left-pad">
               <ul class="list-unstyled foot-links">
-                <li><a href="problems-we-solve.html">Problems We Solve</a></li>
-                <li><a href="services.html">Services We Provide</a></li>
-                <li><a href="industries-we-serve.html">Industries We Serve</a></li>
+                <li><a href="../problems-we-solve.html">Problems We Solve</a></li>
+                <li><a href="../services.html">Services We Provide</a></li>
+                <li><a href="../industries-we-serve.html">Industries We Serve</a></li>
               </ul>
             </div>
             <div class="col-sm-4 footer-left-pad2">
               <ul class="list-unstyled foot-links">
                 <li><a href="https://www.linkedin.com/jobs/search?f_C=74513%2C14217&locationType=Y&trk=careers_promo_module_see_jobs">Careers</a></li>
-                <li><a href="aboutus.html">About LiquidHub</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="../aboutus.html">About LiquidHub</a></li>
+                <li><a href="../contactus.html">Contact Us</a></li>
               </ul>
             </div>
             <div class="col-sm-4">
               <ul class="list-unstyled foot-links">
                 <li><a href="http://blog.liquidhub.com" target="blank">Blog</a></li>
-                <li><a href="news-events.html">News &amp; Events</a></li>
+                <li><a href="../news-events.html">News &amp; Events</a></li>
                 <li><a href="http://blog.liquidhub.com">White Papers</a></li>
               </ul>
             </div>
@@ -484,8 +484,8 @@
         <div class="row">
           <div class="col-xs-12 col-sm-7 ">
             <ul class="policy-links list-unstyled list-inline">
-              <li><a href="privacy-policy.html">Privacy Policy</a></li>
-              <li><a href="legal-policy.html">Legal Policy</a></li>
+              <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="../legal-policy.html">Legal Policy</a></li>
             </ul>
           </div>
           <div class="col-xs-12 col-sm-5">
@@ -529,25 +529,18 @@
 <script src="../js/ie10-viewport-bug-workaround.js"></script> 
 <script type="text/javascript">
       $(function () {
-         
+
         var totalItems = $('.item').length;
         var currentIndex = $('.item.active').index() + 1;
         $('.currentSlide').html('0'+currentIndex+' / 0'+totalItems+'');
 
         $('#myCarousel').carousel({
-            interval: false
+          interval: false
         });  
-        
-        $('#successStories-Carousel').carousel({
-            interval: false
-        }); 
-        $('#ourServices-Carousel').carousel({
-            interval: false
-        });
 
         $('#myCarousel').bind('slid', function() {
-            currentIndex = $('.item.active').index() + 1;
-           $('.currentSlide').html(''+currentIndex+'/'+totalItems+'');
+          currentIndex = $('.item.active').index() + 1;
+          $('.currentSlide').html(''+currentIndex+'/'+totalItems+'');
         });     
       });
     </script>
