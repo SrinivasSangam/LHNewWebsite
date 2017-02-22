@@ -3,6 +3,17 @@ Common Styles
 **************************************** */
 
 @import '../fonts/lato/stylesheet.css';
+ /*Preloading*/ 
+ #dvLoading {
+    background: url('../img/loading.gif') no-repeat scroll center center #FFFFFF;
+    background-size: 40px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999999;
+}
+ /*Preloading*/
 *, body { font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; line-height: 24px }
 .no-gutter [class*='col-'] { padding-right: 0!important; padding-left: 0!important; }
 a { color: #179bd7 }
