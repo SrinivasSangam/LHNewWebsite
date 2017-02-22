@@ -1,5 +1,5 @@
-$('.preloader').show();
-setTimeout(function(){$('.preloader').fadeOut();}, 2000);
+$('#dvLoading').show();
+setTimeout(function(){$('#dvLoading').fadeOut();}, 2000);
 
    $(function () {
 
