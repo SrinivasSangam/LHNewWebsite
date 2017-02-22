@@ -58,7 +58,15 @@
 	font-weight: bold;
 	font-style: normal;
 }
-
+@font-face {
+	font-family: 'Lato-BoldItalic';
+	src: url('Lato-BoldItalic.eot');
+	src: url('Lato-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('Lato-BoldItalic.woff') format('woff'),
+		url('Lato-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
 
 /*
 
@@ -116,15 +124,7 @@
 	font-style: italic;
 }
 
-@font-face {
-	font-family: 'Lato-BoldItalic';
-	src: url('Lato-BoldItalic.eot');
-	src: url('Lato-BoldItalic.eot?#iefix') format('embedded-opentype'),
-		url('Lato-BoldItalic.woff') format('woff'),
-		url('Lato-BoldItalic.ttf') format('truetype');
-	font-weight: bold;
-	font-style: italic;
-}
+
 */
 
 /*
