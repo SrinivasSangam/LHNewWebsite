@@ -12,7 +12,10 @@
 
 <!-- Bootstrap core CSS -->
 <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-
+<link href="css/carousel.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+<script src="js/bootstrap/bootstrap.min.js"></script> 
+<script src="js/home-carousel.js"></script> 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
@@ -28,7 +31,6 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- Custom styles for this template -->
 <link href="css/style.css" rel="stylesheet">
-<link href="css/carousel.css" rel="stylesheet">
 <link href="css/animate.css" rel="stylesheet">
 <link rel="stylesheet" href="css/bootstrap-dropdownhover.min.css">
 <link href="css/responsive.css" rel="stylesheet">
@@ -45,7 +47,18 @@
   ga('send', 'pageview');
 
 </script>
-
+<style type="text/css">
+div#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center;
+}
+</style>
 <!--
   <script type="text/javascript">
   var _gaq = _gaq || [];
@@ -64,13 +77,14 @@
 <!-- NAVBAR
   ================================================== -->
 <body onload="updateImageSize()">
+<div id="preloader"></div>
 <div class="navbar-wrapper">
   <div class="top-nav">
     <div class="container-fluid">
       <div class="container">
         <div id="topnav" class="navbar-collapse collapse top-nav-links">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://www.linkedin.com/jobs/search?f_C=74513%2C14217&locationType=Y&trk=careers_promo_module_see_jobs">Careers</a></li>
+            <li><a href="careers.html">Careers</a></li>
             <li><a href="aboutus.html">About LiquidHub</a></li>
             <li><a href="contactus.html">Contact Us</a></li>
           </ul>
@@ -465,7 +479,7 @@
             </div>
             <div class="col-sm-4 footer-left-pad2">
               <ul class="list-unstyled foot-links">
-                <li><a href="https://www.linkedin.com/jobs/search?f_C=74513%2C14217&locationType=Y&trk=careers_promo_module_see_jobs">Careers</a></li>
+                <li><a href="careers.html">Careers</a></li>
                 <li><a href="aboutus.html">About LiquidHub</a></li>
                 <li><a href="contactus.html">Contact Us</a></li>
               </ul>
@@ -503,62 +517,10 @@
 
 <!-- Bootstrap core JavaScript --> 
 <!-- Placed at the end of the document so the pages load faster --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
-<script src="js/bootstrap/bootstrap.min.js"></script> 
 <script src="js/bootstrap-dropdownhover.min.js"></script> 
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug --> 
 <script src="js/ie10-viewport-bug-workaround.js"></script> 
-<script type="text/javascript">
-    $(function () {
-
-      var totalItems = $('.item').length;
-      var currentIndex = $('.item.active').index() + 1;
-      $('.currentSlide').html('0'+currentIndex+' / 0'+totalItems+'');
-
-      $('#myCarousel').carousel({
-        interval: 6000
-      });  
-
-      $('#myCarousel').bind('slid', function() {
-        currentIndex = $('.item.active').index() + 1;
-        $('.currentSlide').html(''+currentIndex+'/'+totalItems+'');
-      });     
-    });
-    $(document).ready(function(){      
-        updateImageSize();
-        $(window).resize(function(){
-            updateImageSize();
-        });
-    });
-    function updateImageSize() {     
-      $(".carousel-inner .item").each(function(){
-        var ratio_cont = $(this).width()/$(this).height();            
-        var $img = $(this).find("img");            
-        var ratio_img = $img.width()/$img.height();        
-        var carouselCaption = $( ".carousel-caption" );
-        var carouselCaptionOffset = carouselCaption.offset();        
-        var carouselIndicators = $( ".carousel-indicators" );
-        var carouselIndicatorsOffset = carouselIndicators.offset();       
-        if (ratio_cont > ratio_img) {
-          $(".carousel-inner").css({"width": "100%", "height": $img.height()+"px"});
-          $(".carousel-caption").css({"margin-top": $img.height()/100*3.3333+"%"});
-          $(".carousel-indicators").css({"top": $img.height()/100*88+"px"});                
-        }
-        else if (ratio_cont < ratio_img) {
-
-          $(".carousel-inner").css({"width": "auto", "height": $img.height()+"px"});
-          $(".carousel-caption").css({"margin-top": $img.height()/100*5.3333+"%"});
-        }
-        if (ratio_img <= 1024 || ratio_img < 980) {
-          $(".carousel-caption").css({"margin-top": $img.height()/100*3.5+"%"});
-          $(".carousel-indicators").css({"top": $img.height()/100*85+"px"});
-        }   
-      }); 
-    }
-
-  </script> 
-
 <!--- TRACKING CODES ---> 
 
 <!-- Pardot Tracking code--> 

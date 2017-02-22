@@ -458,6 +458,7 @@ a.problemsolve-thumb:hover{color: #fff;}
 .tabbable-line > .nav-tabs > li.active > a { border: 0; color: #333333; border-radius: 0; opacity: 1; }
 .tabbable-line > .nav-tabs > li.active > a > i { color: #404040; }
 .tab-content { margin-top: 20px; background-color: none; border: 0; padding: 15px 0; }
+.tab-content .margin-bottom-sm{margin-bottom: 50px;}
 .portlet .tabbable-line > .tab-content { padding-bottom: 0; }
 .nav.nav-tabs li.active:after { content: " "; position: absolute; opacity: 1; margin: 0 auto; bottom: -4px; border-bottom-color: #faa635; top: 31px; z-index: 2; }
 .desaturate { filter: grayscale(100%); -webkit-filter: grayscale(100%); filter: url(/elements/grayscale.svg#desaturate); filter: gray; -webkit-filter: grayscale(1); }
@@ -1419,4 +1420,5 @@ Services We Provide Styles
 .advisorfocus-webinar-header-banner{ background: url('../img/banners/advisorfocus-webinar-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
 .blended-experiences-header-banner{ background: url('../img/banners/blended-experiences-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
 .himss-header-banner{ background: url('../img/banners/himss-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
+.optimize-your-specialty-network{ background: url('../img/banners/5-ways-to-optimize-your-specialty-network.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
 .pick-the-right-partner-for-success-header-banner{ background: url('../img/banners/pick-the-right-partner-for-success-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
