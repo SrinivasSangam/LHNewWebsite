@@ -6,3 +6,6 @@ AddHandler application/x-httpd-php54 .html
 
 ErrorDocument 404 /index.html
 
+Redirect 301 /EA_Webinar    /EA-webinar.html
+
+
