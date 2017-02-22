@@ -1,11 +1,6 @@
-jQuery(document).ready(function($) {  
+$('.preloader').show();
+setTimeout(function(){$('.preloader').fadeOut();}, 2000);
 
-// site preloader -- also uncomment the div in the header and the css style for #preloader
-$(window).load(function(){
-  $('#preloader').fadeOut('slow',function(){$(this).remove();});
-});
-
-});
    $(function () {
 
       var totalItems = $('.item').length;
