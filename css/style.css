@@ -142,7 +142,7 @@ ul.custom-bullet li { padding-left: 20px }
 footer { margin: 30px 0 0 0; background: #f6f6f6; padding-top: 30px }
 footer p { line-height: 26px; font-size: 16px; font-family: 'Lato-Light', Arial, Gotham, Helvetica Neue, Helvetica; }
 .foot-links { }
-.foot-links li { line-height: 24px; padding-left: 15px; font-size: 15px; font-family: "Lato-bold", Arial, Gotham, Helvetica Neue, Helvetica; }
+.foot-links li { line-height: 24px; padding-left: 0px; font-size: 15px; font-family: "Lato-bold", Arial, Gotham, Helvetica Neue, Helvetica; }
 .foot-links a { color: #179bd7; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; ; font-size: 15px; }
 .footer-links { margin-top: 0px!important; }
 .social-media a { color: #999999!important; padding: 0 10px; font-size: 1.2em }
@@ -799,7 +799,7 @@ h4.media-sub-heading {    min-height: 60px;    line-height: 27px;}
 /*architecture*/
 .architecture-title { padding-bottom: 35px; }
 .architecture-title h3 { font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; margin-top: 0;text-transform: uppercase;}
-.architecture-title h3 span { font-family: "Lato-LightItalic", Arial, Gotham, Helvetica Neue, Helvetica; text-transform: capitalize;}
+.architecture-title h3 span { font-family: "Lato-LightItalic", Arial, Gotham, Helvetica Neue, Helvetica; text-transform: none;}
 .architecture .companies-moto .media { margin-left: 20px; }
 .case-studies-head h3, .problems-head h3, .services-head h3 { font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; }
 .case-short ul.bullets li:before{left: 35px;}
