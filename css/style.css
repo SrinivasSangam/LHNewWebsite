@@ -806,7 +806,7 @@ h4.media-sub-heading {    min-height: 60px;    line-height: 27px;}
 .case-studies-head span, .problems-head span, .services-head span { font-size: 15px; color: #179bd7; font-weight: bold; }
 .case-studies-content { background: url(../img/pattern-green-line.png); padding: 10px 0 10px 10px; }
 .case-studies-content .case-item { background: #fff; margin: 10px; padding: 30px; width: 31.3%; min-height: 280px; }
-.case-studies-content.liquidmarketing .case-item { min-height: 312px; }
+.case-studies-content.liquidmarketing .case-item { min-height: 312px;  }
 .architecture-intro{font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; }
 /*.liquidmarketing .page-s { width: 19em; }*/
 .case-studies-content .case-item h4, .problems-head .problem-item h4 { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; text-transform: capitalize; }
