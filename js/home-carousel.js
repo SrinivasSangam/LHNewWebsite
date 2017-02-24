@@ -44,6 +44,9 @@ setTimeout(function(){$('#dvLoading').fadeOut();}, 2000);
         if (ratio_img <= 1024 || ratio_img < 980) {
           $(".carousel-caption").css({"margin-top": $img.height()/100*3.5+"%"});
           $(".carousel-indicators").css({"top": $img.height()/100*85+"px"});
-        }   
+        }  else 
+        if ($(this).width() < 768) {
+          $(".carousel-caption").css({"margin-top": 18+"%"});
+        }
       }); 
     }
