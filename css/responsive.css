@@ -133,8 +133,31 @@
 .commercial-img img {
 	height: 15em;	
 	}
+.liquidmarketing .explore-solutions-list .solutions-item {
+    height: auto;
 }
-
+.liquidmarketing .solutions-item h4 {
+    margin-top: 15px;
+}
+.liquidmarketing .solutions-item span {
+    bottom: 5px;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1023px){
+.liquidmarketing .explore-solutions-list .solutions-item {
+    height: auto;
+}
+.liquidmarketing .solutions-item h4 {
+    margin-top: 15px;
+}
+.liquidmarketing .solutions-item span {
+    bottom: 5px;
+}
+.liquidmarketing .explore-solutions-list .solutions-item {
+    padding: 0px;
+}
+.liquidmarketing .explore-solutions-list .col-custom-offset{margin-left: 0;}
+}
 @media only screen and (min-width: 767px) and (max-width: 1023px){
 	body{
 		overflow-x: hidden;
@@ -374,4 +397,17 @@
 .commercial-img img {
 	height: 16em;	
 	}
+.liquidmarketing .explore-solutions-list .solutions-item {
+    height: auto;
+}
+.liquidmarketing .solutions-item h4 {
+    margin-top: 15px;
+}
+.liquidmarketing .solutions-item span {
+    bottom: 5px;
+}
+.liquidmarketing .explore-solutions-list .solutions-item {
+    padding: 0px;
+}
+.liquidmarketing .explore-solutions-list .col-custom-offset{margin-left: 0;}
 }
