@@ -34,7 +34,7 @@ p { font-size: 1.071em }
 .navbar-wrapper .navbar-nav>li>.dropdown-menu, .navbar-wrapper-op .navbar-nav>li>.dropdown-menu { background: #f2f2f2; border: 0px; min-width: 150px}
 .navbar-wrapper .navbar-nav .dropdown-menu > li > a, .navbar-wrapper-op .navbar-nav .dropdown-menu > li > a {font-size: 15px;line-height: 21px;  }
 .navbar-wrapper .navbar-nav .dropdown-menu > li > a:focus, .navbar-wrapper .navbar-nav .dropdown-menu > li > a:hover, .navbar-wrapper-op .navbar-nav .dropdown-menu > li > a:focus, .navbar-wrapper-op .navbar-nav .dropdown-menu > li > a:hover { background: #179bd7; color: #fff }
-.navbar-wrapper .navbar-default .navbar-nav>li>a { padding: 10px 25px; color: #fff; font-size: 1.286002em; line-height: 24px; font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; }
+.navbar-wrapper .navbar-default .navbar-nav>li>a { padding: 20px 25px; color: #fff; font-size: 1.286002em; line-height: 24px; font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; }
 .navbar-wrapper .navbar-default .navbar-nav > li > a span:nth-child(2) { display: block }
 .navbar-wrapper .navbar-default .navbar-nav>.open>a, .navbar-wrapper .navbar-default .navbar-nav>.open>a:focus, .navbar-wrapper .navbar-default .navbar-nav>.open>a:hover { background: none; color: #fff; }
 .navbar-wrapper .dropdown-menu>li>a { font-size: 1.03vw; border-bottom: 1px solid #f2f2f2 }
@@ -44,6 +44,12 @@ p { font-size: 1.071em }
 .navbar-toggle .icon-bar + .icon-bar { margin-top: 4px; }
 .navbar-nav { margin: 6px -15px; }
 .navbar-nav > li > a { padding-top: 10px; padding-bottom: 10px; line-height: 20px; }
+.navbar-wrapper .navbar-default .navbar-nav > li > a:hover span{border-bottom: 4px solid #fff; border-radius: 0px;}
+.navbar-wrapper .navbar-default .navbar-nav > .open > a span{border-bottom: 4px solid #fff; border-radius: 0px;}
+.navbar-wrapper .navbar-default .navbar-nav > .open > a:hover span, 
+.navbar-wrapper .navbar-default .navbar-nav > .open > a:focus span, 
+.navbar-wrapper .navbar-default .navbar-nav > .open > a:active span {border-bottom: 4px solid #fff; border-radius: 0px;}
+
 .navbar-wrapper-op .top-nav { padding-top: 0px;margin-bottom: 13px}
 .navbar-wrapper-op .top-nav-links .nav > li > a { color: #999; font-size: 0.857em; padding: 10px 8px; line-height: 0.857em; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; }
 .navbar-wrapper-op .top-nav-links .nav > li > a:hover { text-decoration: underline; }
@@ -51,7 +57,14 @@ p { font-size: 1.071em }
 .navbar-wrapper-op .navbar-default .navbar-nav > li { min-height: 64px; font-family: "Lato-Regular", Arial, Gotham, Helvetica Neue, Helvetica; }
 .navbar-wrapper-op .navbar-default .navbar-nav > li > a { padding: 10px 25px; color: #333; font-size: 1.286002em; line-height: 1.8vw; font-family: "Lato-Regular", Arial, Gotham, Helvetica Neue, Helvetica; }
 .navbar-wrapper-op .navbar-default .navbar-nav > li > a span:nth-child(2) { display: block }
-.navbar-wrapper-op .navbar-default .navbar-nav > .open > a, .navbar-wrapper-op .navbar-default .navbar-nav > .open > a:focus, .navbar-wrapper-op .navbar-default .navbar-nav > .open > a:hover { color: #179bd7; background: none; }
+.navbar-wrapper-op .navbar-default .navbar-nav > li > a:hover span{border-bottom: 4px solid #faa635; border-radius: 0px;}
+.navbar-wrapper-op .navbar-default .navbar-nav > .open > a span{border-bottom: 4px solid #faa635; border-radius: 0px;}
+.navbar-wrapper-op .navbar-default .navbar-nav > .open > a:hover span, 
+.navbar-wrapper-op .navbar-default .navbar-nav > .open > a:focus span, 
+.navbar-wrapper-op .navbar-default .navbar-nav > .open > a:active span {border-bottom: 4px solid #faa635; border-radius: 0px;}
+.navbar-wrapper-op .navbar-default .navbar-nav > .open > a, 
+.navbar-wrapper-op .navbar-default .navbar-nav > .open > a:focus, 
+.navbar-wrapper-op .navbar-default .navbar-nav > .open > a:hover { color: #333; background: none; border-radius: 0px}
 .navbar-wrapper-op .navbar-nav>li>.dropdown-menu { margin-top: 1px; }
 .navbar-wrapper-op .dropdown-menu>li>a { border-bottom: 1px solid #f2f2f2 }
 
@@ -65,14 +78,9 @@ p { font-size: 1.071em }
 @media (min-width: 768px) {
 /*.navbar-nav > li:before, .navbar-nav > li:after, .navbar-wrapper-op .navbar-nav > li:before, .navbar-wrapper-op .navbar-nav > li:after { content: " "; display: block; height: 0; width: 0; opacity: 0; -webkit-transition: opacity 0.3s; -o-transition: opacity 0.3s; transition: opacity 0.3s; }*/
 .navbar-nav > li + li, .navbar-wrapper-op .navbar-default .navbar-nav > li + li { margin-left: 12px; }
-.navbar-nav > li > a, .navbar-wrapper-op .navbar-default .navbar-nav > li > a { border-radius: 3px; padding-top: 10px; padding-bottom: 10px; line-height: 24px; }
+.navbar-nav > li > a, .navbar-wrapper-op .navbar-default .navbar-nav > li > a { border-radius: 3px; padding-top: 20px; padding-bottom: 0px; line-height: 24px; }
 .navbar-nav > .open:before, .navbar-nav > .open:after, .navbar-wrapper-op .navbar-nav > .open:before, .navbar-wrapper-op .navbar-nav > .open:after { bottom: -1px; left: 50%; opacity: 1; position: absolute; z-index: 1002; }
- .navbar-nav > .open:before, .navbar-wrapper-op .navbar-nav > .open:before, {
-border: 10px solid;
-border-color: rgba(0, 0, 0, 0.1) transparent;
-border-top-width: 0;
-margin-left: -9px;
-}
+.navbar-nav > .open:before, .navbar-wrapper-op .navbar-nav > .open:before {border: 10px solid; border-color: rgba(0, 0, 0, 0.1) transparent; border-top-width: 0; margin-left: -9px;}
 @media (max-width: 768px) {
     .navbar-nav > li > a, .navbar-wrapper-op .navbar-default .navbar-nav > li > a {padding: 10px 9px;font-size: 14px ; line-height: 16px;}
 }
@@ -358,7 +366,7 @@ a.problemsolve-thumb:hover{color: #fff;}
 .intro-page-sub .media .media-body{padding-left: 20px}
 .intro-page-sub .media .media-body p{padding-right: 0}
 .lh-history { position: absolute; top: -75px; z-index: 2; }
-.lh-history:before { background: url('../img/aboutus-history-bg.png') no-repeat; background-size: cover; height: 31.313em; width: 27.9em; content: ''; z-index: -1; position: absolute; top: -18px; bottom: 0; left: 0; }
+.lh-history:before { background: url('../img/aboutus-history-bg.png') no-repeat; background-size: cover; height: 31.313em; width: 27.9em; content: ''; z-index: -1; position: absolute; top: 20px; bottom: 0; left: 0; }
 .lh-history-desc { font-size: 0.857em; padding: 15px 78px 30px 43px; color: #fff; font-family: "Lato-Regular"; line-height: 17px; }
 .lh-history-liquidicon img, .lh-history-hubicon img { width: 60px }
 .lh-history-liquidicon p { font-family: "Lato-Italic", Arial, Gotham, Helvetica Neue, Helvetica; color: #fff; font-size: 0.857em; line-height: 14px; width: 80px }
@@ -553,11 +561,11 @@ color: #999;
 .page-i { color: #fff; position: relative; min-height: 19.857em; padding-left: 20px; }
 .page-i p.ellipsis { font-family: "Lato-Regular", Arial, Gotham, Helvetica Neue, Helvetica; font-size: 12px; height: 10em; padding-right: 30px; position: absolute; top: 105px; }
 .page-i-healthcare { background: #1e407b; }
-.page-i-lifesciences { background: #006398; }
-.page-i-financial { background: #0081a3; }
-.page-i-commercial { background: #009dac; }
-.page-i-retail { background: #00b4bb; }
-.page-i-insurance { background: #00c8ac; }
+.page-i-lifesciences { background: #179bd7; }
+.page-i-financial { background: #097159; }
+.page-i-commercial { background: #007e97; }
+.page-i-retail { background: #b2c77d; }
+.page-i-insurance { background: #99d8f3; }
 .page-i h4 { font-size: 18px; margin-top: 35px; margin-bottom: 25px; text-transform: uppercase; font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica; width: 160px; line-height: 21px; height:55px }
 .page-i a.btn { color: #fff; position: absolute; bottom: 10px; right: 10px }
 .page-i p{line-height: 17px; font-size: 12px;}
@@ -689,8 +697,9 @@ a.i-casestudies-thumb:hover, a.i-casestudies-thumb:focus{color: #fff;}
 }
 .s-successstories h3 { text-transform: uppercase; color: #1e407b; font-weight: 600; font-size: 1.714em; margin-bottom: 30px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; }
 .s-successstories h3 span { font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; color: #999; font-size: 0.625em; text-transform: none; font-weight: normal; margin-left: 25px }
-.s-successstories a.btn { color: #fff; right: 0; top: 35px; float: right; position: absolute; }
+.s-successstories .btn { color: #fff; right: 0; top: 35px; float: right; position: absolute; }
 .s-successstories-thumb { padding: 0px; color: #fff; position: relative; float: left; width: 33.214em; height: 7.857em }
+.s-successstories-thumb:hover,.s-successstories-thumb:focus{text-decoration: underline;}
 .s-successstories-thumb h4 { font-size: 1.286em;font-family: "Lato-Bold",Arial,Gotham,Helvetica Neue,Helvetica;line-height: 21px;  padding-left: 15px; font-size:15px;text-transform: capitalize;}
 .s-successstories-thumb h5 { font-size: 0.857em;color: #e5e5e5;padding-left: 15px;    line-height: 0px; }
 .s-successstories-thumb.i-ssthumb-bg1 { background: #808991; }
@@ -751,7 +760,7 @@ a.i-casestudies-thumb:hover, a.i-casestudies-thumb:focus{color: #fff;}
 .about-who-we-are div, .about-what-we-do div { margin-left: 20px; width: 240px; position: relative; min-height: 170px; }
 .about-who-we-are h3, .about-what-we-do h3 { color: #1c427c; font-weight: 600; font-size: 18px; margin-top: 0px; font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica; line-height: 21px; margin-bottom: 20px;}
 .about-who-we-are p, .about-what-we-do p { font-size: 15px; line-height: 24px; width: 225px; font-family: "Lato-Regular", Arial, Gotham, Helvetica Neue, Helvetica; }
-.more-about-lh { font-weight: 600; font-size: 1.286em; margin: 14px 40px 30px; color: #fff;font-family: "Lato-Black";font-size: 18px;line-height: 21px; }
+.more-about-lh { font-weight: 600; font-size: 1.286em; margin: 40px 40px 30px; color: #fff;font-family: "Lato-Black";font-size: 18px;line-height: 21px; }
 .lh-history-icons { padding: 0 15px; overflow: auto }
 .awards-certifications { margin-top: 20px }
 
@@ -809,8 +818,8 @@ h4.media-sub-heading {    min-height: 60px;    line-height: 27px;}
 .case-studies-head h3, .problems-head h3, .services-head h3 { font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; }
 .case-short ul.bullets li:before{left: 35px;}
 .case-studies-head span, .problems-head span, .services-head span { font-size: 15px; color: #179bd7; font-weight: bold; }
-.case-studies-content { background: url(../img/pattern-green-line.png); padding: 10px 0 10px 10px; }
-.case-studies-content .case-item { background: #fff; margin: 10px; padding: 30px; width: 31.3%; min-height: 280px; }
+.case-studies-content { background: #e3eccb ; padding: 10px 0 10px 10px; }
+.case-studies-content .case-item { background: #fff; margin: 10px; padding: 30px; width: 31.3%; min-height: 320px; }
 .case-studies-content.liquidmarketing .case-item { min-height: 312px;  }
 .architecture-intro{font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; }
 /*.liquidmarketing .page-s { width: 19em; }*/
@@ -831,7 +840,8 @@ h4.media-sub-heading {    min-height: 60px;    line-height: 27px;}
 .problems-content .problem-item:nth-child(3) { background: url(../img/casestudy-finance.jpg) no-repeat; background-size: contain }
 .services-content .service-item { height: 7.7em; width: 12.5%; color: #fff; padding: 10px; margin: 0; float: left; position: relative; }
 .services-content .service-item span { text-transform: uppercase; font-weight: bold; position: absolute; left: 20px; top: 25px; }
-.services-content .service-item a { bottom: 0px; position: absolute; color: #fff; }
+.services-content .service-item .btn { bottom: 0px; position: absolute; color: #fff;top: auto; }
+.services-content .service-item span:hover,.services-content .service-item span:focus{text-decoration: underline;}
 .services-content .service-item.strategy { background: url(../img/strategy.jpg) no-repeat top center; background-size: cover }
 .services-content .service-item.data { background: url(../img/data.jpg) no-repeat top center; background-size: cover }
 .services-content .service-item.creative { background: url(../img/creative.jpg) no-repeat; background-size: cover }
