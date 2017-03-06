@@ -410,4 +410,6 @@
     padding: 0px;
 }
 .liquidmarketing .explore-solutions-list .col-custom-offset{margin-left: 0;}
+.services-block .services-block-title span {font-size: 10px;}
+.services-block .services-block-title span h4{font-size: 10px;}
 }

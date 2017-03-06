@@ -7,7 +7,7 @@ Services We Provide Styles
 .swp{ font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica;font-size: 15px;line-height: 24px;}
 .swp-mb{margin-bottom: 20px}
 .swp .intro-page{margin-bottom: 60px}
-.swp .intro-page p{font-size: 18px;line-height: 27px; display: block; border-left: 8px solid #ffa635; padding-left: 35px; padding-right:70px;}
+.swp .intro-page p{font-size: 18px;line-height: 27px; display: block; padding-left: 35px; padding-right:70px;}
 .swp.intro-page-sub{margin-top: 60px; margin-left: 45px; padding-right:70px}
 .swp .intro-page-sub .media-body p{font-size: 15px; line-height: 24px; padding-right: 0px;margin-top: -5px}
 .swp .media img.media-object{width: 17.929em}
@@ -47,6 +47,10 @@ Services We Provide Styles
     overflow: auto;
     background: #fff;
 }
+
+.swp.our-work{background:#e3eccb; padding:30px 0 0; margin: 50px auto}
+.swp.our-work .container .row{margin-bottom: 30px}
+
 
 
 @media (min-width: 1366px){
