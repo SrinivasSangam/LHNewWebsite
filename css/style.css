@@ -199,8 +199,8 @@ background-size: contain; width: 5.594em; }
 .aar-title{margin:0;padding: 20px; background: #faa635;color: #fff;position: absolute; z-index: 1; top: 10px; height: 90px; line-height: 55px; font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; }
 .aar-txt-border { background: url(../img/pattern-home.jpg); padding: 10px; overflow: auto;}
 .aar-txt { background: #fff; color: #888; padding: 25px 45px 25px 30px; display: block; display: -webkit-box; font-size: 1.1em; line-height: 1.5em; } 
-a.aar-liquid-solution{margin: 10px auto;padding: 10px 20px;display: block;cursor: pointer;text-decoration: none; border:1px solid #fff;}
-a.aar-liquid-solution:hover{text-decoration: none; border:1px solid #f2f2f2;}
+a.aar-liquid-solution{margin: 10px auto;padding: 10px 20px;display: block;cursor: pointer;text-decoration: none; }
+a.aar-liquid-solution:hover{text-decoration: none; }
 a.aar-liquid-solution h4.media-heading{line-height: 35px;}
 a.aar-liquid-solution h4.media-heading span{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
 .aar-liquid-solutions-icon{width: 35px;}
