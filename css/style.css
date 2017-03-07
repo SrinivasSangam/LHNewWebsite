@@ -184,7 +184,7 @@ background-size: contain; width: 5.594em;  }
 background-size: contain; width: 5.594em; }
 .home-customer-experience-thumbnail{position: relative;display: block; cursor: pointer;}
 .home-customer-experience-thumbnail-txt{}
-.home-customer-experience-thumbnail-txt p{position: absolute;left: 20px; top: 20px; right: 20px; color: #fff;line-height: 18px; font-size: 14px;width: 50%}
+.home-customer-experience-thumbnail-txt p{position: absolute;left: 15px; top: 20px; right: 20px; color: #fff;line-height: 18px; font-size: 14px;width: 50%}
 .home-customer-experience-thumbnail span{position: absolute;bottom: 10px; color: #fff; left: 20px}
 .home-customer-experience-txt{padding: 20px; font-size: 15px; line-height: 20px;}
 .view-all-our-work{margin-top: 45px}
@@ -1514,6 +1514,7 @@ background-size: contain; width: 5.594em; }
 }
 @media (min-width: 1024px) {
     .solution-customer-experience-thumbnail{padding: 20px 15px}
+    .sce-inner{margin-top: 20px}
     .sce-inner:before{left:28%;width: 50em}
     .solution-customer-experience-thumbnail img{width: 35px; margin: 15px auto}
     .solution-customer-experience-thumbnail span{display: inline-block;}
