@@ -1513,8 +1513,11 @@ background-size: contain; width: 5.594em; }
     .solution-customer-experience-thumbnail span{left: 10px; bottom: 5px;font-size: 12px; display: block;}
 }
 @media (min-width: 1024px) {
-    .solution-customer-experience-thumbnail img{width: 35px; margin: 20px auto}
+    .solution-customer-experience-thumbnail{padding: 20px 15px}
+    .sce-inner:before{left:28%;width: 50em}
+    .solution-customer-experience-thumbnail img{width: 35px; margin: 15px auto}
     .solution-customer-experience-thumbnail span{display: inline-block;}
+    .solution-customer-experience-wrap:after,.solution-customer-experience-wrap::before{display: none}
 }
 @media (max-width: 1365px) {
     .solution-customer-experience-wrap:after,.solution-customer-experience-wrap:before{display: none}
