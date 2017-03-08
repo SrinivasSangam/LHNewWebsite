@@ -8,7 +8,7 @@ setTimeout(function(){$('#dvLoading').fadeOut();}, 2000);
       $('.currentSlide').html('0'+currentIndex+' / 0'+totalItems+'');
 
       $('#myCarousel').carousel({
-        interval: 6000
+        interval: false
       });  
 
       $('#myCarousel').bind('slid', function() {
@@ -56,7 +56,7 @@ setTimeout(function(){$('#dvLoading').fadeOut();}, 2000);
             $(".carousel-inner > .second-item").css({"background": "url('img/homepage-img2.jpg') center center","background-size": "cover"});
             $(".carousel-inner > .third-item").css({"background": "url('img/homepage-img3.jpg') center center","background-size": "cover"});
             $(".carousel-inner > .fourth-item").css({"background": "url('img/homepage-img4.jpg') center center","background-size": "cover"});
-            $(".carousel-caption").css({"margin-top": 20+"%"});
+            $(".carousel-caption").css({"margin-top": ($(this).height()/350)*25 +"%"});
             $(".carousel-indicators").css({"top": 305+"px"});  
           }
         
