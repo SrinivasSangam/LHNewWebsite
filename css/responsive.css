@@ -193,7 +193,8 @@
 .intro-page-sub .media .media-left img {width: 100%!important;}
 .pright{padding-left:10px; padding-top:20px}
 .explore-industries {overflow: visible;}
-.solution-customer-experience-wrap .media-object{margin-left: 35px;width: 50px;}
+.solution-customer-experience-wrap .media-object{margin-left: 35px;width: 40px;margin-bottom: 20px}
+.solution-customer-experience-wrap .media-body h3{line-height: 40px;font-size: 20px}
 .liquid-rules img {margin-left: auto;margin-right: auto;width: 50px;}
 }
 
