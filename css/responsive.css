@@ -1,415 +1,205 @@
 @media only screen and (min-width: 1024px) and (max-width: 1200px){
-.lh-history::before {
-    width: 26.9em;
-}
-.about-who-we-are img, .about-what-we-do img {
-    width: 12em;
-}
-.top-most-recent img {
-    width: 9.9em;
-}
-.top-more-news .top-more-news-op img {
-    width: 5em;
-}
+.lh-history::before {width: 26.9em;}
+.about-who-we-are img, .about-what-we-do img {width: 12em;}
+.top-most-recent img {width: 9.9em;}
+.top-more-news .top-more-news-op img {width: 5em;}
 .list-unstyled.locations-list { -moz-column-gap: 1.5em; -webkit-column-gap: 1.5em; column-gap: 1.5em; }
-.aboutus-who-what { margin-left: 0px;
-}
-.featured-case-study {
-    padding: 50px 15px 0;
-}
-.featured-case-study-bg.item1 {
-    width: 220px;
-}
-.featured-case-study-bg.item2 {
-    width: 355px;
-}
-.featured-case-study-bg.item3 {
-    width: 365px;
-}
-.featured-case-study-bg {
-    height: 210px;
-}
-.problems-content .problem-item {
-    height: 170px;
-    width: 31.5%;
-    margin: 10px 0;
-}
-.problems-content .problem-item h4 {
-    margin-top: 45px;
-    width: 90%;
-}
-.problems-content .problem-item a {
-    bottom: 0;
-    position: absolute;
-}
-.footer-address {
-    padding: 0;
-}
-.foot-links li {
-    padding-left: 0px;
-}
-.footer-left-pad {
-    padding-left: 0;
-}
-.industries-newsevents .top-more-news .top-more-news-op div {
-    width: 19.786em;
-}
-.problemsolve-thumb {
-    min-height: 9.4em;
-    padding: 10px 10px 0;
-}
-.i-letmehelpu .media .media-body div {
-    margin-top: 24px
-}
-.industries-margin .insights-thumb-content{
-	padding: 5px 0px 0px 10px;
-}
-.industries-we-serve-page .explore-industries{
-	overflow:hidden;
-}
-.section .intro-page-sub h4.media-heading {
-    margin-top: 0;
-}
-.s-successstories-thumb {
-    width: 27.214em;
-}
-.services-insights .insights-thumb{
-	padding:0px 5px;
-}
-.ourServices-Carousel::after {
-    top: -30px;
-    width: 51em;
-}
-.s-services-thumb {
-    height: 9.129em;
-    padding: 5px;
-    width: 12em;
-}
-.s-services-thumb-txt.crm-desc {
-    height: 9.129em;
-    margin-left: 15px;
-    padding: 0;
-    width: 26em;
-}
-.s-services-thumb-txt.patientjourney-desc {
-    height: 9.129em;
-    padding: 20px 0 0;
-}
-#ourServices-Carousel .carousel-indicators {
-    bottom: 13.5%;
-    top: auto;
-    left: 49%;
-}
-.carousel-indicators li,.carousel-indicators li.active {
-    height: 3px!important;
-}
-.explore-industries-bg.industries-we-serve{
-	top:10%;
-}
-.i-letmehelpu.services-help{
-	margin-top: 0px;
-}
-#successStories-Carousel .carousel-indicators {
-    left: 33%;
-}
-.section .intro-page-sub {
-    margin-left: 0;
-    margin-top: 20px;
-    padding-right: 0;
-}
-.services-content .service-item {
-    height: 10em;
-    width: 25%;
-}
-.case-studies-content {
-    padding: 10px;
-}
-.i-casestudies-bg::after, .i-letmehelpu .media::before , .explore-industries-bg{
-	display:none;
-}
- .insights-thumb-content p.ellipsis{
-	height: 6em;
-}
-.commercial-img img {
-	height: 15em;	
-	}
-.liquidmarketing .explore-solutions-list .solutions-item {
-    height: auto;
-}
-.liquidmarketing .solutions-item h4 {
-    margin-top: 15px;
-}
-.liquidmarketing .solutions-item span {
-    bottom: 5px;
-}
+.aboutus-who-what { margin-left: 0px;}
+.featured-case-study {padding: 50px 15px 0;}
+.featured-case-study-bg.item1 {width: 220px;}
+.featured-case-study-bg.item2 {width: 355px;}
+.featured-case-study-bg.item3 {width: 365px;}
+.featured-case-study-bg {height: 210px;}
+.problems-content .problem-item {height: 170px;width: 31.5%;margin: 10px 0;}
+.problems-content .problem-item h4 {margin-top: 45px;width: 90%;}
+.problems-content .problem-item a {bottom: 0;position: absolute;}
+.footer-address {padding: 0;}
+.foot-links li {padding-left: 0px;}
+.footer-left-pad {padding-left: 0;}
+.industries-newsevents .top-more-news .top-more-news-op div {width: 19.786em;}
+.problemsolve-thumb {min-height: 9.4em;padding: 10px 10px 0;}
+.i-letmehelpu .media .media-body div {margin-top: 24px}
+.industries-margin .insights-thumb-content{padding: 5px 0px 0px 10px;}
+.industries-we-serve-page .explore-industries{overflow:hidden;}
+.section .intro-page-sub h4.media-heading {margin-top: 0;}
+.s-successstories-thumb {width: 27.214em;}
+.services-insights .insights-thumb{padding:0px 5px;}
+.ourServices-Carousel::after {top: -30px;width: 51em;}
+.s-services-thumb {height: 9.129em;padding: 5px;width: 12em;}
+.s-services-thumb-txt.crm-desc {height: 9.129em;margin-left: 15px;padding: 0;width: 26em;}
+.s-services-thumb-txt.patientjourney-desc {height: 9.129em;padding: 20px 0 0;}
+#ourServices-Carousel .carousel-indicators {bottom: 13.5%;top: auto;left: 49%;}
+.carousel-indicators li,.carousel-indicators li.active {height: 3px!important;}
+.explore-industries-bg.industries-we-serve{top:10%;}
+.i-letmehelpu.services-help{margin-top: 0px;}
+#successStories-Carousel .carousel-indicators {left: 33%;}
+.section .intro-page-sub {margin-left: 0;margin-top: 20px;padding-right: 0;}
+.services-content .service-item {height: 10em;width: 25%;}
+.case-studies-content {padding: 10px;}
+.i-casestudies-bg::after, .i-letmehelpu .media::before , .explore-industries-bg{display:none;}
+.insights-thumb-content p.ellipsis{height: 6em;}
+.commercial-img img {height: 15em;}
+.liquidmarketing .explore-solutions-list .solutions-item {height: auto;}
+.liquidmarketing .solutions-item h4 {margin-top: 15px;}
+.liquidmarketing .solutions-item span {bottom: 5px;}
 }
 @media only screen and (min-width: 992px) and (max-width: 1023px){
-.liquidmarketing .explore-solutions-list .solutions-item {
-    height: auto;
-}
-.liquidmarketing .solutions-item h4 {
-    margin-top: 15px;
-}
-.liquidmarketing .solutions-item span {
-    bottom: 5px;
-}
-.liquidmarketing .explore-solutions-list .solutions-item {
-    padding: 0px;
-}
+.liquidmarketing .explore-solutions-list .solutions-item {height: auto;}
+.liquidmarketing .solutions-item h4 {margin-top: 15px;}
+.liquidmarketing .solutions-item span {bottom: 5px;}
+.liquidmarketing .explore-solutions-list .solutions-item {padding: 0px;}
 .liquidmarketing .explore-solutions-list .col-custom-offset{margin-left: 0;}
 }
 @media only screen and (min-width: 767px) and (max-width: 1023px){
-	body{
-		overflow-x: hidden;
-	}
-.navbar-wrapper .navbar-default .navbar-nav > li > a span:nth-child(2), .navbar-wrapper-op .navbar-default .navbar-nav > li > a span:nth-child(2),.navbar-wrapper .navbar-default .navbar-nav > li > a, .navbar-wrapper-op .navbar-default .navbar-nav > li > a {
-    font-size: 14px!important;
-    line-height: 16px!important;
-}
-.navbar-wrapper .navbar-default .navbar-nav > li > a, .navbar-wrapper-op .navbar-default .navbar-nav > li > a {
-    padding: 10px 9px!important;
-}
-.intro-page p {
-    padding-right: 0;
-}
-.intro-page-sub {
-    padding-right: 0;
-}
-.intro-page-sub p {
-    padding-right: 0;
-}
-.lh-history {
-    left: 0px;
-    position: relative;
-}
-.lh-history::before {
-    width: 22.3em;
-}
-.lh-history-desc {
-    padding: 15px 0 30px 43px;
-}
-.more-news-events .top-more-news .more-news {
-    display: inline-block;
-    width: 100%;
-}
-.top-more-news {
-    min-height: 100%;
-}
-.top-more-news .top-more-news-op img {
-    width: 8em;
-}
-.top-more-news .top-more-news-op div {
-    width: 50%;
-}
-.tabbable-panel::before {
-    top: 19px;
-}
-.tabbable-panel {
-    width: 45em;
-}
-.tabbable-line > .nav-tabs {
-    padding-left: 0;
-}
-.about-what-we-do{
-	margin-left: 0px !important;
-}
-.insights-thumb {
-    display: table;
-    padding: 0;
-}
-.locations h3 {
-    padding-left: 0px;
-}
-.locations h4 {
-    padding: 0 10px 0 0;
-}
-.locations .col-sm-6{
-	padding-left: 0px;
-}
-.list-unstyled.locations-list {
-    padding-left: 0;
-}
-.footer-left-pad {
-    padding-left: 0px;
-}
-.foot-links li {
-    padding-left: 0px;
-}
-.featured-case-study {
-    padding: 50px 15px 0;
-}
-.featured-case-study-bg.item1 {
-    width: 200px;
-}
-.featured-case-study-bg.item2 {
-    width: 240px;
-}
-.featured-case-study-bg.item3 {
-    width: 280px;
-}
-.problems-we-solve-list.more-tems .col-sm-4 {
-    margin-bottom: 15px;
-}
-.problemsolve-thumb {
-    padding: 10px;
-}
-.problems-we-solve-list h3 {
-    margin: 0 0 10px;
-}
-.i-letmehelpu .media .media-body div p{
-	font-size: 12px;
-}
-.i-letmehelpu .media .media-body div {
-    margin-top: 24px;
-}
-.industries-newsevents .top-more-news .top-more-news-op div {
-    width: 15.886em;
-}
-.industries-newsevents {
-    min-height: auto!important;
-}
-.problems-we-solve-list.more-tems{
-	padding-bottom: 10px;
-}
-.industries-we-serve-page .explore-industries{
-	overflow:hidden;
-}
-.section .intro-page-sub h4.media-heading {
-    margin-top: 0;
-}
-.section .intro-page-sub {
-    padding-right: 0;
-    margin-left: 0px;
-}
-.section .intro-page-sub .media img.media-object {
-    width: 10.929em;
-}
-.successStories-Carousel::before {
-    left: -3.3%;
-}
-.successStories-Carousel::after {
-    display: none;
-}
-.s-successstories-thumb {
-    color: #fff;
-    float: left;
-    height: 7.857em;
-    padding: 0;
-    position: relative;
-    width: 25.114em;
-    margin-top: -1px;
-}
-#successStories-Carousel .carousel-indicators {
-    left: 35%;
-    width: 20%;
-}
-.carousel-indicators li,.carousel-indicators li.active {
-    height: 3px;
-}
-.services-insights .insights-thumb {
-    display: table;
-    padding: 0;
-}
-.s-services-thumb-txt.crm-desc {
-    height: 6.429em;
-    padding: 0;
-    width: 23.2em;
-}
-.s-ourservices a.btn {
-    bottom: 0;
-}
-#ourServices-Carousel {
-    padding: 10px 0;
-}
-.s-services-thumb {
-    height: 6.429em;
-    padding: 5px;
-    width: 9em;
-}
-.ourServices-Carousel .item div div h4 a {
-    font-size: 14px;
-    line-height: 14px;
-    font-weight: bold;
-}
-.s-services-thumb-txt.patientjourney-desc {
-    height: 6.429em;
-    padding: 10px 0 0;
-    width: 32em;
-}
-.s-services-thumb h4 {
-    font-size: 12px;
-}
-.s-services-thumb.dataanalytics > h4 {
-    margin-top: 10px;
-}
-.s-services-thumb-txt.imp-respo {
-    height: 6.429em;
-    padding: 10px 0 0;
-    width: 41em;
-}
-#ourServices-Carousel {
-    height: 23.571em;
-}
-#ourServices-Carousel::before, #ourServices-Carousel::after{
-	display: none;
-}
-#ourServices-Carousel .carousel-indicators {
-    bottom: -2.5%;
-    left: 39%;
-    top: auto;
-    width: 18%;
-}
-.top-more-news .top-more-news-op {
-    width: 50%;
-}
-.industries-twitter-updates-inner {
-    height: 260px;
-    padding: 0 5px;
-}
-.industries-twitter-updates {
-    min-height: 260px;
-}
-.case-studies-content {
-    padding: 10px;
-}
-.services-content .service-item {
-    width: 25%;
-}
-.industries-margin .insights-thumb-content p.ellipsis{
-	height: 75%;
-}
-.i-casestudies-bg::after , .i-letmehelpu .media::before, .explore-industries-bg.industries-we-serve .explore-industries-bg {
-	display:none;
-}
-.explore-industries-bg {
-	display:none;
-}
-.problems-content .problem-item h4 {
-    font-size: 16px;
-}
-.problems-content .problem-item a {
-    bottom: 0;
-    position: absolute;
-}
- .insights-thumb-content p.ellipsis{
-	height: 9em;
-}
-.commercial-img img {
-	height: 16em;	
-	}
-.liquidmarketing .explore-solutions-list .solutions-item {
-    height: auto;
-}
-.liquidmarketing .solutions-item h4 {
-    margin-top: 15px;
-}
-.liquidmarketing .solutions-item span {
-    bottom: 5px;
-}
-.liquidmarketing .explore-solutions-list .solutions-item {
-    padding: 0px;
-}
+	body{overflow-x: hidden;}
+.navbar-wrapper .navbar-default .navbar-nav > li > a span:nth-child(2), .navbar-wrapper-op .navbar-default .navbar-nav > li > a span:nth-child(2),.navbar-wrapper .navbar-default .navbar-nav > li > a, .navbar-wrapper-op .navbar-default .navbar-nav > li > a {font-size: 14px!important;line-height: 16px!important;}
+.navbar-wrapper .navbar-default .navbar-nav > li > a, .navbar-wrapper-op .navbar-default .navbar-nav > li > a {padding: 10px 9px!important;}
+.intro-page p {padding-right: 0;}
+.intro-page-sub {padding-right: 0;}
+.intro-page-sub p {padding-right: 0;}
+.lh-history {left: 0px;position: relative;}
+.lh-history::before {width: 22.3em;}
+.lh-history-desc {padding: 15px 0 30px 43px;}
+.more-news-events .top-more-news .more-news {display: inline-block;width: 100%;}
+.top-more-news {min-height: 100%;}
+.top-more-news .top-more-news-op img {width: 8em;}
+.top-more-news .top-more-news-op div {width: 50%;}
+.tabbable-panel::before {top: 19px;}
+.tabbable-panel {width: 45em;}
+.tabbable-line > .nav-tabs {padding-left: 0;}
+.about-what-we-do{margin-left: 0px !important;}
+.insights-thumb {display: table;padding: 0;}
+.locations h3 {padding-left: 0px;}
+.locations h4 {padding: 0 10px 0 0;}
+.locations .col-sm-6{padding-left: 0px;}
+.list-unstyled.locations-list {padding-left: 0;}
+.footer-left-pad {padding-left: 0px;}
+.foot-links li {padding-left: 0px;}
+.featured-case-study {padding: 50px 15px 0;}
+.featured-case-study-bg.item1 {width: 200px;}
+.featured-case-study-bg.item2 {width: 240px;}
+.featured-case-study-bg.item3 {width: 280px;}
+.problems-we-solve-list.more-tems .col-sm-4 {margin-bottom: 15px;}
+.problemsolve-thumb {padding: 10px;}
+.problems-we-solve-list h3 {margin: 0 0 10px;}
+.i-letmehelpu .media .media-body div p{font-size: 12px;}
+.i-letmehelpu .media .media-body div {margin-top: 24px;}
+.industries-newsevents .top-more-news .top-more-news-op div {width: 15.886em;}
+.industries-newsevents {min-height: auto!important; }
+.problems-we-solve-list.more-tems{padding-bottom: 10px;}
+.industries-we-serve-page .explore-industries{overflow:hidden;}
+.section .intro-page-sub h4.media-heading {margin-top: 0;}
+.section .intro-page-sub {padding-right: 0;margin-left: 0px;}
+.section .intro-page-sub .media img.media-object {width: 10.929em;}
+.successStories-Carousel::before {left: -3.3%;}
+.successStories-Carousel::after {display: none;}
+.s-successstories-thumb {color: #fff;float: left;height: 7.857em;padding: 0;position: relative;width: 25.114em;margin-top: -1px;}
+#successStories-Carousel .carousel-indicators {left: 35%;width: 20%;}
+.carousel-indicators li,.carousel-indicators li.active {height: 3px;}
+.services-insights .insights-thumb {display: table;padding: 0;}
+.s-services-thumb-txt.crm-desc {height: 6.429em;padding: 0;width: 23.2em;}
+.s-ourservices a.btn {bottom: 0;}
+#ourServices-Carousel {padding: 10px 0;}
+.s-services-thumb {height: 6.429em;padding: 5px;width: 9em;}
+.ourServices-Carousel .item div div h4 a {font-size: 14px;line-height: 14px;font-weight: bold;}
+.s-services-thumb-txt.patientjourney-desc {height: 6.429em;padding: 10px 0 0;width: 32em;}
+.s-services-thumb h4 {font-size: 12px;}
+.s-services-thumb.dataanalytics > h4 {margin-top: 10px;}
+.s-services-thumb-txt.imp-respo {height: 6.429em;padding: 10px 0 0;width: 41em;}
+#ourServices-Carousel {height: 23.571em;}
+#ourServices-Carousel::before, #ourServices-Carousel::after{display: none;}
+#ourServices-Carousel .carousel-indicators {bottom: -2.5%;left: 39%;top: auto;width: 18%;}
+.top-more-news .top-more-news-op {width: 50%;}
+.industries-twitter-updates-inner {height: 260px;padding: 0 5px;}
+.industries-twitter-updates {min-height: 260px;}
+.case-studies-content {padding: 10px;}
+.services-content .service-item {width: 25%;}
+.industries-margin .insights-thumb-content p.ellipsis{height: 75%;}
+.i-casestudies-bg::after , .i-letmehelpu .media::before, .explore-industries-bg.industries-we-serve .explore-industries-bg {display:none;}
+.explore-industries-bg {display:none;}
+.problems-content .problem-item h4 {font-size: 16px;}
+.problems-content .problem-item a {bottom: 0;position: absolute;}
+.insights-thumb-content p.ellipsis{height: 9em;}
+.commercial-img img {height: 16em;}
+.liquidmarketing .explore-solutions-list .solutions-item {height: auto;}
+.liquidmarketing .solutions-item h4 {margin-top: 15px;}
+.liquidmarketing .solutions-item span {bottom: 5px;}
+.liquidmarketing .explore-solutions-list .solutions-item {padding: 0px;}
 .liquidmarketing .explore-solutions-list .col-custom-offset{margin-left: 0;}
 .services-block .services-block-title span {font-size: 10px;}
 .services-block .services-block-title span h4{font-size: 10px;}
+}
+@media only screen and (min-width: 280px) and (max-width: 766px){
+.intro-page p {font-size: 14px;line-height: 20px;padding-left: 15px;padding-right: 15px;}
+.featured-case-study {padding: 0 20px;display: inline-block;}
+.featured-case-study-img-bg {height: 0;left: auto;top: auto;}
+.featured-case-study-bg.item1 {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;color: #000;height: 50px;margin-bottom: 20px;width: 100%;}
+.featured-case-study-img-bg > h3 {color: #1e407b;top: auto;width: auto;left: 0;}
+.featured-case-study-bg.item1 {width: 100%;}
+.featured-case-study-bg.item2,.featured-case-study-bg.item3 {width: 50%;}
+.problemsolve-thumbnail .readmore {position: initial;}
+.i-letmehelpu .media .media-left {padding: 15px 0 0;text-align: center;}
+.i-letmehelpu .media img {width: 10.714em;}
+.i-letmehelpu .media .getintouch .getintouch-follow {text-align: center;}
+.news-events-highlights {margin-bottom: 30px;}
+.industries-newsevents {min-height: 100%!important;}
+.top-more-news {min-height: auto;}
+.top-more-news .top-more-news-op {width: 50%;}
+.top-more-news .top-more-news-op img {width: 30%;}
+.industries-newsevents .top-more-news .top-more-news-op div {width: 70%; margin:0px}
+.problems-we-solve-list.more-tems{padding-bottom: 15px!important;}
+.problems-we-solve-list.more-tems .col-sm-4 {margin-bottom: 0;}
+.problemsolve-thumbnail {margin-bottom: 30px;}
+.problemsolve-thumbnail .readmore,.case-studies-content .case-item .btn {position: initial;}
+.industries-twitter-updates {min-height: 250px;}
+.industries-twitter-updates-inner {height: auto;}
+.footer .footer-links,.footer .footer-address .col-sm-4{width: 33.3%;float: left;}
+.footer .footer-address{width: 66.66%;}
+.copyright .col-xs-12{width: 50%;}
+.solution-customer-experience::before{position: relative;}
+.case-studies-content .case-item {min-height: 297px;}
+.companies-moto .media-left, .companies-moto .media > .pull-left {display: block;}
+.companies-moto .media img.media-object {width: 17.857em;margin-left: auto;margin-right: auto;}
+.explore-industries-bg {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;overflow-x: auto;position: absolute;right: 0;top: 20%;width: 100%;z-index: 0;}
+.navbar-wrapper .navbar-default, .navbar-wrapper-op .navbar-default {margin-top: 0px;}
+.intro-page p {margin-bottom: 15px;}
+.problems-we-solve{margin-top: 15px!important;}
+.services-block-item img{display: none;}
+.services-block .services-block-title {background: #1e407b none repeat scroll 0 0;border-bottom: 2px solid #fff;height: 52px;line-height: 50px;
+    position: initial;width: 100%;}
+.services-block .col-sm-2, .services-block .col-sm-4, .services-block .col-sm-6 {border-right: 0px solid #fff;}
+.services-block .services-block-title span.btn {top: 15px;}
+.case-studies-content .container .row{margin-left: 0px;margin-right: 0px;}
+}
+@media only screen and (min-width: 280px) and (max-width: 767px){
+    #navbar { width:100% }
+    .top-nav-links .nav > li > a:hover { text-decoration: none }
+	.strategy-page-sub{margin-left:20px}
+	.strategy-page-sub ul li::before{left:35px}
+.intro-page-sub { margin-left: 30px; margin-top: 0px; padding-right: 20px!important }
+	.intro-page-sub p{font-size:14px; line-height: 20px; padding-right:20px}
+	.intro-page-sub ul li::before{left:45px}
+}
+@media only screen and (min-width: 280px) and (max-width: 600px){
+
+.featured-case-study-bg.item2, .featured-case-study-bg.item3,.top-more-news .top-more-news-op,.footer .footer-address,.copyright .col-xs-12{width: 100%;}
+.explore-industries-list .page-i{width: 50%;}
+.footer .footer-links{width: 100%;float: right;}
+.footer .footer-address{float: left;}
+.copyright .col-xs-12 {text-align: center;}
+.copyright p{float: none!important;}
+.footer-left-pad,.footer-left-pad2 {padding-left: 15px;}
+.footer .footer-address .col-sm-4:nth-child(3){padding-left: 0px;}
+.swp .intro-page p {font-size: 14px; line-height: 20px; padding-left: 15px; padding-right: 15px;}
+
+
+.swp .media-body{width: 100%; float: left; font-size: 14px; line-height: 20px;padding-left: 0px;}
+.intro-page-sub .media .media-body {padding-left: 0px;}
+.swp .intro-page-sub .media-body p {font-size: 14px; line-height: 20px;}
+.case-studies-head {margin-top:15px}
+.problemsolve-thumbnail p {  font-size: 14px; line-height: 20px;}
+.top-more-news .top-more-news-op:nth-child(1) {margin-bottom:0px}
+.top-more-news {padding:5px}
+.industries-newsevents {padding:0;}
+
 }
