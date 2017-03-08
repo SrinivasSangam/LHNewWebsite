@@ -139,6 +139,7 @@
 .intro-page-sub { margin-left: 30px; margin-top: 0px; padding-right: 20px!important }
     .intro-page-sub p{font-size:14px; line-height: 20px; padding-right:20px}
     .intro-page-sub ul li::before{left:20px}
+	 .intro-page-line ul li::before{left:40px}
 .intro-page p {font-size: 14px;line-height: 20px;padding-left: 15px;padding-right: 15px;}
 .featured-case-study {padding: 0 20px;display: inline-block;}
 .featured-case-study-img-bg {height: 0;left: auto;top: auto;}
@@ -183,16 +184,17 @@
 .intro-page-sub .media .media-body {width: 100%;}
 .intro-page-sub .media-body, .intro-page-sub .media-left, .intro-page-sub .media-right{display: inline;}
 .iws-intro-page-sub-title{ font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; text-transform: uppercase; color: #1e407b; margin-bottom: 20px }
-.intro-page-sub {margin-left: 0px;margin-top: 0;padding-right: 0 !important;}
+.intro-page-sub {margin-left: 22px;margin-top: 0;padding-right: 0 !important;}
 .iws-page-solution-title {color: #1e407b;font-family: "Lato-Black",Arial,Gotham,Helvetica Neue,Helvetica;font-size: 18px;text-transform: uppercase;}
 .mob-solutions-content{margin-top: 10px!important;}
 .iws-page-healthcare{padding: 30px 0px!important;}
 .iws-page-healthcare .col-xs-12 div{min-height: 100%!important;margin-bottom: 15px;}
 .intro-page-sub .media .media-left img {width: 100%;}
+.pright{padding-left:10px}
 }
 
 @media only screen and (min-width: 280px) and (max-width: 600px){
-
+.client-engage .client-engage-txt{margin-top:20px}
 .featured-case-study-bg.item2, .featured-case-study-bg.item3,.top-more-news .top-more-news-op,.footer .footer-address,.copyright .col-xs-12{width: 100%;}
 .explore-industries-list .page-i{width: 50%;}
 .footer .footer-links{width: 100%;float: right;}
