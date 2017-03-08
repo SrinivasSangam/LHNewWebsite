@@ -72,8 +72,10 @@ p { font-size: 1.071em }
 .navbar-nav > li > a, .navbar-wrapper-op .navbar-default .navbar-nav > li > a { border-radius: 3px; padding-top: 20px; padding-bottom: 0px; line-height: 24px; }
 .navbar-nav > .open:before, .navbar-nav > .open:after, .navbar-wrapper-op .navbar-nav > .open:before, .navbar-wrapper-op .navbar-nav > .open:after { bottom: -1px; left: 50%; opacity: 1; position: absolute; z-index: 1002; }
 .navbar-nav > .open:before, .navbar-wrapper-op .navbar-nav > .open:before { border: 10px solid; border-color: rgba(0, 0, 0, 0.1) transparent; border-top-width: 0; margin-left: -9px; }
-a.home-services{padding: 0px; display: block;position: relative;}
-.home-services-txt{position: absolute;bottom: 0; background: rgba(30,64,123,.8);padding: 5px 10px;width: 100%;color: #fff; font-size: 12px; text-transform: uppercase;left: 0px; font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica;}
+.home-services-thumbnails{margin-bottom: 50px}
+.home-services-thumbnails-wrap{padding-right: 15px; padding-left: 15px}
+.home-services{margin-right: 1px;display: block;position: relative;}
+.home-services-txt{margin:0;position: absolute;bottom: 0; background: rgba(30,64,123,.8);padding: 10px;width: 100%;color: #fff; font-size: 12px; text-transform: uppercase;left: 0px; font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica;border-bottom: 1px solid #fff;}
 }
 @media (max-width: 768px) {
  .navbar-nav > li > a, .navbar-wrapper-op .navbar-default .navbar-nav > li > a {padding: 10px 9px;font-size: 14px;line-height: 16px;}
@@ -1424,9 +1426,9 @@ Services We Provide Styles
 .swp-page-insights .media-body h5.media-heading { color: #179bd7; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 18px; margin-top: 0; margin-bottom: 10px; }
 .swp-page-insights .media-body p { font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 15px; line-height: 21px; }
 .swp-page-insights .media-object { width: 250px; filter: grayscale(100%); -webkit-filter: grayscale(100%); filter: url(/elements/grayscale.svg#desaturate); filter: gray; -webkit-filter: grayscale(1); }
-.iws-intro-page-sub-title { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; text-transform: uppercase; color: #1e407b; margin-bottom: 20px }
+.iws-intro-page-sub-title{ font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; text-transform: uppercase; color: #1e407b; margin-bottom: 20px }
 .iws-page-solution-title { color: #1e407b; font-size: 24px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; text-transform: uppercase; }
-.iws-page-healthcare { margin-bottom: 30px; background: url(../img/pattern-blue-line.png); padding: 50px 0; }
+.iws-page-healthcare { margin-bottom: 30px; background: #179bd7; padding: 50px 0; }
 .iws-page-insurance { margin-bottom: 30px; background: url(../img/pattern-blue-line.png); padding: 50px 0; }
 .iws-page-insurance .panel { border: 0px; -webkit-box-shadow: none; box-shadow: none; background: #fff; min-height: 480px }
 .iws-page-insurance .panel .panel-image img { padding: 30px }

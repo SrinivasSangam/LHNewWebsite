@@ -37,6 +37,8 @@
 	.navbar-wrapper .navbar-default .navbar-collapse{width: 100%}
 	.navbar-wrapper .navbar-default .navbar-nav > li{border-bottom: 1px solid rgba(255,255,255,0.05);}
 	.navbar-wrapper .navbar-default .navbar-nav > li > a{overflow: auto;padding: 10px 20px}
+	.navbar-wrapper .navbar-default .navbar-nav > li > a:hover span{border-bottom: 0px	}
+
 	.carousel-caption{padding: 0 20px;}
 	.carousel-indicators li,.carousel-indicators li.active{height: .6vw;}
 
@@ -76,9 +78,11 @@
 	.industry-thumb-xs h4{font-size: 20px; line-height: 24px}
 	.industry-thumb-xs span.btn{position: absolute;bottom: 20px;right: 5px}
 	.industry-thumb-xs-text{padding: 20px 0; display: block; width: 100%; overflow: auto;}
-	a.home-services{padding: 0px; display: block; border: 1px solid #fff}
-	.home-services-txt{position: absolute;bottom: 0; background: rgba(30,64,123,.8);padding: 5px 10px;width: 100%;color: #fff; font-size: 12px; text-transform: uppercase;left: 0px}
-	.home-services-name{font-size: 12px; margin: 0; line-height: 18px;}
+
+	.home-services-thumbnails{margin-bottom: 50px}
+	.home-services{margin-right: 1px;display: block;position: relative;}
+	.home-services-txt{position: absolute;bottom: 0; background: rgba(30,64,123,.8);padding: 5px 10px;width: 100%;color: #fff; font-size: 11px; text-transform: uppercase;left: 0px;border-bottom: 1px solid #fff; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
+	
 
 }
 
@@ -89,7 +93,7 @@
 	.client-engage,.client-engage .client-engage-txt{text-align: center;}
 }
 @media (max-width: 767px) and (orientation: portrait){	
-	.aar-title{padding: 10px; font-size: 18px; height: 50px; top: 40px; }
+	.aar-title{padding: 10px; font-size: 18px; height: 50px; top: -20px; }
 
 	
 }
