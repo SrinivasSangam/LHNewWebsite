@@ -193,7 +193,7 @@
 .intro-page-sub .media .media-left img {width: 100%!important;}
 .pright{padding-left:10px; padding-top:20px}
 .explore-industries {overflow: visible;}
-.solution-customer-experience-wrap .media-object{margin-left: 35px;width: 40px;margin-bottom: 20px}
+.solution-customer-experience-wrap .media-object{margin-left: 35px;width: 40px;}
 .solution-customer-experience-wrap .media-body h3{line-height: 40px;font-size: 20px}
 .liquid-rules img {margin-left: auto;margin-right: auto;width: 50px;}
 }
@@ -314,6 +314,10 @@
     .home-services-thumbnails{margin-bottom: 50px}
     .home-services{margin-right: 1px;display: block;position: relative;}
     .home-services-txt{position: absolute;bottom: 0; background: rgba(30,64,123,.8);padding: 5px 10px;width: 100%;color: #fff; font-size: 11px; text-transform: uppercase;left: 0px;border-bottom: 1px solid #fff; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
+    
+    .solution-customer-experience-thumbnail {margin: 10px 20px; display: block}
+    .solution-customer-experience-thumbnail h3 {margin: 0;}
+    .solution-customer-experience-thumbnail h3 span{line-height: 35px;font-size: 20px; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
     
 
 }

@@ -1494,9 +1494,11 @@ position: absolute; content: ""; width: 56em; height: 15em; margin-top: 35px; le
 background-size: contain; width: 5.594em;  }
 .solution-customer-experience-wrap:before{height: 5.594em; position: absolute; content: ""; background: url(../img/pattern1.png) no-repeat center center;
 background-size: contain; width: 5.594em; }
-.solution-customer-experience-thumbnail{position: relative;display: block; cursor: pointer;    padding: 20px;height: 100px;}
+.solution-customer-experience-thumbnail{position: relative;display: block; cursor: pointer;    padding: 20px;height: 85px;}
 .solution-customer-experience-thumbnail.lightOrangeBg{}
-.solution-customer-experience-thumbnail.darkOrangeBg{ }
+.solution-customer-experience-thumbnail.darkOrangeBg{}
+.solution-customer-experience-thumbnail:before{content: ""; background: url(../img/ss-before-img.png) no-repeat left top;background-size: 100%; position: absolute;left: -5px; top:-5px;height: 50px; width: 50px}
+.solution-customer-experience-thumbnail:after{content: ""; background: url(../img/ss-after-img.png) no-repeat right bottom;background-size: 100%; position: absolute;right: -5px; bottom:-5px;height: 50px; width: 50px}
 .solution-customer-experience-thumbnail img{width: 50px;margin: 5px auto}
 .solution-customer-experience-thumbnail-txt{}
 .solution-customer-experience-thumbnail-txt p{position: absolute; top: 50px; right: 5px; color: #1E407B;;line-height: 20px; font-size: 24px;width: 65%}
@@ -1516,12 +1518,15 @@ background-size: contain; width: 5.594em; }
     .solution-customer-experience-thumbnail{padding: 10px}
     .solution-customer-experience-thumbnail img{width: 40px; margin: 20px auto}
     .solution-customer-experience-thumbnail span{left: 10px; bottom: 5px;font-size: 12px; display: block;}
+    .solution-customer-experience-thumbnail h3 img{margin-right: 20px;}
 }
 @media (min-width: 1024px) {
-    .solution-customer-experience-thumbnail{padding: 20px 15px}
+    .solution-customer-experience-thumbnail{padding: 20px 15px; border:5px solid #f2f2f2;}
+    .solution-customer-experience-thumbnail h3{margin:5px auto;font-size: 23px}
+    .solution-customer-experience-thumbnail h3 img{margin-right: 20px;}
     .sce-inner{margin-top: 20px}
     .sce-inner:before{left:28%;width: 50em}
-    .solution-customer-experience-thumbnail img{width: 35px; margin: 15px auto}
+    .solution-customer-experience-thumbnail img{width: 35px; margin: 0px auto}
     .solution-customer-experience-thumbnail span{display: inline-block;}
     .solution-customer-experience-wrap:after,.solution-customer-experience-wrap::before{display: none}
 }
