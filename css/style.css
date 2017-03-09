@@ -176,13 +176,13 @@ a.socialIcon:hover, .socialHoverClass { color: #44BCDD; }
 .btn.active, .btn:active { -webkit-box-shadow: none; box-shadow: none; }
 .home-customer-experience{margin: 100px auto 150px; position: relative;}
 .home-customer-experience:before{
-position: absolute; content: ""; background: url(../img/industries-homebg.png) no-repeat top left; 
-background-size: 100% 100%; width: 56em; height: 25em; margin-top: 35px; left: 25%; }
+position: absolute; content: ""; background: url(../img/industries-homebg.png) no-repeat center center; margin:0 auto;
+background-size: 100% 100%; margin-top: 35px; left: 25%;}
 .home-customer-experience-wrap{padding: 0 15px;}
-.home-customer-experience-wrap:after{height: 5.594em; position: absolute; content: ""; background: url(../img/pattern1.png) no-repeat center center;
-background-size: contain; width: 5.594em;  }
-.home-customer-experience-wrap:before{height: 5.594em; position: absolute; content: ""; background: url(../img/pattern1.png) no-repeat center center;
-background-size: contain; width: 5.594em; }
+.hcet-pattern-after:after{height: 5.594em; position: absolute; content: ""; background: url(../img/pattern1.png) no-repeat center center;
+background-size: contain; width: 5.594em;  bottom: 0;right: -79px;}
+.hcet-pattern-before:before{height: 5.594em; position: absolute; content: ""; background: url(../img/pattern1.png) no-repeat center center;
+background-size: contain; width: 5.594em; left: -78px;}
 .home-customer-experience-thumbnail{position: relative;display: block; cursor: pointer;}
 .home-customer-experience-thumbnail-txt{}
 .home-customer-experience-thumbnail-txt p{position: absolute;left: 15px; top: 20px; right: 20px; color: #fff;line-height: 18px; font-size: 14px;width: 50%}
@@ -206,20 +206,27 @@ a.aar-liquid-solution h4.media-heading{line-height: 35px;}
 a.aar-liquid-solution h4.media-heading span{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
 .aar-liquid-solutions-icon{width: 35px;}
 @media (min-width: 1024px){
-    
+    .home-customer-experience:before{left: 20%;width: 45em; height: 16.5em }
+}
+@media (min-width: 768px){
+    .home-customer-experience:before{left: 20%;width: 35em; height: 15em }
 }
 @media (max-width: 1365px) {
-    .home-customer-experience-wrap:after,.home-customer-experience-wrap:before{display: none}
-    .home-customer-experience:before{left: 20%;width: 35em; height: 15em }
+    
+    .home-customer-experience-wrap:after,.home-customer-experience-wrap:before{display: none}    
     .home-customer-experience-thumbnail-txt p{font-size: 12px; left: 10px; top:10px; line-height: 14px;width: 75%}
     .home-customer-experience-txt{padding: 5px; font-size: 12px; line-height: 14px}
     .home-customer-experience-thumbnail span{left: 10px; bottom: 5px;font-size: 10px}
     .view-all-our-work { margin-top: 0px; }
+
 }
 @media (min-width: 1366px){
+    .home-customer-experience:before{left: 25%;width: 35em; height: 15em }
+    .home-customer-experience:before{width: 56em; height: 25em;}
     .home-customer-experience-wrap:after{top: 17.1%; right: 2.55%;}
     .home-customer-experience-wrap::before{bottom: 26%;left: 2.5%}
     .home-mission{margin-left:35px}
+
     
 }
 @media (min-width: 1400px){
