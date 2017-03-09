@@ -326,6 +326,7 @@
 }
 @media (max-width: 767px) and (orientation: portrait){  
     .aar-title{padding: 10px; font-size: 18px; height: 50px; top: -20px; }
+    .home-services-txt, .home-services-txt .fa{font-size: 8px;line-height: 12px;}
 
     
 }

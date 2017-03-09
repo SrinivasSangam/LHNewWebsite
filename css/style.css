@@ -78,7 +78,6 @@ p { font-size: 1.071em }
 .home-services-place {margin-top: 70px;}
 .home-services-thumbnails-wrap{padding-right: 15px; padding-left: 15px}
 .home-services{margin-right: 1px;display: block;position: relative;}
-
 .home-services-txt{margin:0;position: absolute;bottom: 0; background: rgba(30,64,123,.8);padding: 10px;width: 100%;color: #fff; font-size: 12px; text-transform: uppercase;left: 0px; font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica;border-bottom: 1px solid #fff;}
 
 .navbar-nav > .open:after, .navbar-wrapper-op .navbar-nav > .open:after { border: 9px solid; border-top-width: 0; border-color: #f3f3f3 transparent; margin-left: -8px; margin-top: 2px; }
@@ -1486,16 +1485,15 @@ Services We Provide Styles
 .solution-customer-experience{margin: 100px auto 150px; position: relative;}
 .solution-customer-experience h3 span{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
 .solution-customer-experience:before{
-position: absolute; content: ""; background: url(../img/solutions-bg.png) no-repeat top left; 
-background-size: 100% 100%; width: 56em; height: 15em; margin-top: 35px; left: 25%; }
+position: absolute; content: ""; width: 56em; height: 15em; margin-top: 35px; left: 25%; }
 .solution-customer-experience-wrap{padding: 0 15px;}
 .solution-customer-experience-wrap:after{height: 5.594em; position: absolute; content: ""; background: url(../img/pattern1.png) no-repeat center center;
 background-size: contain; width: 5.594em;  }
 .solution-customer-experience-wrap:before{height: 5.594em; position: absolute; content: ""; background: url(../img/pattern1.png) no-repeat center center;
 background-size: contain; width: 5.594em; }
 .solution-customer-experience-thumbnail{position: relative;display: block; cursor: pointer;    padding: 20px;height: 100px;}
-.solution-customer-experience-thumbnail.lightOrangeBg{background: #faa635}
-.solution-customer-experience-thumbnail.darkOrangeBg{background: #ff9200 }
+.solution-customer-experience-thumbnail.lightOrangeBg{}
+.solution-customer-experience-thumbnail.darkOrangeBg{ }
 .solution-customer-experience-thumbnail img{width: 50px;margin: 5px auto}
 .solution-customer-experience-thumbnail-txt{}
 .solution-customer-experience-thumbnail-txt p{position: absolute; top: 50px; right: 5px; color: #1E407B;;line-height: 20px; font-size: 24px;width: 65%}
