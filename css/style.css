@@ -196,8 +196,8 @@ background-size: contain; width: 5.594em; }
 .aar:after{height: 100%; position: absolute; content: ""; background: #f2f2f2;  width: 100%; left: 0; top:-35px;z-index: -1}
 .customer-engagement-subtitle,.aar-title, .aar-subTitle span{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica;}
 .customer-engagement-subtitle{width: 80%; margin: 0 auto;}
-.customer-engagement-subtitle{margin:0;padding: 16px; background: #faa635;color: #fff;position: absolute; z-index: 1; top: 35px; height: 48px; line-height: 20px; font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.65em}
-.aar-title{margin:0;padding: 18px; background: #faa635;color: #fff;position: absolute; z-index: 1; top: 30px; height: 48px; line-height: 20px; font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.65em }
+.customer-engagement-subtitle{margin:0;padding: 16px; background: #faa635;color: #fff;position: absolute; z-index: 1; top: 35px; height: 48px; line-height: 20px; font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.65em; width:60%; left:126px}
+.aar-title{margin:0;padding: 18px; background: #faa635;color: #fff;position: absolute; z-index: 1; top: 36px; height: 48px; line-height: 18px; font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.65em }
 .aar-txt-border { background: url(../img/pattern-home.jpg); padding: 10px; overflow: auto;}
 .aar-txt { background: #fff; color: #888; padding: 25px 45px 25px 30px; display: block; display: -webkit-box; font-size: 1.1em; line-height: 1.5em; } 
 a.aar-liquid-solution{margin: 10px auto;padding: 10px 20px;display: block;cursor: pointer;text-decoration: none; }
