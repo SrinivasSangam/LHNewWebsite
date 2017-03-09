@@ -220,8 +220,8 @@ a.aar-liquid-solution h4.media-heading span{font-family: 'Lato-Bold', Arial, Got
 @media (max-width: 1365px) {
 	
     .home-customer-experience-wrap:after,.home-customer-experience-wrap:before{display: none}    
-    .home-customer-experience-thumbnail-txt p{font-size: 12px; left: 10px; top:10px; line-height: 14px;width: 75%}
-    .home-customer-experience-txt{padding: 5px; font-size: 12px; line-height: 14px; font-size: 15px;
+    .home-customer-experience-thumbnail-txt p{/*font-size: 12px;line-height: 14px;width: 75%;*/ left: 10px; top:10px; }
+    .home-customer-experience-txt{padding: 15px 5px 5px; font-size: 12px; line-height: 14px; font-size: 15px;
     line-height: 18px;}
     .home-customer-experience-thumbnail span{left: 10px; bottom: 5px;font-size: 10px}
     
