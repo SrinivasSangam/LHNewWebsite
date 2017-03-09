@@ -748,7 +748,10 @@ a.i-casestudies-thumb:hover, a.i-casestudies-thumb:focus { color: #fff; }
 .s-successstories { margin-top: 26px; overflow: auto; position: relative; }
 .successStories-Carousel:after { float: right; position: absolute; content: ""; background: url('../img/services-letmehelpub4-bg.png') no-repeat; bottom: 124px; width: 2.5em; height: 9.643em; background-size: 100% 100%; right: 6.72%; z-index: -1; }
 .successStories-Carousel:before { position: absolute; content: ""; background: url(../img/industries-casestudies-bg.png) no-repeat center center; top: 15%; width: 53.714em; height: 14.643em; background-size: contain; left: 5.3%; }
-
+/*Data-page*/
+.data-page-dstitle,.insights-page-dstitle,.research-page-dstitle{color:#179bd7;line-height: 35px}
+.data-page-dstitle img,.insights-page-dstitle img,.research-page-dstitle img{margin-right: 20px; height: 35px;}
+/*Data-page*/
 @media (min-width: 1366px) {
 .s-successstories:before { left: 12% }
 .s-successstories:after { right: 190px }
