@@ -176,7 +176,6 @@ a.socialIcon:hover, .socialHoverClass { color: #44BCDD; }
 .pws, .swd, .iws, .swp, .wwt { font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 15px; line-height: 24px; }
 .btn.active, .btn:active { -webkit-box-shadow: none; box-shadow: none; }
 .home-customer-experience{margin: 100px auto 150px; position: relative; background: url(../img/industries-homebg1.jpg) no-repeat center center;}
-
 .home-customer-experience-wrap{padding: 0 15px;}
 .hcet-pattern-after:after{height: 5.594em; position: absolute; content: ""; background: url(../img/pattern1.png) no-repeat center center;
 background-size: contain; width: 5.594em;  bottom: 0;right: -79px;}
@@ -204,28 +203,11 @@ a.aar-liquid-solution:hover{text-decoration: none; }
 a.aar-liquid-solution h4.media-heading{line-height: 35px;}
 a.aar-liquid-solution h4.media-heading span{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
 .aar-liquid-solutions-icon{width: 35px;}
-@media (max-width: 767px) {
-	.hcet-pattern-before:before,.hcet-pattern-after:after{display: none}
-}
-@media (min-width: 1024px){
-	.home-customer-experience{padding: 50px 0;}
-    .home-customer-experience:before{left: 20%;width: 45em; height: 16.5em }
-	.view-all-our-work{margin-top: 45px}
-}
-@media (min-width: 768px){
-    .home-customer-experience:before{left: 20%;width: 35em; height: 15em }
-    .sm-nopad{padding-left: 0; padding-right: 0}
-}
 
-@media (max-width: 1365px) {
-	
-    .home-customer-experience-wrap:after,.home-customer-experience-wrap:before{display: none}    
-    .home-customer-experience-thumbnail-txt p{/*font-size: 12px;line-height: 14px;width: 75%;*/ left: 10px; top:10px; }
-    .home-customer-experience-txt{padding: 15px 5px 5px; font-size: 12px; line-height: 14px; font-size: 15px;
-    line-height: 18px;}
-    .home-customer-experience-thumbnail span{left: 10px; bottom: 5px;font-size: 10px}
-    
 
+@media (min-width: 1400px){
+    .home-customer-experience-wrap:after{top: 17.5%; right: 9%;}
+    .home-customer-experience-wrap::before{bottom: 43%;left: 9%}
 }
 @media (min-width: 1366px){
     .home-customer-experience:before{left: 25%;width: 35em; height: 15em }
@@ -233,23 +215,42 @@ a.aar-liquid-solution h4.media-heading span{font-family: 'Lato-Bold', Arial, Got
     .home-customer-experience-wrap:after{top: 17.1%; right: 2.55%;}
     .home-customer-experience-wrap::before{bottom: 26%;left: 2.5%}
     .home-mission{margin-left:35px}
+    .home-customer-experience-thumbnail-txt p{font-size: 15px; line-height: 18px;width: 50%}
+}
+@media (max-width: 1365px) {	
+    .home-customer-experience-wrap:after,.home-customer-experience-wrap:before{display: none}    
+    .home-customer-experience-thumbnail-txt p{/*font-size: 12px;line-height: 14px;width: 75%;*/ left: 10px; top:10px; }
+    .home-customer-experience-txt{padding: 15px 5px 5px; font-size: 15px; line-height: 18px;}
+    .home-customer-experience-thumbnail span{left: 10px; bottom: 5px;font-size: 10px} 
+}
+@media (min-width: 1024px){
+    .home-customer-experience{padding: 50px 0;}
+    .home-customer-experience:before{left: 20%;width: 45em; height: 16.5em }
+    .view-all-our-work{margin-top: 45px}
+}
+@media (max-width: 1024px) {
+    .home-customer-experience{background-size: cover;}
+    .view-all-our-work{margin-top: 25px}
+    .home-customer-experience-thumbnail-txt p{width: 50%!important;font-size: 10px; line-height: 12px;}
+    .home-customer-experience-txt{color: #333; font-size: 12px; line-height: 16px; padding: 5px 0;}
+    .view-all-our-work{top:80px}
+    .aar-title{font-size:1.3em;}
+}
+@media (min-width: 768px){    
+    
 
+    .sm-nopad{padding-left: 0; padding-right: 0}
+}
+@media (max-width: 768px){
+    .home-customer-experience{background-size: cover;}
+    .view-all-our-work{margin-top: 25px}
+    .home-customer-experience-thumbnail-txt p{font-size: 10px; line-height: 12px;width: 55%}
     
 }
-@media (min-width: 1400px){
-    .home-customer-experience-wrap:after{top: 17.5%; right: 9%;}
-    .home-customer-experience-wrap::before{bottom: 43%;left: 9%}
+@media (max-width: 767px) {
+    .hcet-pattern-before:before,.hcet-pattern-after:after{display: none}
 }
 
-@media (max-width: 1024px) {
-.home-customer-experience-thumbnail-txt p{width: 50%!important}
-	.home-customer-experience-txt{color: #333;
-    font-size: 14px;
-    line-height: 16px;
-    padding: 16px;}
-	.view-all-our-work{top:80px}
-	.aar-title{font-size:1.3em;}
-}
 /*Homepage*/
 .mission-approach { margin-top: 10px; padding-bottom: 0px; }
 .mission-approach h3, .home-mission h3 { font-size: 1.286em; color: #1e407b; text-transform: uppercase; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; margin-bottom: 20px }
@@ -414,10 +415,10 @@ a.problemsolve-thumb:hover { color: #fff; }
 .problems-head select { border: 0; border-bottom: 1px solid #ccc; border-radius: 0; box-shadow: none; background: url(../img/br_down.png) no-repeat right; -webkit-appearance: none; -moz-appearance: none; -webkit-appearance: none; width: 268px; padding: 5px; font-size: 16px; line-height: 1; border: 0; border-radius: 0px; height: 34px; border-radius: 0; border-bottom: 1px solid #ccc; }
 .problems-head select:focus { box-shadow: none; border-bottom: 1px solid #179bd7; }
 .featured-case-study { padding: 50px 80px 0px; }
-.featured-case-study-bg { background-color: #89c1d9; height: 225px; float: left; }
-.featured-case-study-bg.item1 { width: 240px; }
+.featured-case-study-bg {height: 225px; float: left; }
+.featured-case-study-bg.item1 { width: 240px;background-color: #89c1d9; }
 .featured-case-study-bg.item2 { width: 385px; }
-.featured-case-study-bg.item3 { width: 385px; }
+.featured-case-study-bg.item3 { width: 385px;background-color: #89c1d9; }
 .featured-case-study-img-bg { background: rgba(0, 0, 0, 0) url("../img/services-intro-background.png") no-repeat scroll 0 0 / contain; content: ""; height: 100%; left: 25px; position: relative; top: 25px; z-index: 2; }
 .featured-case-study-bg.item2 img { width: 100%; height: 100%; }
 .featured-case-study-bg.item3 > h4 { color: #fff; font-family: "Lato-Black"; font-weight: bold; margin-left: 30px; margin-top: 30px; }
@@ -699,6 +700,7 @@ a.i-casestudies-thumb:hover, a.i-casestudies-thumb:focus { color: #fff; }
 .i-casestudies-thumb-txt { padding: 20px 10px 15px 40px; }
 .i-casestudies-inner h3 { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; text-transform: uppercase; color: #1e407b; font-weight: 600; font-size: 1.714em; margin-bottom: 30px; margin-left: 15px; }
 .i-casestudies .view-all-case { bottom: -40px; font-family: "Lato-Black"; left: 350px; position: absolute; width: 140px; }
+.view-all-case {margin-left: 60px;} 
 .i-casestudies.commercial .view-all-case { bottom: -65px; }
 .i-letmehelpu { margin-top: 70px; margin-bottom: 80px; position: relative; }
 .i-letmehelpu .media { border: 1px solid #f2f2f2; }
@@ -903,6 +905,7 @@ h4.media-sub-heading { min-height: 60px; line-height: 27px; }
 .case-studies-head span, .problems-head span, .services-head span { font-size: 15px; color: #179bd7; font-weight: bold; }
 .case-studies-content { background: #1e407b; padding: 36px 0; }
 .case-studies-content .case-item { background: #fff; margin: 10px; padding: 30px; width: 31.3%; min-height: 320px; }
+.case-studies-content .case-item.case-item-new{width: 100%;}
 .case-studies-content.liquidmarketing .case-item { min-height: 312px; }
 .architecture-intro { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; }
 /*.liquidmarketing .page-s { width: 19em; }*/
@@ -912,6 +915,11 @@ h4.media-sub-heading { min-height: 60px; line-height: 27px; }
 .problems-head .problem-item p { font-size: 12px; line-height: 17px }
 .case-studies-content .case-item p { font-size: 12px; line-height: 17px; }
 .case-studies-content .case-item .btn { background: #179bd7; border-radius: 0px; border-color: #179bd7; padding: 6px 25px; position: absolute; bottom: 20px }
+.case-studies-content .case-item-new {min-height: 310px;background: #fff;padding: 30px;}
+.case-studies-content .case-item-new h4 {min-height: 40px;}
+.case-studies-content .case-item h4, .problems-head .problem-item h4 {color: #1c427c;font-family: "Lato-Bold",Arial,Gotham,Helvetica Neue,Helvetica;    text-transform: capitalize;}
+.case-studies-content .case-item-new p {font-size: 12px;line-height: 17px;}
+.case-studies-content .case-item-new .btn {background: #179bd7 none repeat scroll 0 0;border-color: #179bd7;border-radius: 0;bottom: 20px;padding: 6px 25px;position: absolute;}
 .liquid-solutions { background: #f2f2f2 }
 .problems-head, .services-head { margin: 15px 0px; }
 .services-head, .problems-head { margin-top: 87px; }
