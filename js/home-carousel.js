@@ -8,7 +8,7 @@ setTimeout(function(){$('#dvLoading').fadeOut();}, 2000);
       $('.currentSlide').html('0'+currentIndex+' / 0'+totalItems+'');
 
       $('#myCarousel').carousel({
-        interval: 6000
+        interval: false
       });  
 
       $('#myCarousel').bind('slid', function() {
