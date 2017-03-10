@@ -176,9 +176,7 @@ a.socialIcon:hover, .socialHoverClass { color: #44BCDD; }
 .pws, .swd, .iws, .swp, .wwt { font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 15px; line-height: 24px; }
 .btn.active, .btn:active { -webkit-box-shadow: none; box-shadow: none; }
 .home-customer-experience{margin: 100px auto 150px; position: relative; background: url(../img/industries-homebg1.jpg) no-repeat center center;}
-.home-customer-experience:before{
-position: absolute; content: ""; /*background: url(../img/industries-homebg.png) no-repeat center center; */margin:0 auto;
-background-size: 100% 100%; margin-top: 35px; left: 25%;}
+
 .home-customer-experience-wrap{padding: 0 15px;}
 .hcet-pattern-after:after{height: 5.594em; position: absolute; content: ""; background: url(../img/pattern1.png) no-repeat center center;
 background-size: contain; width: 5.594em;  bottom: 0;right: -79px;}
@@ -273,7 +271,7 @@ h3.cust-engagement-title span { font-family: "Lato-Black", Arial, Gotham, Helvet
 .customer-engage-img { width: 29.857em; margin-top: -30px; margin-left: -240px }
 .client-engage { margin-top: 65px }
 .client-engage .client-engage-num, .client-engage .client-engage-txt { color: #179bd7 }
-.client-engage .client-engage-num { font-family: 'Lato-Light', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 4.8em }
+.client-engage .client-engage-num { font-family: 'Lato-Light', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 4.8em;line-height: 1em}
 .client-engage .client-engage-num span { font-family: 'Lato-Light', Arial, Gotham, Helvetica Neue, Helvetica; font-size: .6em }
 .client-engage .client-engage-txt { font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; margin-top: 10px; font-size: 0.974029em; text-align: center }
 .client-engage .client-engage-txt span { font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; }

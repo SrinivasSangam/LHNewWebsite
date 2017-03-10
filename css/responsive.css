@@ -61,6 +61,7 @@ position: absolute; content: ""; width: 56em; height: 15em; margin-top: 35px; le
 .solution-customer-experience-thumbnail span{font-size: 16px;}
 .solution-customer-experience-txt{padding: 20px; font-size: 15px; line-height: 20px;display:none}
 .case-studies-content .case-item {width: 31.2%;}
+.industries-twitter-updates-inner {margin: 25px 0 0;}
 }
 @media only screen and (min-width: 992px) and (max-width: 1023px){
 .liquidmarketing .explore-solutions-list .solutions-item {height: auto;}
@@ -74,7 +75,8 @@ position: absolute; content: ""; width: 56em; height: 15em; margin-top: 35px; le
 	body{overflow-x: hidden;}
 .navbar-wrapper .navbar-default .navbar-nav > li > a span:nth-child(2), .navbar-wrapper-op .navbar-default .navbar-nav > li > a span:nth-child(2),.navbar-wrapper .navbar-default .navbar-nav > li > a, .navbar-wrapper-op .navbar-default .navbar-nav > li > a {font-size: 14px!important;line-height: 16px!important;}
 .navbar-wrapper .navbar-default .navbar-nav > li > a, .navbar-wrapper-op .navbar-default .navbar-nav > li > a {padding: 10px 9px!important;}
-.intro-page p {padding-right: 0;}
+.navbar-wrapper-op .navbar a.navbar-brand {width: 9em;}
+.intro-page p {font-size: 14px;line-height: 20px;padding-left: 15px;padding-right: 15px;}
 .intro-page-sub {padding-right: 0;}
 .intro-page-sub p {padding-right: 0;}
 .lh-history {left: 0px;position: relative;}
@@ -130,7 +132,7 @@ position: absolute; content: ""; width: 56em; height: 15em; margin-top: 35px; le
 #ourServices-Carousel::before, #ourServices-Carousel::after{display: none;}
 #ourServices-Carousel .carousel-indicators {bottom: -2.5%;left: 39%;top: auto;width: 18%;}
 .top-more-news .top-more-news-op {width: 50%;}
-.industries-twitter-updates-inner {height: 280px;padding: 0 5px;}
+.industries-twitter-updates-inner {height: 300px;padding: 0 5px;}
 .industries-twitter-updates {min-height: 260px;}
 .case-studies-content {padding: 10px;}
 .services-content .service-item {width: 25%;}
@@ -218,7 +220,8 @@ p,p.ellipsis{font-size: 14px; line-height: 20px}
 .connect-with-us{margin-top:10px; margin-left: 35px}
 .connect-with-us h2,.connect-with-us h2 span{font-size: 22px}
 .connect-with-us a.btn{width: 120px;padding: 5px}
-.home-customer-experience{margin: 50px auto}
+.home-customer-experience{margin: 50px auto; background: none;}
+
 .home-customer-experience:before,.home-customer-experience-wrap:before,.home-customer-experience-wrap:after{background: none}
 .home-customer-experience-thumbnail{margin-bottom: 2px;}    
 .home-customer-experience-txt,.home-customer-experience-thumbnail-txt p{font-size: 16px; line-height: 20px; }
@@ -247,8 +250,11 @@ p,p.ellipsis{font-size: 14px; line-height: 20px}
 .solution-customer-experience-thumbnail h3 span{line-height: 35px;font-size: 20px; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
 .case-studies-content .case-item h4{margin-top: 10px;margin-bottom: 10px; min-height: auto}
 .case-studies-content .case-item p{margin-bottom: 20px}
+
 }
 @media (max-width: 767px) and (orientation: landscape){
+    .client-engage{margin-top: 30px;}
+    .client-engage .client-engage-txt{margin-top: 10px}
     .home-customer-experience-txt,.home-customer-experience-thumbnail-txt p{font-size: 18px; line-height: 30px; }
     .home-customer-experience-thumbnail span{bottom: 10px; font-size: 18px}
     .aar-title{padding: 10px; font-size: 20px; line-height: 34px; height: 50px; top: -20px; }
