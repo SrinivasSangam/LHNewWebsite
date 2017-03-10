@@ -54,11 +54,11 @@ position: absolute; content: ""; width: 56em; height: 15em; margin-top: 35px; le
 .solution-customer-experience-thumbnail.darkOrangeBg{}
 .solution-customer-experience-thumbnail:before{content: ""; background: url(../img/ss-before-img.png) no-repeat left top;background-size: 100%; position: absolute;left: -5px; top:-5px;height: 50px; width: 50px}
 .solution-customer-experience-thumbnail:after{content: ""; background: url(../img/ss-after-img.png) no-repeat right bottom;background-size: 100%; position: absolute;right: -5px; bottom:-5px;height: 50px; width: 50px}
-.solution-customer-experience-thumbnail {border: 5px solid #f2f2f2;padding: 20px 15px;}
-.solution-customer-experience-thumbnail img{width: 50px;margin: 5px auto}
+.solution-customer-experience-thumbnail {border: 5px solid #f2f2f2;padding: 5px 15px;}
+.solution-customer-experience-thumbnail img{margin: 15px auto;width: 35px;}
 .solution-customer-experience-thumbnail-txt{}
 .solution-customer-experience-thumbnail-txt p{position: absolute; top: 50px; right: 5px; color: #1E407B;;line-height: 20px; font-size: 24px;width: 65%}
-.solution-customer-experience-thumbnail span{font-size: 18px;}
+.solution-customer-experience-thumbnail span{font-size: 16px;}
 .solution-customer-experience-txt{padding: 20px; font-size: 15px; line-height: 20px;display:none}
 .case-studies-content .case-item {width: 31.2%;}
 }
@@ -150,7 +150,21 @@ position: absolute; content: ""; width: 56em; height: 15em; margin-top: 35px; le
 .services-block .services-block-title span h4{font-size: 10px;}
 .problemsolve-thumbnail {min-height: 333px;}
 .problemsolve-thumbnail .readmore {position: initial;}
-
+.solution-customer-experience{margin: 100px auto 150px; position: relative;}
+.solution-customer-experience h3 span{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
+.solution-customer-experience:before{
+position: absolute; content: ""; width: 56em; height: 15em; margin-top: 35px; left: 25%; }
+.solution-customer-experience-wrap{padding: 0 15px;}
+.solution-customer-experience-thumbnail{position: relative;display: block; cursor: pointer;    padding: 20px;height: 65px;}
+.solution-customer-experience-thumbnail:before{content: ""; background: url(../img/ss-before-img.png) no-repeat left top;background-size: 100%; position: absolute;left: -5px; top:-5px;height: 50px; width: 50px}
+.solution-customer-experience-thumbnail:after{content: ""; background: url(../img/ss-after-img.png) no-repeat right bottom;background-size: 100%; position: absolute;right: -5px; bottom:-5px;height: 50px; width: 50px}
+.solution-customer-experience-thumbnail {border: 5px solid #f2f2f2;padding: 10px;}
+.solution-customer-experience-thumbnail img{margin: 0px auto;width: 35px;}
+.solution-customer-experience-thumbnail-txt{}
+.solution-customer-experience-thumbnail-txt p{position: absolute; top: 50px; right: 5px; color: #1E407B;;line-height: 20px; font-size: 24px;width: 65%}
+.solution-customer-experience-thumbnail span{font-size: 14px;}
+.solution-customer-experience-thumbnail h3{margin-top: 0px;}
+.solution-customer-experience-txt{padding: 20px; font-size: 15px; line-height: 20px;display:none}
 }
 @media (max-width: 767px) {
 html, body, div, span, object, iframe,
@@ -231,6 +245,8 @@ p,p.ellipsis{font-size: 14px; line-height: 20px}
 .solution-customer-experience-thumbnail {margin: 10px 20px; display: block}
 .solution-customer-experience-thumbnail h3 {margin: 0;}
 .solution-customer-experience-thumbnail h3 span{line-height: 35px;font-size: 20px; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
+.case-studies-content .case-item h4{margin-top: 10px;margin-bottom: 10px; min-height: auto}
+.case-studies-content .case-item p{margin-bottom: 20px}
 }
 @media (max-width: 767px) and (orientation: landscape){
     .home-customer-experience-txt,.home-customer-experience-thumbnail-txt p{font-size: 18px; line-height: 30px; }
@@ -240,6 +256,7 @@ p,p.ellipsis{font-size: 14px; line-height: 20px}
     .client-engage,.client-engage .client-engage-txt{text-align: center;}
 }
 @media (max-width: 767px) and (orientation: portrait){  
+
     .home-customer-experience-txt,.home-customer-experience-thumbnail-txt p{font-size: 14px; line-height: 20px; }
     .aar-title{padding: 10px; font-size: 18px; height: 50px; top: -20px; }
     .home-services-txt, .home-services-txt .fa{font-size: 8px;line-height: 12px;}   
