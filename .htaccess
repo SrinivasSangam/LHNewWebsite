@@ -9,5 +9,7 @@ RewriteRule ^404/?$ /index.html
 ErrorDocument 404 /index.html
 
 Redirect 301 /EA_Webinar    /EA-webinar.html
+Redirect 301 /project_program_management	 /services
+Redirect 301 /mobile_services	/services
 
 
