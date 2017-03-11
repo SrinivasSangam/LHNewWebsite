@@ -143,7 +143,7 @@ ul.custom-bullet li { padding-left: 20px }
 .contactus-form h3 span:first-child { color: #1e407b; font-size: 24px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; }
 .contactus-form h3 span:last-child { color: #333; font-size: 15px; text-transform: none; }
 .btn-link { color: #179bd7; }
-footer { margin: 30px 0 0 0; background: #f6f6f6; padding-top: 30px }
+footer { margin: 30px 0 0 0; background: #f6f6f6!important; padding-top: 30px }
 footer p { line-height: 26px; font-size: 16px; font-family: 'Lato-Light', Arial, Gotham, Helvetica Neue, Helvetica; }
 .foot-links { }
 .foot-links li { line-height: 24px; padding-left: 0px; font-size: 15px; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; }
@@ -306,11 +306,15 @@ h3.cust-engagement-title span { font-family: "Lato-Black", Arial, Gotham, Helvet
 .industry-thumb:nth-child(7):before { height: 5.594em; width: 5.594em; position: absolute; content: ""; background: url('../img/pattern1.png') no-repeat center center; background-size: contain; top: 10px; left: 0%; top: 0; }
 .industry-thumb:last-child:after { height: 5.594em; position: absolute; content: ""; background: url('../img/pattern1.png') no-repeat center center; background-size: contain; bottom: 0; width: 5.594em; left: 0; }
 .right-border { border-right: 8px solid #f2f2f2 }
+.problems-we-solve{margin-top: 45px;}
+.img-book {margin:35px 0 0 50px}
+.commercial-page-sub h4{ font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; text-transform: uppercase; color: #1e407b;}
 .casestudies h2, .problems-we-solve h2 { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; display: inline-block; text-transform: uppercase; color: #1e407b; font-size: 1.500em; margin-bottom: 20px }
 .casestudies a.view-casestudies, .problems-we-solve a.viewall { display: inline-block; float: right; margin-top: 23px; font-weight: 600; line-height: 1.45em; }
 .casestudies-list, .problems-we-solve-list {/* background: url('../img/pattern-blue-line.png');*/ background: #1e407b; padding-top: 30px; }
 .problems-we-solve-list {padding-top: 45px;padding-bottom: 20px}
 .problems-we-solve-list h3 { margin: 0 0 15px 0; font-size: 12px; border: 1px solid rgba(255,255,255,.3); display: inline-block; padding: 3px 10px; font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; }
+.problems-we-solve h3 { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; text-transform: uppercase; color: #1e407b; font-size: 1.714em; margin-bottom: 30px; margin-left: 15px; }
 .problems-we-solve-list .problemsolve-thumb span { position: absolute; bottom: 15px; }
 .problemsolve-thumbnail { background: #fff; padding: 20px; min-height: 300px; position: relative; }
 .problemsolve-thumbnail img { }
@@ -444,13 +448,16 @@ a.problemsolve-thumb:hover { color: #fff; }
 .ip-head-title { margin-top: 40px }
 .ip-head-title h1 { text-transform: uppercase; font-size: 1.714em; font-weight: 600; color: #fff; margin: 0; line-height: 1.714em; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; }
 .intro-page { font-size: 1.286em; border-left: 8px solid #ffa635; }
+.intro-page h4{color:#1e407b;font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size:22px; margin-left:30px}
 .intro-page p { display: block; padding-left: 35px; font-size: 18px; padding-right: 70px; line-height: 27px; margin-bottom: 30px }
+.intro-page-sub h5{font-weight:bold}
 .intro-page-sub { margin-left: 45px; margin-top: 30px; padding-right: 70px }
 .intro-page-sub p { font-size: 1.071em; line-height: 24px; font-family: "Lato-Regular"; padding-right: 80px; }
 .intro-page-sub .media .media-left img { width: 350px }
 .intro-page-sub .media .media-body { padding-left: 20px }
 .intro-page-sub .media .media-body p { padding-right: 0 }
 .lh-history { position: absolute; top: -18px; z-index: 2; }
+.intro-page-sub ul li{}
 .lh-history:before { background: url('../img/aboutus-history-bg.png') no-repeat; background-size: cover; height: 31.313em; width: 27.9em; content: ''; z-index: -1; position: absolute; top: 20px; bottom: 0; left: 0; }
 .lh-history-desc { font-size: 0.857em; padding: 15px 78px 30px 43px; color: #fff; font-family: "Lato-Regular"; line-height: 17px; }
 .lh-history-liquidicon img, .lh-history-hubicon img { width: 60px }
@@ -460,94 +467,7 @@ a.problemsolve-thumb:hover { color: #fff; }
 .about-who-we-are img, .about-what-we-do img { width: 19.214em }
 /* banners */
 
-/* Who We Are */
-.whoweare-header-banner { background: url('../img/banners/whoweare-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* What We Do */
-.whatwedo-header-banner { background: url('../img/banners/whatwedo-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Asset & Wealth Management */
-.asset-wealth-management-header-banner { background: url('../img/banners/asset-wealth-management-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Commercial */
-.commercial-header-banner { background: url('../img/banners/commercial-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Health Care*/
-.healthcare-header-banner { background: url('../img/banners/healthcare-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Life Sciences */
-.lifesciences-header-banner { background: url('../img/banners/lifesciences-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Insurance */
-.insurance-header-banner { background: url('../img/banners/insurance-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Banking */
-.banking-header-banner { background: url('../img/banners/banking-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Solutions */
-.solutions-header-banner { background: url('../img/banners/solutions-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Liquid Marketing */
-.liquidmarketing-header-banner { background: url('../img/banners/solutions-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Demand Generation */
-.demandgeneration-header-banner { background: url('../img/banners/demandgeneration-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Brand Development */
-.branddevelopment-header-banner { background: url('../img/banners/branddevelopment-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Campaign Design */
-.campaigndesign-header-banner { background: url('../img/banners/campaigndesign-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Advertising */
-.advertising-header-banner { background: url('../img/banners/advertising-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Conversion Optimization*/
-.conversionoptimization-header-banner { background: url('../img/banners/conversionoptimization-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Marketing Measurement */
-.marketingmeasurement-header-banner { background: url('../img/banners/marketingmeasurement-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Loyalty Management */
-.loyaltymanagement-header-banner { background: url('../img/banners/loyaltymanagement-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* New Product/brand launches */
-.new-product-brand-launches-header-banner { background: url('../img/banners/new-product-brand-launches-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Salesforce automation */
-.salesforceautomation-header-banner { background: url('../img/banners/salesforceautomation-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Contact management */
-.contactmanagement-header-banner { background: url('../img/banners/contactmanagement-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Quota management*/
-.quotamanagement-header-banner { background: url('../img/banners/quotamanagement-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Incentive Compensation */
-.incentivecompensation-header-banner { background: url('../img/banners/incentivecompensation-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Sales Forecasting */
-.salesforecasting-header-banner { background: url('../img/banners/salesforecasting-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Social Selling */
-.socialselling-header-banner { background: url('../img/banners/socialselling-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Optimization */
-.optimization-header-banner { background: url('../img/banners/optimization-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Content Development */
-.commerceplatforms-header-banner { background: url('../img/banners/commerceplatforms-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Experience-Management */
-.experience-management-header-banner { background: url('../img/banners/experience-management-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Catalog and Content Management */
-.catalog-content-management-header-banner { background: url('../img/banners/catalog-content-management-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Recommendation Engines */
-.recommendation-engines-header-banner { background: url('../img/banners/recommendation-engines-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Order Management */
-.order-management-payment-processing-header-banner { background: url('../img/banners/order-management-payment-processing-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Checkout Optimization */
-.checkoutoptimization-header-banner { background: url('../img/banners/checkoutoptimization-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Pricing, Promotion and Product Development */
-.pricing-promotion-product-development-header-banner { background: url('../img/banners/pricing-promotion-product-development-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/*Customer Self-Service Enablement*/
-.customer-self-service-enablement-header-banner { background: url('../img/banners/customer-self-service-enablement-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Communications and Contact strategy */
-.communications-contact-strategy-header-banner { background: url('../img/banners/communications-contact-strategy-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Cross-channel Contact Center */
-.cross-channel-contact-center-header-banner { background: url('../img/banners/cross-channel-contact-center-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Cross-Sell */
-.cross-sell-header-banner { background: url('../img/banners/cross-sell-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/*Knowledge Management & FAQ*/
-.knowledge-management-header-banner { background: url('../img/banners/knowledge-management-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/*Policy Management & FAQ*/
-.policy-management-header-banner { background: url('../img/banners/policy-management-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Social Listening */
-.social-listening-header-banner { background: url('../img/banners/social-listening-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Careers */
-.careers-header-banner { background: url('../img/banners/careers-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Privacy Policy */
-.privacy-policy-header-banner { background: url('../img/banners/privacy-policy-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* Legal Policy */
-.legal-policy-header-banner { background: url('../img/banners/privacy-policy-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* New & Events */
-.news-events-header-banner { background: url('../img/banners/news-events-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
-/* White Papers */
-.whitepapers-header-banner { background: url('../img/banners/news-events-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em }
+
 /* Tabs panel */
 .tabbable-panel { border: 5px solid #e5e5e5; background: #fff; margin: 0 auto; width: 60em; }
 .tabbable-panel:before { border-top: 6px solid #e5e5e5; width: 100%; content: ''; z-index: -1; position: absolute; top: 22px; bottom: 0; left: 0; }
@@ -909,7 +829,7 @@ h4.media-sub-heading { min-height: 60px; line-height: 27px; }
 .architecture-title h3 { font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; margin-top: 0; text-transform: uppercase; }
 .architecture-title h3 span { font-family: "Lato-LightItalic", Arial, Gotham, Helvetica Neue, Helvetica; text-transform: none; }
 .architecture .companies-moto .media { margin-left: 20px; }
-.case-studies-head h3, .problems-head h3, .services-head h3 { font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; }
+.case-studies-head h3, .problems-head h3, .services-head h3 { font-family: "Lato-Black", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; font-size: 1.714em; margin-bottom: 30px; margin-left: 15px; }
 .case-short ul.bullets li:before { left: 35px; }
 .case-studies-head span, .problems-head span, .services-head span { font-size: 15px; color: #179bd7; font-weight: bold; }
 .case-studies-content { background: #179bd7; padding: 45px 0; }
@@ -957,12 +877,12 @@ h4.media-sub-heading { min-height: 60px; line-height: 27px; }
 /* asset-wealth-management */
 
 .case-am-item { background: #fff; margin: 10px; padding: 30px; width: 31.3%; height: 460px; }
-.case-am-item h4 { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; text-transform: uppercase; }
+.case-am-item h4 { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; }
 .case-am-item p { font-size: 12px; line-height: 17px; }
 /*banking */
 
 .case-bank-item { background: #fff; margin: 10px; padding: 30px; width: 31.3%; height: 400px; }
-.case-bank-item h4 { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; text-transform: uppercase; }
+.case-bank-item h4 { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; }
 .case-bank-item p { font-size: 12px; line-height: 17px; }
 .case-bank-short { margin-left: 200px; width: 100%; }
 /* health care*/
@@ -975,7 +895,7 @@ h4.media-sub-heading { min-height: 60px; line-height: 27px; }
 .healthcare-sub-help .healthcare-help-span a.btn { display: inline-block; border: 3px solid #179bd7; border-radius: 0; margin-top: -2px; margin-left: 20px; width: 155px; font-size: 15px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; height: 30px; padding: 2px; }
 .healthcare-help .healthcare-help-span a.btn { display: inline-block; border: 3px solid #179bd7; border-radius: 0; margin-top: -2px; margin-left: 20px; width: 155px; font-size: 15px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; height: 30px; padding: 2px; }
 .healthcare-download .healthcare-help-span a.btn { display: inline-block; border: 3px solid #179bd7; border-radius: 0; margin-top: -2px; margin-left: 20px; width: 142px; font-size: 15px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; height: 30px; padding: 2px; }
-.dcebook-download { display: block; border: 3px solid #179bd7; border-radius: 0; font-size: 15px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; height: 30px; padding: 2px; margin: 20px auto }
+.dcebook-download { display: block; border: 3px solid #179bd7; border-radius: 0; font-size: 15px; margin-left:50px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; height: 30px; padding: 2px; margin: 20px auto }
 .commercial-img img { height: 15em; }
 .industries-solutions-thumbnail{background: #fff; margin-bottom: 20px; padding: 15px}
 .healthcare-casestudy-title{color: #1e407b;font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
@@ -1005,7 +925,7 @@ h4.media-sub-heading { min-height: 60px; line-height: 27px; }
 }
 
 @media (max-width: 640px) {
-.case-studies-content .case-item { width: 46%; min-height: 296px; float: left; }
+.case-studies-content .case-item { min-height: 296px; float: left; margin:10px }
 .problems-content .problem-item { width: 30.5%; height: 104px; }
 .problems-content .problem-item h4 { display: block; text-overflow: ellipsis; word-wrap: break-word; overflow: hidden; max-height: 3.2em; width: auto; margin-left: 10px; margin-top: 10px; }
 }
@@ -1470,7 +1390,7 @@ Services We Provide Styles
 .liquid-rules img { margin: 20px auto; width: 50px; height: 50px }
 .liquid-rules h4 { font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; color: #1e407b }
 .liquid-rules p { line-height: 18px }
-.healthcare-casestudy-title { color: #1e407b; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 18px; margin-top: 20px; margin-bottom: 20px; text-transform: uppercase; }
+.healthcare-casestudy-title { color: #1e407b; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 18px; margin-top: 20px; margin-bottom: 20px; }
 .swp-page-data { margin-top: 50px; margin-bottom: 50px }
 .swp-page-data .media { margin-bottom: 30px; }
 .swp-page-data .media-body.pleft { padding-left: 20px }
@@ -1540,7 +1460,7 @@ Services We Provide Styles
   a.sol-aar-liquid-solution h4.media-heading{line-height: 35px;}
   a.sol-aar-liquid-solution h4.media-heading span{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
   .sol-aar-liquid-solutions-icon{width: 35px;}
-.solution-customer-experience{margin: 30px auto 150px; position: relative;}
+.solution-customer-experience{margin: 30px auto 80px; position: relative;}
 .solution-customer-experience h3 span{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
 .solution-customer-experience:before{
 position: absolute; content: ""; width: 56em; height: 15em; margin-top: 35px; left: 25%; }
