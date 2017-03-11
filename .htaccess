@@ -8,8 +8,18 @@ RewriteEngine On
 RewriteRule ^404/?$ /index.html
 ErrorDocument 404 /index.html
 
+
+ErrorDocument 404 /solutions/ http://www.liquidhub.com/solutions/
+ErrorDocument 404 /casestudies/ http://www.liquidhub.com/casestudies/
+ErrorDocument 404 /industries/ http://www.liquidhub.com/industries/
+ErrorDocument 404 /services/ http://www.liquidhub.com/services/
+
+
 Redirect 301 /EA_Webinar    /EA-webinar.html
-Redirect 301 /project_program_management	 /services
-Redirect 301 /mobile_services	/services
+Redirect 301 /project_program_management	 /services.html
+Redirect 301 /mobile_services	/services.html
+Redirect 301 /commercial		/industries/commercial.html
+Redirect 301 /Home		/index.html
+
 
 
