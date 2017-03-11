@@ -481,10 +481,11 @@ a.fs-banking-img img, a.fs-awm-img img {margin: 0 auto 25px;}
 		line-height: 20px;}
 	.intro-page h4{color:#1e407b;font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size:18px; margin-left:15px  }
 	.intro-page-sub ul li::before{left:40px}
+    .carousel-caption h1{font-size: 17px!important;line-height: 21px!important;}
 	
 }
 @media only screen and (min-width: 320px) and (max-width: 360px) {
-.carousel-caption.caption-left{margin-top: 35%!important;}
+.carousel-caption.caption-left{margin-top: 30%!important;}
 .lh-history::before {width: 100vw;height: 31em;}
 .aboutus-who-what,.about-what-we-do {margin-left: 0!important;}
 .about-who-we-are, .about-what-we-do {overflow: visible;}
