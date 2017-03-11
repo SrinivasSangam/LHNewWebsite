@@ -271,9 +271,9 @@ h3.cust-engagement-title span { font-family: "Lato-Black", Arial, Gotham, Helvet
 .customer-engagement-txt { background: #fff; color: #888; padding: 25px 45px 25px 30px; margin-right: 20px; display: block; /* Fallback for non-webkit */ display: -webkit-box; margin: 0 auto; font-size: 1.1em; line-height: 1.5em; -webkit-line-clamp: 1.286em; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; }
 .customer-engagement-txt p.ellipsis { display: block; /* Fallback for non-webkit */ display: -webkit-box; height: 9em; /* Fallback for non-webkit */ margin: 0 auto; font-size: 1.18em; line-height: 1.6em; -webkit-line-clamp: 1.071em; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; padding-right: 30px; padding-top: 30px; color: #333 }
 .customer-engage-img { width: 29.857em; margin-top: -30px; margin-left: -240px }
-.client-engage { margin-top: 65px }
+.client-engage { margin-top: 35px }
 .client-engage .client-engage-num, .client-engage .client-engage-txt { color: #179bd7 }
-.client-engage .client-engage-num { font-family: 'Lato-Light', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 4.8em;line-height: 1em}
+.client-engage .client-engage-num { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.8em; padding-left:40px; border-left:6px solid #f3f3f3;line-height: 35px;}
 .client-engage .client-engage-num span { font-family: 'Lato-Light', Arial, Gotham, Helvetica Neue, Helvetica; font-size: .6em }
 .client-engage .client-engage-txt { font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; margin-top: 10px; font-size: 0.974029em; text-align: center }
 .client-engage .client-engage-txt span { font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; }
@@ -1226,7 +1226,7 @@ a.navbar-brand { width: 9em }
 }
 
 @media only screen and (min-width: 1024px) {
-.client-engage .client-engage-num { line-height: 0.8em }
+.client-engage .client-engage-num { line-height:35px }
 .client-engage .client-engage-txt { margin-top: 10px }
 .client-engage { margin-left: -35px }
 .insights-thumb.right-border { border-right: 7px solid #f2f2f2; }
