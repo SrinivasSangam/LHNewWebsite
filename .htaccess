@@ -14,6 +14,9 @@ Redirect 301 /project_program_management	 /services.html
 Redirect 301 /mobile_services	/services.html
 Redirect 301 /commercial		/industries/commercial.html
 Redirect 301 /Home		/index.html
+Redirect 301 /adobe_summit		/adobe_summit.html
+Redirect 301 /Locations		/contactus.html
+Redirect 301 /adobe_happyhour		/adobe-happyhour.html
 
 
 
