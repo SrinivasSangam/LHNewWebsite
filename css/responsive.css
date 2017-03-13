@@ -72,7 +72,12 @@
 .news-events-highlights { display: inline-block; margin-bottom: 30px; margin-top: 30px; }
 .insurance .industries-solutions-thumbnail {min-height: 440px;}
 .liquid-rules h4{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; color: #1e407b;}
-
+.intro-page-list ul li::before{left:20px}
+.pright h5{ color: #179bd7; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 14px;}
+.pleft h5{ color: #179bd7; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 14px;}
+.media-data:first-child {margin-top:20px}
+.img-book {margin:35px 0 0 20px}
+.dcebook-download {margin-left: 20px;}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1023px) {

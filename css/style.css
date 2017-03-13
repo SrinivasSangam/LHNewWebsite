@@ -1,4 +1,4 @@
-/* *************************************
+6/* *************************************
 Common Styles
 **************************************** */
 
@@ -638,11 +638,13 @@ a.i-casestudies-thumb:hover, a.i-casestudies-thumb:focus { color: #fff; }
 .i-letmehelpu .media .media-body div p { font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.071425em; line-height: 1.600005em; font-family: "Lato-Regular", Arial, Gotham, Helvetica Neue, Helvetica; }
 .i-letmehelpu .media .getintouch { min-width: 10em; padding: 20px 25px 0 0; }
 .i-letmehelpu .media .getintouch h4 { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.071em; color: #333; font-weight: 600; text-align: center; }
-.i-letmehelpu .media .getintouch a.btn { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; background: #179bd7; width: 100%; border-radius: 0; ; color: #fff; }
-.i-letmehelpu .media .getintouch a.btn:hover { text-decoration: underline; }
+.i-letmehelpu .media .getintouch a.btn, .i-letmehelpu .media .getintouch .btn { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; background: #179bd7; width: 100%; border-radius: 0; ; color: #fff; }
+.i-letmehelpu .media .getintouch a.btn:hover, .i-letmehelpu .media .getintouch .btn:hover { text-decoration: underline; }
 .i-letmehelpu .media .getintouch .getintouch-follow { padding: 0 20px }
 .i-letmehelpu .media .getintouch .getintouch-follow a { display: inline-block; padding: 10px 10px; color: #999; font-size: 16px }
 .i-letmehelpu .media .getintouch .getintouch-follow a:hover { color: #179bd7 }
+#contact .modal-dialog h4{color: #1e407b;font-family: "Lato-Black",Arial,Gotham,Helvetica Neue,Helvetica;font-size: 1.714em;margin-bottom: 0px;margin-left: 15px;text-transform: uppercase;}
+#contact .modal-dialog .modal-content{border-radius: 0px;}
 .news-events-head h3 { text-transform: uppercase; margin-top: 0; color: #1e407b; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; line-height: 1.5000001em }
 .industries-newsevents { background: #fff; min-height: 336px!important }
 .industries-newsevents .top-more-news .top-more-news-op div { width: 23.786em; }
@@ -1159,6 +1161,8 @@ a.navbar-brand { width: 9em }
 .client-engage { margin-top: 40px; margin-left: -30px }
 .customer-engage-img { margin-left: -275px; }
 .industries-solutions-thumbnail{min-height: 635px}
+.ind-thumbnail { min-height: 430px; }
+
 }
 .insurance .industries-solutions-thumbnail {min-height: 360px;}
 
