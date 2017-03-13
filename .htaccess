@@ -17,6 +17,24 @@ Redirect 301 /Home		/index.html
 Redirect 301 /adobe_summit		/adobe_summit.html
 Redirect 301 /Locations		/contactus.html
 Redirect 301 /adobe_happyhour		/adobe-happyhour.html
+Redirect 301 /march_madness		/march-madness.html
+Redirect 301 /healthcare		/index.html
+Redirect 301 /AdvisoryBoard		/index.html
+Redirect 301 /DF16AMLunch	/index.html
+Redirect 301 /DF16FSCCocktails	/index.html
+Redirect 301 /DF16FSCLunch	/index.html
+Redirect 301 /innovation	/index.html
+Redirect 301 /LH_at_Dreamforce16	/index.html
+Redirect 301 /NY_CocktailParty	/NY_CocktailParty.html
+Redirect 301 /healthcare		/indistries/healthcare.html
+Redirect 301 /strategy		/services/strategy.html
+Redirect 301 /salesforce		/index.html
+Redirect 301 /insights		/services/insights.html
+
+
+
+
+
 
 
 
