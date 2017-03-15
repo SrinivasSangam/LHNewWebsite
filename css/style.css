@@ -1,4 +1,4 @@
-6/* *************************************
+/* *************************************
 Common Styles
 **************************************** */
 
@@ -136,6 +136,7 @@ ul.custom-bullet { list-style: none; padding-left: 0px }
 ul.custom-bullet li:before { font-family: 'FontAwesome'; content: "\f105"; position: absolute; left: 16px; list-style-type: none; color: #179bd7; font-size: 14px; font-weight: 600; }
 ul.custom-bullet li { padding-left: 20px }
 .page-title h3 { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; margin-bottom: 35px; text-transform: uppercase; margin-top: 0; }
+.architecture-title h3 span { font-family: "Lato-LightItalic", Arial, Gotham, Helvetica Neue, Helvetica; text-transform: none; } h3 span { font-family: "Lato-LightItalic", Arial, Gotham, Helvetica Neue, Helvetica; text-transform: none; }
 .corporate-headquarters { font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; }
 .corporate-headquarters h2, .global-locations h2 { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; color: #1e407b; font-size: 24px; text-transform: uppercase; }
 .global-locations .row { margin-bottom: 25px }
@@ -386,7 +387,7 @@ h3.cust-engagement-title span { font-family: "Lato-Black", Arial, Gotham, Helvet
 .services-block .services-block-title span { padding: 0px 15px; display: inline-block;  }
 .services-block .services-block-title span h4 { font-size: 12px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; text-transform: uppercase; }
 .services-block .col-sm-2, .services-block .col-sm-4, .services-block .col-sm-6{border-right:4px solid #fff }
-
+.page-title h3 span { text-transform: none;}
 .services-block .services-block-title span.btn { position: absolute; right: 0; top: 7px; }
 a.problemsolve-thumb { display: block; color: #fff }
 a.problemsolve-thumb:hover { color: #fff; }
@@ -623,7 +624,8 @@ a.i-casestudies-thumb:hover, a.i-casestudies-thumb:focus { color: #fff; }
 .i-casestudies-thumb-txt { padding: 20px 10px 15px 40px; }
 .i-casestudies-inner h3 { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; text-transform: uppercase; color: #1e407b; font-weight: 600; font-size: 1.714em; margin-bottom: 30px; margin-left: 15px; }
 .i-casestudies .view-all-case { bottom: -40px; font-family: "Lato-Black"; left: 350px; position: absolute; width: 140px; }
-.view-all-case {margin-left: 60px;} 
+.view-all-case {margin-left: 28px;} 
+.view-bank-case {margin-left: 90px;} 
 .i-casestudies.commercial .view-all-case { bottom: -65px; }
 .i-letmehelpu { margin-top: 70px; margin-bottom: 80px; position: relative; }
 .i-letmehelpu .media { border: 1px solid #f2f2f2; }
@@ -632,7 +634,7 @@ a.i-casestudies-thumb:hover, a.i-casestudies-thumb:focus { color: #fff; }
 .i-letmehelpu h3 { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; text-transform: uppercase; color: #1e407b; font-size: 1.714em; margin-bottom: 30px; margin-left: 15px; }
 .i-letmehelpu .media img { width: 10.714em }
 .i-letmehelpu .media .media-body { padding-left: 10px; min-height: 6.643em; }
-.i-letmehelpu .media .media-body div { border-left: 8px solid #faa635; display: block; padding: 0 60px 0 30px; margin-top: 35px; margin-left: 10px }
+.i-letmehelpu .media .media-body div { border-left: 8px solid #faa635; display: block; padding: 0 40px 0 30px; margin-top: 35px; margin-left: 10px }
 .i-letmehelpu .media .media-body div h5 { font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.285716em; }
 .i-letmehelpu .media .media-body div h5 span { font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; font-weight: normal; font-size: 0.667em; color: #999 }
 .i-letmehelpu .media .media-body div p { font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.071425em; line-height: 1.600005em; font-family: "Lato-Regular", Arial, Gotham, Helvetica Neue, Helvetica; }
@@ -835,7 +837,7 @@ h4.media-sub-heading { min-height: 60px; line-height: 27px; }
 .case-short ul.bullets li:before { left: 35px; }
 .case-studies-head span, .problems-head span, .services-head span { font-size: 15px; color: #179bd7; font-weight: bold; }
 .case-studies-content { background: #179bd7; padding: 45px 0; }
-.case-studies-content .case-item { background: #fff; padding: 15px; min-height: 320px; }
+.case-studies-content .case-item { background: #fff; padding: 15px; min-height: 320px; margin: 10px; width: 365px;}
 .case-studies-content .case-item.case-item-new{width: 100%;}
 .case-studies-content.liquidmarketing .case-item { min-height: 312px; }
 .architecture-intro { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; }
@@ -883,7 +885,7 @@ h4.media-sub-heading { min-height: 60px; line-height: 27px; }
 .case-am-item p { font-size: 12px; line-height: 17px; }
 /*banking */
 
-.case-bank-item { background: #fff; margin: 10px; padding: 30px; width: 31.3%; height: 400px; }
+.case-bank-item { background: #fff; margin: 10px; padding: 30px; width: 30.3%; height: 400px; }
 .case-bank-item h4 { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; color: #1c427c; }
 .case-bank-item p { font-size: 12px; line-height: 17px; }
 .case-bank-short { margin-left: 200px; width: 100%; }
@@ -1160,8 +1162,8 @@ a.navbar-brand { width: 9em }
 .customer-engagement-txt p { font-size: .9em }
 .client-engage { margin-top: 40px; margin-left: -30px }
 .customer-engage-img { margin-left: -275px; }
-.industries-solutions-thumbnail{min-height: 635px}
-.ind-thumbnail { min-height: 430px; }
+.industries-solutions-thumbnail{min-height: 575px}
+.ind-thumbnail { min-height: 437px; }
 
 }
 .insurance .industries-solutions-thumbnail {min-height: 360px;}
@@ -1392,7 +1394,7 @@ Services We Provide Styles
 .liquid-commerce-content .intro-page p, .liquid-marketing-content .intro-page p, .liquid-sales-content .intro-page p { padding-top: -10px!important; padding-right: 50px }
 .liquid-rules { width: 75%; margin: 0 auto; }
 .liquid-rules img { margin: 20px auto; width: 50px; height: 50px }
-.liquid-rules h4 { font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; color: #1e407b }
+.liquid-rules h4 { font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; color: #1e407b; min-height: 40px; }
 .liquid-rules p { line-height: 18px }
 .healthcare-casestudy-title { color: #1e407b; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 18px; margin-top: 20px; margin-bottom: 20px; }
 .swp-page-data { margin-top: 50px; margin-bottom: 50px }

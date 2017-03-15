@@ -65,7 +65,7 @@
 .industries-twitter-updates-inner { margin: 25px 0 0; }
 .liquid-rules img { height: 50px; margin: 20px auto; width: 50px; }
 .swp .media img.media-object { width: 10.929em; }
-.view-all-case { margin-left: 35px; }
+.view-all-case { margin-left: -5px; }
 .case-studies-head { margin: 45px 0 15px 0; }
 .problemsolve-thumbnail p { font-size: 14px; line-height: 22px }
 .problemsolve-thumbnail { min-height: 290px }
@@ -78,6 +78,11 @@
 .media-data:first-child {margin-top:20px}
 .img-book {margin:35px 0 0 20px}
 .dcebook-download {margin-left: 20px;}
+.insights-ul.intro-page-sub ul li::before {left: 20px;}
+.home-services-thumbnails {margin-top:130px}
+.case-bank-item {margin-top: 10px; margin-left: 9px;}
+.case-bank-short {margin-left: 160px;}
+.our-work .case-item{min-height: 320px; width: 300px;}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1023px) {
@@ -234,6 +239,9 @@ a.aar-liquid-solution{padding: 10px 4px;}
 .insights-ul.intro-page-sub ul li::before {left: 20px;}
 .architecture-title .media .p {font-size: 14px;line-height: 22px;}
 .case-am-item{min-height:620px;width: 30.6%;}
+.case-bank-item{width: 30.3%; height: 420px;}
+.case-bank-short{margin-left: 120px;}
+.case-studies-content .case-item{width: 230px; min-height: 310px;}
 }
 
 @media (max-width: 767px) {
@@ -305,7 +313,7 @@ p, p.ellipsis { font-size: 14px; line-height: 20px }
 .solution-customer-experience-thumbnail h3 span { line-height: 35px; font-size: 20px; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; }
 .case-studies-content .case-item h4 { margin-top: 10px; margin-bottom: 10px; min-height: auto }
 .case-studies-content .case-item p { margin-bottom: 20px }
-
+.liquid-rules h4{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; color: #1e407b;}
 }
 
 @media (max-width: 767px) and (orientation: landscape) {
@@ -345,6 +353,7 @@ p, p.ellipsis { font-size: 14px; line-height: 20px }
 .i-letmehelpu .media .media-left { padding: 15px 0 0; text-align: center; }
 .i-letmehelpu .media img { width: 10.714em; }
 .i-letmehelpu .media .getintouch .getintouch-follow { text-align: center; }
+.i-letmehelpu {margin-top:50px}
 .news-events-highlights { margin-bottom: 30px; }
 .industries-newsevents { min-height: 100%!important; }
 .top-more-news { min-height: auto; }
@@ -394,7 +403,7 @@ a.fs-banking-img img, a.fs-awm-img img {margin: 0 auto 25px;}
 .commercial-page-sub {margin-left: 5px;margin-top: 15px;}
 .commercial-img {text-align: center;}
 .commercial-img img {margin: 0 auto;}
-.data-page-dstitle, .insights-page-dstitle, .research-page-dstitle {text-align: center;}
+.data-page-dstitle, .insights-page-dstitle, .research-page-dstitle {text-align: left;}
 .data-page-dstitle img, .insights-page-dstitle img, .research-page-dstitle img {margin-bottom: -10px;}
 .insights-ul.intro-page-sub ul li::before {left: 30px;}
 .architecture-title .media .p {font-size: 14px;line-height: 22px;}
@@ -430,6 +439,8 @@ a.fs-banking-img img, a.fs-awm-img img {margin: 0 auto 25px;}
 .pleft { padding-left: 10px; padding-top: 20px; }
 .view-all-case{margin-left:0px;font-size: 14px;}
 .featured-case-study-bg.item1 {cursor: default;}
+.case-bank-item {width: 90.3%; height: 360px;}
+.case-bank-item .case-short{padding-top:10px}
 
 
 }
@@ -517,4 +528,6 @@ a.fs-banking-img img, a.fs-awm-img img {margin: 0 auto 25px;}
 .healthcare-help .btn-default {margin-bottom: 15px;width: 100%;padding: 6px 3px;}
 .healthcare-help .healthcare-help-span a.btn {margin-left: 0;}
 .solutions-list-head {display: table;margin: 0 auto;}
+.asset-wealth .case-am-item {margin: 0px;margin-bottom: 15px;min-height: auto;padding: 30px;width: 100%;
+}
 }
