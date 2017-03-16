@@ -837,7 +837,7 @@ h4.media-sub-heading { min-height: 60px; line-height: 27px; }
 .case-short ul.bullets li:before { left: 35px; }
 .case-studies-head span, .problems-head span, .services-head span { font-size: 15px; color: #179bd7; font-weight: bold; }
 .case-studies-content { background: #179bd7; padding: 45px 0; }
-.case-studies-content .case-item { background: #fff; padding: 15px; min-height: 320px; margin: 10px; width: 365px;}
+.case-studies-content .case-item { background: #fff; padding: 20px; min-height: 320px; margin: 0px; width: 365px;}
 .case-studies-content .case-item.case-item-new{width: 100%;}
 .case-studies-content.liquidmarketing .case-item { min-height: 312px; }
 .architecture-intro { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; }
@@ -878,6 +878,7 @@ h4.media-sub-heading { min-height: 60px; line-height: 27px; }
 .services-content .service-item.content { background: url(../img/content.jpg) no-repeat; background-size: cover }
 .services-content .service-item.research { background: url(../img/research.jpg) no-repeat; background-size: cover }
 .services-content .service-item.development { background: url(../img/development.jpg) no-repeat; background-size: cover }
+.case-item.case-bank {margin:10px}
 /* asset-wealth-management */
 
 .case-am-item { background: #fff; margin: 10px; padding: 30px; width: 31.3%; height: 460px; }
@@ -1086,6 +1087,10 @@ a.navbar-brand { width: 9em }
 .about-who-we-are div, .about-what-we-do div { margin-left: 0px; width: 100%; min-height: auto; }
 .about-who-we-are h3, .about-what-we-do h3 { color: #179bd7; font-weight: 600; font-size: 1.461em; }
 .about-who-we-are p, .about-what-we-do p { font-size: 1.143em }
+.case-studies-content .case-item-new{margin-bottom: 20px;padding: 20px}
+.case-studies-content .case-item-new h4{margin-top: 10px}
+.case-studies-content .case-item-new p{margin-bottom: 20px}
+.case-studies-content .case-item-new .btn{position: relative;margin-top: 10px}
 }
 
 @media only screen and (max-device-width: 767px) and (orientation: landscape) {
@@ -1165,9 +1170,10 @@ a.navbar-brand { width: 9em }
 .industries-solutions-thumbnail{min-height: 575px}
 .ind-thumbnail { min-height: 437px; }
 
-}
 .insurance .industries-solutions-thumbnail {min-height: 360px;}
-
+.case-studies-content.banking-casestudies .case-item{min-height: 380px}
+.case-studies-content.asset-wealth-mgt .case-item{min-height: 465px}
+}
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 .navbar-wrapper .navbar-default .navbar-nav>li>a { padding: 5px; font-size: 15px }
 .navbar-nav { margin-right: 15px }
@@ -1228,7 +1234,7 @@ a.navbar-brand { width: 9em }
 .service-we-provide-intro-wrap .service-we-provide-intro a.btn { right: 10px; bottom: -70px }
 .services-list-wrap:before { width: 100%; left: -15px; }
 .services-list-wrap .services-list { padding-left: 35px; }
-
+.case-studies-content .solutionspage-casestudy.case-item-new{min-height: 280px}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1249,6 +1255,7 @@ a.navbar-brand { width: 9em }
 .industry-thumb-text { width: 20.4em; height: 16em; padding: 30px 30px 0 }
 .industry-thumb-text a.btn { position: relative; }
 .service-we-provide-intro-wrap .service-we-provide-intro-bg { left: 40px; background-size: 100% 100%; width: 300px }
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1334,6 +1341,7 @@ Large Devices
 .footer-links { font-size: 15px; line-height: 24px; margin-left: 0 }
 .footer-links p { font-family: "Lato-Regular", Arial, Gotham, Helvetica Neue, Helvetica; font-size: 15px; line-height: 24px; }
 .footer-links strong { font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; }
+
 /* *************************************
 Services We Provide Styles
 **************************************** */
@@ -1374,7 +1382,7 @@ Services We Provide Styles
 .swp.s-ourservices .s-services-thumb-txt.imp-respo { padding-top: 55px; padding-left: 80px; padding-right: 25px }
 .news-events-highlights { margin-top: 45px; overflow: auto; background: #fff; margin-bottom: 45px;}
 .swp-insights-page .intro-page-sub ul li:before { left: 15px; }
-
+}
 @media (min-width: 1366px) {
 .swp.s-successstories:before { left: 12% }
 .swp.s-successstories:after { right: 186px; bottom: 132px }
@@ -1454,18 +1462,18 @@ Services We Provide Styles
 /* Solution We deliver Landing page */
 
 .sol-aar{margin: 100px auto 150px;position: relative;}
-  .sol-aar:before, .sol-aar:after{min-height: 380px}
-  .sol-aar:before { height: 100%; position: absolute; content: ""; background: #fff; width: 27.1%; left: 0; top:-35px;}
-  .sol-aar:after{height: 100%; position: absolute; content: ""; background: #f2f2f2;  width: 100%; left: 0; top:-35px;z-index: -1}
-  .sol-aar-title, .sol-aar-subTitle span{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica;}
-  .sol-aar-title{margin:0;padding: 20px; background: #faa635;color: #fff;position: absolute; z-index: 1; top: 20px;}
-  .sol-aar-txt-border { background: url(../img/pattern-home.jpg); padding: 10px; overflow: auto;}
-  .sol-aar-txt { background: #fff; color: #888; padding: 25px 45px 25px 30px; display: block; display: -webkit-box; font-size: 1.1em; line-height: 1.5em; }  
-  a.sol-aar-liquid-solution{margin: 10px auto;padding: 10px 20px;display: block;cursor: pointer;text-decoration: none; border:1px solid #fff;}
-  a.sol-aar-liquid-solution:hover{text-decoration: none; border:1px solid #f2f2f2;}
-  a.sol-aar-liquid-solution h4.media-heading{line-height: 35px;}
-  a.sol-aar-liquid-solution h4.media-heading span{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
-  .sol-aar-liquid-solutions-icon{width: 35px;}
+.sol-aar:before, .sol-aar:after{min-height: 380px}
+.sol-aar:before { height: 100%; position: absolute; content: ""; background: #fff; width: 27.1%; left: 0; top:-35px;}
+.sol-aar:after{height: 100%; position: absolute; content: ""; background: #f2f2f2;  width: 100%; left: 0; top:-35px;z-index: -1}
+.sol-aar-title, .sol-aar-subTitle span{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica;}
+.sol-aar-title{margin:0;padding: 20px; background: #faa635;color: #fff;position: absolute; z-index: 1; top: 20px;}
+.sol-aar-txt-border { background: url(../img/pattern-home.jpg); padding: 10px; overflow: auto;}
+.sol-aar-txt { background: #fff; color: #888; padding: 25px 45px 25px 30px; display: block; display: -webkit-box; font-size: 1.1em; line-height: 1.5em; }  
+a.sol-aar-liquid-solution{margin: 10px auto;padding: 10px 20px;display: block;cursor: pointer;text-decoration: none; border:1px solid #fff;}
+a.sol-aar-liquid-solution:hover{text-decoration: none; border:1px solid #f2f2f2;}
+a.sol-aar-liquid-solution h4.media-heading{line-height: 35px;}
+a.sol-aar-liquid-solution h4.media-heading span{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
+.sol-aar-liquid-solutions-icon{width: 35px;}
 .solution-customer-experience{margin: 30px auto 80px; position: relative;}
 .solution-customer-experience h3 span{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
 .solution-customer-experience:before{
@@ -1476,6 +1484,7 @@ background-size: contain; width: 5.594em;  }
 .solution-customer-experience-wrap:before{height: 5.594em; position: absolute; content: ""; background: url(../img/pattern1.png) no-repeat center center;
 background-size: contain; width: 5.594em; }
 .solution-customer-experience-wrap h4{color:#1e407b; font-size:1.4em}
+.solution-customer-experience-thumbnail{padding: 20px 15px; border:5px solid #f2f2f2;}
 .solution-customer-experience-thumbnail{position: relative;display: block; cursor: pointer;    padding: 20px;height: 85px;}
 .solution-customer-experience-thumbnail.lightOrangeBg{}
 .solution-customer-experience-thumbnail.darkOrangeBg{}
@@ -1488,12 +1497,8 @@ background-size: contain; width: 5.594em; }
 .solution-customer-experience-txt{padding: 20px; font-size: 15px; line-height: 20px;display:none}
 .view-all-our-solution{margin-top: 66px}
 .view-all-our-solution a:hover{text-decoration: underline; color: #179bd7}
-.swp-page-insights .row {
-    margin-bottom: 50px;
-}
-.sol-no-gutter{     border: 1px solid #faa635;
-    height: 150px;
-    background: #FAA635;}
+.swp-page-insights .row { margin-bottom: 50px; }
+.sol-no-gutter{     border: 1px solid #faa635; height: 150px; background: #FAA635;}
 .sol-no-gutter-right{padding-right: 0!important; }
 .sol-no-gutter-left{padding-left: 0!important;}
 @media (max-width: 1023px) {
@@ -1503,8 +1508,8 @@ background-size: contain; width: 5.594em; }
     .solution-customer-experience-thumbnail h3 img{margin-right: 20px;}
 }
 @media (min-width: 1024px) {
-    .solution-customer-experience-thumbnail{padding: 20px 15px; border:5px solid #f2f2f2;}
-    .solution-customer-experience-thumbnail h3{margin:5px auto;font-size: 23px}
+    
+    .solution-customer-experience-thumbnail h3{margin:5px auto;font-size: 22px}
     .solution-customer-experience-thumbnail h3 img{margin-right: 20px;}
     .sce-inner{margin-top: 20px}
     .sce-inner:before{left:28%;width: 50em}

@@ -83,6 +83,8 @@
 .case-bank-item {margin-top: 10px; margin-left: 9px;}
 .case-bank-short {margin-left: 160px;}
 .our-work .case-item{min-height: 320px; width: 300px;}
+.case-am-item{width: 30.3%;height: 532px;}
+.case-item .case-bank {margin:10px;}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1023px) {
@@ -241,7 +243,8 @@ a.aar-liquid-solution{padding: 10px 4px;}
 .case-am-item{min-height:620px;width: 30.6%;}
 .case-bank-item{width: 30.3%; height: 420px;}
 .case-bank-short{margin-left: 120px;}
-.case-studies-content .case-item{width: 230px; min-height: 310px;}
+.case-studies-content .case-item{width: 230px; min-height: 310px; margin: -5px;}
+.case-item.case-bank {margin:10px}
 }
 
 @media (max-width: 767px) {
@@ -395,9 +398,11 @@ p, p.ellipsis { font-size: 14px; line-height: 20px }
 .intro-page-sub .media .media-left img { width: 100%!important; }
 .pright { padding-left: 10px; padding-top: 20px }
 .explore-industries { overflow: visible; }
-.solution-customer-experience-wrap .media-object { margin-left: 35px; width: 40px; }
-.solution-customer-experience-wrap .media-body h3 { line-height: 40px; font-size: 20px }
-.liquid-rules img { margin-left: auto; margin-right: auto; width: 50px; }
+.solution-customer-experience-thumbnail{height: 70px}
+.solution-customer-experience-wrap .media-object { margin: 0px; width: 40px; }
+.solution-customer-experience-wrap .media-body h3 { line-height: 40px; font-size: 20px; }
+.solution-customer-experience-wrap .media-body h3 span{display: inline-block;}
+.liquid-rules img { margin-left: auto; margin-right: auto; width: 50px; margin:10px auto;}
 .financial-services-intro .media-left {display: inline-block;width: 100%;}
 a.fs-banking-img img, a.fs-awm-img img {margin: 0 auto 25px;}
 .commercial-page-sub {margin-left: 5px;margin-top: 15px;}
@@ -407,6 +412,9 @@ a.fs-banking-img img, a.fs-awm-img img {margin: 0 auto 25px;}
 .data-page-dstitle img, .insights-page-dstitle img, .research-page-dstitle img {margin-bottom: -10px;}
 .insights-ul.intro-page-sub ul li::before {left: 30px;}
 .architecture-title .media .p {font-size: 14px;line-height: 22px;}
+.footer{padding-top: 20px}
+p.healthcare-help{overflow: auto}
+.healthcare-help > span {margin-bottom: 20px; height: 35px}
 }
 
 @media only screen and (min-width: 280px) and (max-width: 600px) {
@@ -446,10 +454,11 @@ a.fs-banking-img img, a.fs-awm-img img {margin: 0 auto 25px;}
 }
 @media only screen and (min-width: 280px) and (max-width: 640px) {
 		.case-studies-content .case-item-new{margin:10px 0; padding:10px}
-	.case-studies-content .case-item-new h4{padding-top:10px}
+	.case-studies-content .case-item-new h4{}
 	ul{margin:10px}
 	ul li{font-size:14px}
 	.pright h5{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;color: #179bd7; font-size: 18px }
+	.case-studies-content .solutionspage-casestudy.case-item-new{padding:20px; min-height: auto;}
 }
 @media only screen and (min-width: 480px) and (max-width: 640px) {
 .lh-history::before {width: 100vw;height: 25.313em;}
@@ -524,7 +533,7 @@ a.fs-banking-img img, a.fs-awm-img img {margin: 0 auto 25px;}
 .news-events-content {margin-bottom: 20px;}
 .i-letmehelpu .media .media-body div,.i-letmehelpu .media .media-right {margin-top: 0;}
 .contactus iframe{height: 320px;}
-.healthcare-help > span {width: 100%;}
+.healthcare-help > span {width: 100%;margin-bottom: 20px}
 .healthcare-help .btn-default {margin-bottom: 15px;width: 100%;padding: 6px 3px;}
 .healthcare-help .healthcare-help-span a.btn {margin-left: 0;}
 .solutions-list-head {display: table;margin: 0 auto;}
