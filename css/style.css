@@ -1458,8 +1458,8 @@ Services We Provide Styles
 .himss-header-banner { background: url('../img/banners/himss-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
 .optimize-your-specialty-network { background: url('../img/banners/5-ways-to-optimize-your-specialty-network.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
 .pick-the-right-partner-for-success-header-banner { background: url('../img/banners/pick-the-right-partner-for-success-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
-.data-head{color:#179bd7; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
-.data-main-head{color:#1e407b; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
+.data-head{color:#1e407b; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; padding-left:50px;}
+.data-main-head{color:#1e407b; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;     padding: 0 28px 20px 10px;}
 
 /* Solution We deliver Landing page */
 
