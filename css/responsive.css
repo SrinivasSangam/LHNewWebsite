@@ -1,5 +1,10 @@
 
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+	.home-mission::after{bottom:-53px}
+}
+	
+	
+	@media only screen and (min-width: 1024px) and (max-width: 1200px) {
     .home-mission::after{bottom: -52px;}
 .lh-history::before { width: 26.9em; }
 .about-who-we-are img, .about-what-we-do img { width: 12em; }
@@ -273,8 +278,7 @@ p, p.ellipsis { font-size: 14px; line-height: 20px }
 .navbar-wrapper .navbar-default .navbar-nav > li { border-bottom: 1px solid rgba(255,255,255,0.05); }
 .navbar-wrapper .navbar-default .navbar-nav > li > a { overflow: auto; padding: 10px 20px; font-size: 16px }
 .navbar-wrapper .navbar-default .navbar-nav > li > a:hover span { border-bottom: 0px; text-decoration: underline; }
-.carousel-caption { padding: 0 20px; }
-.carousel-indicators li, .carousel-indicators li.active { height: .6vw; }
+
 .home-mission::after { bottom: 10px; right: 0px; width: 5em; height: 5em; }
 .home-mission, .home-approach { margin: 0 15px }
 .home-approach::before { left: 15px; top: -20px; width: 5em; height: 5em; }
