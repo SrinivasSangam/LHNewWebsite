@@ -178,11 +178,11 @@ a.socialIcon:hover, .socialHoverClass { color: #44BCDD; }
 .btn.active, .btn:active { -webkit-box-shadow: none; box-shadow: none; }
 .home-customer-experience{margin: 40px auto; position: relative; background: url(../img/industries-homebg1.jpg) no-repeat center center;}
 .home-customer-experience-wrap{padding: 0 15px;}
-.hcet-pattern-after:after{height: 5.594em; position: absolute; content: ""; background: url(../img/pattern1.png) no-repeat center center;
+.hcet-pattern-after:before{height: 5.594em; position: absolute; content: ""; background: url(../img/pattern1.png) no-repeat center center;
 background-size: contain; width: 5.594em;  bottom: 0;right: -79px;}
 .hcet-pattern-before:before{height: 5.594em; position: absolute; content: ""; background: url(../img/pattern1.png) no-repeat center center;
 background-size: contain; width: 5.594em; left: -78px;}
-.home-customer-experience-thumbnail{position: relative;display: block; cursor: pointer;}
+.home-customer-experience-thumbnail{position: relative;display: block; cursor: pointer;z-index: 1}
 .home-customer-experience-thumbnail-txt{}
 .home-customer-experience-thumbnail-txt p{position: absolute;left: 15px; top: 20px; right: 20px; color: #fff;line-height: 18px; font-size: 14px;width: 50%}
 .home-customer-experience-thumbnail span{position: absolute;bottom: 10px; color: #fff; left: 15px}
@@ -239,15 +239,14 @@ a.aar-liquid-solution h4.media-heading span{font-family: 'Lato-Bold', Arial, Got
     .aar-title{font-size:1.3em;}
 }
 @media (min-width: 768px){    
-    
-
+    .hcet-pattern-after:before{z-index: -1}
     .sm-nopad{padding-left: 0; padding-right: 0}
 }
 @media (max-width: 768px){
     .home-customer-experience{background-size: cover;}
     .view-all-our-work{margin-top: 25px}
     .home-customer-experience-thumbnail-txt p{font-size: 10px; line-height: 12px;width: 55%}
-    
+    .hcet-pattern-after:before{right: -23px;}    
 }
 @media (max-width: 767px) {
     .hcet-pattern-before:before,.hcet-pattern-after:after{display: none}

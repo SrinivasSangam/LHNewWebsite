@@ -42,6 +42,7 @@
 .carousel-fade .carousel-control {
   z-index: 2;
 }
+
 @media (max-width: 979px) {
   .carousel .item {   }
   .carousel img { width: auto; height: 500px; }
