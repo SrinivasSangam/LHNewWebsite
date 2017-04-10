@@ -60,6 +60,8 @@ p { font-size: 1.071em }
 .navbar-wrapper-op .dropdown-menu>li>a { border-bottom: 1px solid #f2f2f2 }
 .speaker{border: 6px solid rgba(28, 66, 124, 0.5);    border-radius: 50%;    width: 150px;}
 .speaker-title{color:#1e407b; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size:18px}
+.event-title{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.714em; color: #1e407b}
+.event-title span{font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica;}
 @media (max-width: 767px) {
     .navbar-wrapper-op .navbar-default .navbar-nav > li > a{overflow: auto;padding: 10px 20px; font-size: 16px} 
     .navbar-wrapper-op .navbar-default .navbar-nav > li > a:hover span,.navbar-wrapper-op .navbar-default .navbar-nav > li > a.active span{border-bottom: 0px;text-decoration: underline;}
