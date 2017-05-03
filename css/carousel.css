@@ -10,7 +10,8 @@
 .carousel img { position: absolute; top: 0; left: 0; min-width: 100%; height: 100%}
 .carousel-caption { background-color: transparent; position: static; width: 34.375vw; padding: 0px; margin-top: 22%; text-shadow: none;}
 .carousel-caption p{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;text-align: left;font-size: 15px; line-height:21px;}
-.carousel-caption h1,.carousel-caption .lead {font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; margin: 0; color: #fff; text-align: left;text-transform: uppercase;}
+.carousel-caption h1,.carousel-caption .lead {font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; margin: 0; color: #fff; text-align: left;text-transform: uppercase;}
+.carousel-caption h1 span {font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica;}
 .carousel-caption .btn {font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 14px; line-height: 21px; margin-top: 10px; display: block;width: 9.179em;border-radius: 0px}
 .carousel-caption a.btn.btn-lblue{background-color:rgba(0,0,0,.2); color: #fff; }
 .carousel-caption a.btn.btn-orange{background-color:rgba(0,0,0,.2); color: #fff; }
