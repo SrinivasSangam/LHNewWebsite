@@ -20,8 +20,8 @@
 .carousel-control.left,.carousel-control.right{display: none}
 /*.carousel-indicators{left: 41%;width: 17%;bottom: 50px}*/
 .carousel-indicators { bottom: 35px; left: 0; margin-left: 15px; top: 0; text-align: left;}
-.carousel-indicators li{border-radius: 0; height: 0.1881vw; width: 2.5vw; background: rgba(255,255,255,.5); border:none; }
-.carousel-indicators li.active{ height: 0.1881vw; width: 2.5vw; margin-bottom: 1px; }
+.carousel-indicators li{border-radius: 0; height: 0.35vw; width: 2.5vw; background: rgba(28,66,124,.1); border:1xp solid #fff;  }
+.carousel-indicators li.active{ height: 0.35vw; width: 2.5vw; margin-bottom: 1px; }
 .carousel-fade .carousel-inner .item { -webkit-transition-property: opacity; transition-property: opacity;}
 .carousel-fade .carousel-inner .item,
 .carousel-fade .carousel-inner .active.left,
