@@ -1,0 +1,178 @@
+﻿
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://www.liquidhub.com/campaigns/march2017/99vy.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!--<base href="http://engage.liquidhub.com">-->
+<!--<base href=".">--><base href=".">
+<meta name="description" content="">
+<title></title>
+<style type="text/css">
+body { font-family: "Lato-Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0 auto; }
+p { font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-size: 0.9em; font-weight: normal !important; }
+.head { margin: 5px; }
+.head h1 { color: #ff8429; font-weight: 300; }
+.head p span.phoneNo { color: #428bca; font-weight: bold; }
+form.form { margin: 0px!important; padding: 0px!important; clear: both!important; }
+form.form p.required label, form.form span.required label { background-position: top right; }
+form.form, #pardot-form { width: 320px }
+form.form p.submit { margin: 10px auto !important; width: 160px; }
+#pardot-form p.required label, #pardot-form span.required label { background-position: top right; }
+#pardot-form p label, #pardot-form span label { color: #333333; display: block; float: left; font-size: 14px !important; font-weight: 400 !important; line-height: 1.75em !important; margin: 0; padding: 3px 15px 0 0; text-align: left !important; width: auto !important; }
+#pardot-form p.form-field input[type="text"], #pardot-form p.form-field select, .inputbox, textarea  { background: #f8f8f8 none repeat scroll 0 0; border: 1px solid #c5ccd0; font-size: 14px; font-weight: lighter; height: 20px; margin: 0; padding: 5px 0; width: 310px; }
+#pardot-form p.form-field select { height: 32px; }
+#pardot-form textarea.standard { float: none; height: 90px; overflow: auto; padding: 2px; width: 300px; resize: none; }
+#pardot-form p.pd-radio label.form-field { }
+#pardot-form p.pd-radio span { width: 310px; }
+#pardot-form p.pd-radio span.value { }
+#pardot-form p.pd-radio span.value span { display: inline-block; width: 85px; }
+#pardot-form p.pd-radio input[type="radio"] { float: left; margin: 8px 10px !important; width: 14px; }
+#pardot-form p.pd-radio label.inline { background: rgba(0, 0, 0, 0) none repeat scroll 0 center; float: none; font-weight: normal; line-height: 2em; text-align: left; vertical-align: baseline; }
+#pardot-form p.pd-checkbox label.form-field { }
+#pardot-form p.pd-checkbox label.form-field { }
+#pardot-form p.pd-checkbox span { width: 310px; }
+#pardot-form p.pd-checkbox span.value { }
+#pardot-form p.pd-checkbox span.value span { display: inline-block; width: 85px; }
+#pardot-form p.pd-checkbox input[type="checkbox"] { float: left; margin-right: 10px !important; width: 14px; }
+#pardot-form p.pd-checkbox label.inline { background: rgba(0, 0, 0, 0) none repeat scroll 0 center; display: inline; float: none; font-weight: normal; line-height: 2em; margin-right: 10px; padding: 0; text-align: left; vertical-align: super; }
+/*
+			#pardot-form p.submit input[type="submit"]{background: #1a2d65 none repeat scroll 0 0; border: medium none; color: #fff; display: block; font-size: 20px; height: 40px; margin: 0 auto !important; text-align: center; width: 140px;}
+			*/
+#pardot-form p.submit input { background: rgba(0, 0, 0, 0) url("submit-button.png") no-repeat scroll right top; border: medium none; cursor: pointer; height: 43px; margin: 0!important; padding: 0; text-align: right; width: 152px; }
+input:hover { border-color: #007dbb; }
+/*Error's*/
+.red-background, form.form p.errors { background: #8b0000 none repeat scroll 0 0; color: #fff; margin-bottom: 1em; padding-left: 0.5em; }
+.red-color, form.form p.error, form.form span.error, form.form div.error { color: #ff0000 !important }
+form.form p.error label { color: #8b0000 !important }
+
+@media (max-width:360px) {
+.head h1 { text-align: center; }
+.head > p { margin: 0 auto; text-align: center; width: 170px }
+#pardot-form p.form-field input[type="text"], #pardot-form p.form-field select, .inputbox { width: 290px; }
+}
+</style>
+<link rel="stylesheet" type="text/css" href="./form.css">
+<script type="text/javascript" src="./analytics(2)"></script><script type="text/javascript" src="./analytics(3)"></script>
+<script language="javascript">
+function validateForm() {
+    var fname = document.forms["pardot-form"]["First-Name"].value;
+	var lname = document.forms["pardot-form"]["Last-Name"].value;
+	var company = document.forms["pardot-form"]["Company"].value;
+	var email = document.getElementById('Email');
+	var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+	//var email = document.forms["pardot-form"]["Email"].value;
+/*	var title = document.forms["pardot-form"]["Title"].value;
+	var phone = document.forms["pardot-form"]["Phone"].value;*/
+	
+	
+    if (fname == "") {
+        alert("Please fill first name");
+		
+        return false;
+    }
+	else if (lname == "") {
+	    alert("Please fill last name");
+        return false;
+	}
+	else if (company == "") {
+	    alert("Please fill company");
+        return false;
+	}
+	/*else if (email == "") {
+	    alert("Please fill company");
+        return false;
+	}*/
+	else if (!filter.test(email.value)){
+	alert("email is not valid");
+	return false;
+	}/**/
+
+	else{document.forms["pardot-form"].submit();}
+}
+</script>
+</head>
+<body>
+<!--
+	    <div class="head">
+	        <h1>LET'S START NOW</h1>
+            <p>Want to chat instead? Call us at <span class="phoneNo">(484) 654-1400.</span></p>
+	    </div>
+	    -->
+<form method="post" action="http://demo.anniksystems.com/lhmail/mail.php" class="form" id="pardot-form">
+  <style type="text/css">
+#returnmessage{width:90%; text-align:center;font-size:12.5px;margin: 10px 0 0 0;}
+#processing{    text-align: center;
+    margin-left: -23px;
+    position: absolute;
+    background: rgba(255,255,255,.75);
+    border-radius: 16px;
+    width: 50%;
+    margin: 10px 15%;
+    border: 1px solid #999;
+    padding: 15px;
+}
+p#processing{ }
+form.form p label { color: #000000; }
+#fname-error, #lname-error, #company-error, #email-error{padding: 0px 15px 0 0;float:left;color:#900;font-size: 13px;margin: -17px 0px -1px 0;}
+.email-error{color:#900;}
+.formheading{font-size:12.5px;    margin-bottom: 15px;}
+.btn1{background: #179bd7 none repeat scroll 0 0;
+    border-color: #179bd7;
+    border-radius: 0;
+    padding: 6px 25px;
+  color:#fff;
+  cursor:pointer;
+  margin: 10px auto!important;
+    }
+
+</style>
+	<p style="line-height: 12px; color:#179bd7; font-size:28px; margin-left:48px">Get started now!<br></p>
+  <p class="formheading">See how we have helped companies in the entertainment industry grow their viewership</p>
+
+  <p class="form-field  first_name pd-text required">
+    <label class="field-label" for="66392_16156pi_66392_16156">Name <span style="color:#f4c32a;">*</span></label>
+    <input type="text" name="First-Name" id="First-Name" value="" class="text" size="30" maxlength="40" onchange="">
+  </p>
+  <div id="error_for_66392_16156pi_66392_16156" style="display:none"></div>
+  <!--<p class="form-field  last_name pd-text required">
+    <label class="field-label" for="66392_16158pi_66392_16158">Last Name <span style="color:#f4c32a;">*</span></label>
+    <input type="text" name="Last-Name" id="Last-Name" value="" class="text" size="30" maxlength="80" onchange="">
+  </p>
+  <div id="error_for_66392_16158pi_66392_16158" style="display:none"></div>-->
+  <p class="form-field  company pd-text required    ">
+    <label class="field-label" for="66392_16160pi_66392_16160">Company <span style="color:#f4c32a;">*</span></label>
+    <input type="text" name="Company" id="Company" value="" class="text" size="30" maxlength="255" onchange="">
+  </p>
+  <div id="error_for_66392_16172pi_66392_16172" style="display:none"></div>
+  <p class="form-field  email pd-text required">
+    <label class="field-label" for="66392_16162pi_66392_16162">Email <span style="color:#f4c32a;">*</span></label>
+    <input type="text" name="Email" id="Email" value="" class="text" size="30" maxlength="255" onchange="piAjax.auditEmailField(this, 66392, 16162, 223978);">
+  </p>
+ <div id="error_for_66392_16172pi_66392_16172" style="display:none"></div>
+   <!--<p class="form-field  email pd-text required">
+    <label class="field-label" for="66392_16162pi_66392_16162">Title </label>
+    <input type="text" name="Title" id="Title" value="" class="text" size="30" maxlength="255" onchange="piAjax.auditEmailField(this, 66392, 16162, 223978);">
+  </p>
+  <div id="error_for_66392_16172pi_66392_16172" style="display:none"></div>-->
+  <p class="form-field  email pd-text required">
+    <label class="field-label" for="66392_16162pi_66392_16162">Phone</label>
+    <input type="text" name="Phone" id="Phone" value="" class="text" size="30" maxlength="255" onchange="piAjax.auditEmailField(this, 66392, 16162, 223978);">
+  </p>
+  <p class="form-field  email pd-text required">
+    <label class="field-label" for="66392_16162pi_66392_16162">Comments</label>
+    <textarea name="Comments" id="Comments" class="text" rows="5" style="height:60px;"></textarea>
+  </p>
+  <div id="error_for_66392_16166pi_66392_16166" style="display:none"></div>
+  <p style="position:absolute; width:190px; left:-9999px; top: -9999px;visibility:hidden;"> 
+    <!-- <label for="pi_extra_field">Comments</label>
+		<input type="text" name="pi_extra_field" id="pi_extra_field"> --> 
+  </p>
+  
+  <!-- forces IE5-8 to correctly submit UTF8 content
+		<input name="_utf8" type="hidden" value="☃">  -->
+  
+  <p class="submit"> <input type="button" accesskey="s" value="" onclick="validateForm();">  </p>
+</form>
+
+</body></html>
