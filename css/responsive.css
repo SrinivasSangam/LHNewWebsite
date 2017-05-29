@@ -4,8 +4,8 @@
 }
 	
 	
-	@media only screen and (min-width: 1024px) and (max-width: 1200px) {
-    .home-mission::after{bottom: -52px;}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+.home-mission::after{bottom: -52px;}
 .lh-history::before { width: 26.9em; }
 .about-who-we-are img, .about-what-we-do img { width: 12em; }
 .top-most-recent img { width: 9.9em; }
@@ -250,6 +250,7 @@ a.aar-liquid-solution{padding: 10px 4px;}
 .case-bank-short{margin-left: 120px;}
 .case-studies-content .case-item{width: 230px; min-height: 310px; margin: -5px;}
 .case-item.case-bank {margin:10px}
+
 }
 
 @media (max-width: 767px) {
@@ -321,6 +322,7 @@ p, p.ellipsis { font-size: 14px; line-height: 20px }
 .case-studies-content .case-item h4 { margin-top: 10px; margin-bottom: 10px; min-height: auto }
 .case-studies-content .case-item p { margin-bottom: 20px }
 .liquid-rules h4{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; color: #1e407b;}
+.event-title, .event-title span{font-size:18px}
 }
 
 @media (max-width: 767px) and (orientation: landscape) {
