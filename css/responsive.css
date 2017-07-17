@@ -90,6 +90,7 @@
 .our-work .case-item{min-height: 320px; width: 300px;}
 .case-am-item{width: 30.3%;height: 532px;}
 .case-item .case-bank {margin:10px;}
+a.services-e2esupport-name{padding: 5px 5px 5px 35px}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1023px) {
@@ -119,7 +120,7 @@ body { overflow-x: hidden; }
 .top-more-news .top-more-news-op img { width: 8em; }
 .top-more-news .top-more-news-op div { width: 50%; }
 .tabbable-panel::before { top: 19px; }
-.tabbable-panel { width: 45em; }
+.tabbable-panel { width: 34em; }
 .tabbable-line > .nav-tabs { padding-left: 0; }
 .about-what-we-do { margin-left: 0px !important; }
 .insights-thumb { display: table; padding: 0; }
@@ -250,7 +251,7 @@ a.aar-liquid-solution{padding: 10px 4px;}
 .case-bank-short{margin-left: 120px;}
 .case-studies-content .case-item{width: 230px; min-height: 310px; margin: -5px;}
 .case-item.case-bank {margin:10px}
-
+a.services-e2esupport-name{padding: 5px 5px 5px 20px}
 }
 
 @media (max-width: 767px) {
@@ -323,6 +324,7 @@ p, p.ellipsis { font-size: 14px; line-height: 20px }
 .case-studies-content .case-item p { margin-bottom: 20px }
 .liquid-rules h4{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; color: #1e407b;}
 .event-title, .event-title span{font-size:18px}
+a.services-e2esupport-name{padding: 5px 5px 5px 15px}
 }
 
 @media (max-width: 767px) and (orientation: landscape) {
@@ -480,7 +482,7 @@ p.healthcare-help{overflow: auto}
 .tabbable-line > .nav-tabs {padding-left: 0;}
 .tabbable-panel {width: 90vw;}
 .tabbable-panel::before {top: 25px;}
-.tabbable-line .nav-tabs > li {float: left;margin: 5px;text-align: center;width: 30.9%;}
+.tabbable-line .nav-tabs > li {float: left;margin: 5px;text-align: center;width: 47.5%;}
 .tab-content {margin-top: 0;}
 .tab-content .margin-bottom-sm {margin-bottom: 15px;}
 .top-more-news .top-more-news-op div h3 a,.industries-newsevents .top-more-news .top-more-news-op a.btn {font-size: 14px;line-height: 22px;}
@@ -530,7 +532,7 @@ p.healthcare-help{overflow: auto}
 .tabbable-panel::before {top: 20px;}
 .tabbable-panel {width: 100%;}
 .tabbable-line > .nav-tabs {padding-left: 0px;}
-.tabbable-line .nav-tabs > li {margin: 0;text-align: center;width: 33.3%;float: left;}
+.tabbable-line .nav-tabs > li {margin: 0;text-align: center;width: 49%;float: left;}
 .tabbable-line > .nav-tabs > li > a ,.top-more-news .top-more-news-op div h3 a,.industries-newsevents .top-more-news .top-more-news-op a.btn{font-size: 14px;line-height: 22px;}
 .tab-content {margin-top: 15px;padding: 0;}
 .tab-content .margin-bottom-sm {margin-bottom: 15px;}
