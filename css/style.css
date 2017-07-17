@@ -41,20 +41,20 @@ ul.top-nav-op li a{color: #333}
 .top-nav-icon.lhicon-icon{background: url('../img/LHicon-white.svg')no-repeat; background-size: contain; background-position: center bottom;}
 .top-nav-icon.linkedin-icon{background: url('../img/linkedin-white.svg')no-repeat; background-size: contain; background-position: center bottom;}
 .top-nav-icon.twitter-icon{background: url('../img/twitter-white.svg')no-repeat; background-size: contain; background-position: center bottom;}
-.top-nav-icon.news-events-icon{background: url('../img/new&events-white.svg')no-repeat; background-size: contain; background-position: center bottom;}
-.top-nav-icon.blog-icon{background: url('../img/blog-white.svg')no-repeat; background-size: contain; background-position: center bottom;}
+.top-nav-icon.news-events-icon{background: url('../img/blog-white.svg')no-repeat; background-size: contain; background-position: center bottom;}
+.top-nav-icon.blog-icon{background: url('../img/new&events-white.svg')no-repeat; background-size: contain; background-position: center bottom;}
 
 .top-nav-icon.lhicon-icon-op{background: url('../img/LHicon-black.svg')no-repeat; background-size: contain; background-position: center bottom;}
 .top-nav-icon.linkedin-icon-op{background: url('../img/linkedin-black.svg')no-repeat; background-size: contain; background-position: center bottom;}
 .top-nav-icon.twitter-icon-op{background: url('../img/twitter-black.svg')no-repeat; background-size: contain; background-position: center bottom;}
-.top-nav-icon.news-events-icon-op{background: url('../img/new&events-black.svg')no-repeat; background-size: contain; background-position: center bottom;}
-.top-nav-icon.blog-icon-op{background: url('../img/blog-black.svg')no-repeat; background-size: contain; background-position: center bottom;}
+.top-nav-icon.news-events-icon-op{background: url('../img/blog-black.svg')no-repeat; background-size: contain; background-position: center bottom;}
+.top-nav-icon.blog-icon-op{background: url('../img/new&events-black.svg')no-repeat; background-size: contain; background-position: center bottom;}
 
 .top-nav-icon.lhicon-icon:hover,.top-nav-icon.lhicon-icon-op:hover{background: url('../img/LHicon-orange.svg')no-repeat; background-size: contain; background-position: center bottom;}
 .top-nav-icon.linkedin-icon:hover,.top-nav-icon.linkedin-icon-op:hover{background: url('../img/linkedin-orange.svg')no-repeat; background-size: contain; background-position: center bottom;}
 .top-nav-icon.twitter-icon:hover,.top-nav-icon.twitter-icon-op:hover{background: url('../img/twitter-orange.svg')no-repeat; background-size: contain; background-position: center bottom;}
-.top-nav-icon.news-events-icon:hover,.top-nav-icon.news-events-icon-op:hover{background: url('../img/new&events-orange.svg')no-repeat; background-size: contain; background-position: center bottom;}
-.top-nav-icon.blog-icon:hover,.top-nav-icon.blog-icon-op:hover{background: url('../img/blog-orange.svg')no-repeat; background-size: contain; background-position: center bottom;}
+.top-nav-icon.news-events-icon:hover,.top-nav-icon.news-events-icon-op:hover{background: url('../img/blog-orange.svg')no-repeat; background-size: contain; background-position: center bottom;}
+.top-nav-icon.blog-icon:hover,.top-nav-icon.blog-icon-op:hover{background: url('../img/new&events-orange.svg')no-repeat; background-size: contain; background-position: center bottom;}
     
 
 #main-nav .container .row { position: relative; }
