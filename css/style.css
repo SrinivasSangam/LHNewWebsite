@@ -95,6 +95,15 @@ ul.top-nav-op li a{color: #333}
 .event-title{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.714em; color: #1e407b}
 .event-title span{font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica;}
 .heading-research{color:#1e407b; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; line-height: 24px  }
+.partners-sub{padding-right: 0px; margin:-10px 0px 30px 50px; font-size:120%}
+.swag-prize-wheel{margin-top: 30px}
+  .swag-prize-wheel-inner{position: relative;margin-top: 50px;padding: 20px; border: 1px solid #f2f2f2}
+  .swag-prize-wheel-inner h2{margin:0px;}
+  .swag-prize-wheel-inner:before{background: url(../img/approach-before-img.png) no-repeat; content: ''; display: block; height: 8em; width: 8em; position: absolute; z-index: 1; background-size: contain;left: -10px; top:-10px;}
+  .swag-prize-wheel-inner:after{background: url(../img/mission-after-img.png) no-repeat;
+    bottom: -11px; content: ''; display: block; height: 8em; width: 8em; right:-28px; position: absolute; z-index: 1; background-size: contain;}
+  .swag-prize-wheel h2{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.714em; color: #179bd7; }
+  .swag-prize-wheel p span{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; color: #179bd7; }
 @media (max-width: 767px) {
 	.navbar-wrapper-op .navbar-default .navbar-nav > li > a{overflow: auto;padding: 10px 20px; font-size: 16px} 
 	.navbar-wrapper-op .navbar-default .navbar-nav > li > a:hover span,.navbar-wrapper-op .navbar-default .navbar-nav > li > a.active span{border-bottom: 0px;text-decoration: underline;}
@@ -103,6 +112,9 @@ ul.top-nav-op li a{color: #333}
 	.navbar-nav .open .dropdown-menu > li > a { line-height: 20px; }
 	.navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus { background-image: none; }
 	.i-letmehelpu .media .getintouch h4{margin-bottom: 20px}
+	.swag-prize-wheel-inner::after{top: none; bottom: -10px; right: -32px}
+	.data-head{color: #1e407b; font-family: "Lato-Bold",Arial,Gotham,Helvetica Neue,Helvetica; font-size: 18px; margin-bottom: 20px}
+	.intro-page-sub{margin-bottom: 20px}
 }
 
 @media (min-width: 768px) {
@@ -163,7 +175,7 @@ ul.top-nav-op li a{color: #333}
 .navbar-material-blue .btn-link { color: #ffffff; }
 .navbar-material-blue .btn-link:hover, .navbar-material-blue .btn-link:focus { color: #ffffff; }
 .navbar-material-blue .btn-link[disabled]:hover, fieldset[disabled] .navbar-material-blue .btn-link:hover, .navbar-material-blue .btn-link[disabled]:focus, fieldset[disabled] .navbar-material-blue .btn-link:focus { color: #cccccc; }
-ul.custom-bullet { list-style: none; padding-left: 0px }
+ul.custom-bullet { list-style: none; padding-left: 0px!important }
 ul.custom-bullet li:before { font-family: 'FontAwesome'; content: "\f105"; position: absolute; left: 16px; list-style-type: none; color: #179bd7; font-size: 14px; font-weight: 600; }
 ul.custom-bullet li { padding-left: 20px; }
 ul.custom-bullet.liquidlabs-bullets li{position: relative; padding-left: 35px}
@@ -203,7 +215,7 @@ a.socialIcon:hover, .socialHoverClass { color: #44BCDD; }
 .social-circle li a:hover i, .triggeredHover { -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -ms--transform: rotate(360deg); transform: rotate(360deg); -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; -ms-transition: all 0.2s; transition: all 0.2s; }
 .social-circle i { color: #999999; -webkit-transition: all 0.8s; -moz-transition: all 0.8s; -o-transition: all 0.8s; -ms-transition: all 0.8s; transition: all 0.8s; }
 .copyright { padding-top: 20px; padding-bottom: 10px }
-.copyright p { margin-bottom: 0; line-height: 0.9em; font-size: 0.9em; color: #333; font-size: .857em; font-family: "Lato-Regular", Arial, Gotham, Helvetica Neue, Helvetica; }
+.copyright p { margin-bottom: 0; line-height: 0.9em; font-size: 0.9em; color: #333; font-family: "Lato-Regular", Arial, Gotham, Helvetica Neue, Helvetica; }
 .copyright .policy-links li a { margin-bottom: 0; line-height: 0.9em; font-size: 0.9em; font-family: "Lato-Bold", Arial, Gotham, Helvetica Neue, Helvetica; }
 .copyright .policy-links li a:hover { text-decoration: underline; }
 .list-inline { margin-left: 0 }
@@ -406,7 +418,7 @@ h3.cust-engagement-title span, h3.services-e2esupport-title span { font-family: 
 .industry-thumb-text a.btn { color: #179bd7; margin-top: -8px }
 .industry-thumb:first-child { width: 19.123em }
 .industry-thumb:nth-child(6), .industry-thumb:nth-child(7), .industry-thumb:last-child { width: 5.594em }
-.industry-thumb:nth-child(7):before { height: 5.594em; width: 5.594em; position: absolute; content: ""; background: url('../img/pattern1.png') no-repeat center center; background-size: contain; top: 10px; left: 0%; top: 0; }
+.industry-thumb:nth-child(7):before { height: 5.594em; width: 5.594em; position: absolute; content: ""; background: url('../img/pattern1.png') no-repeat center center; background-size: contain; top: 10px; left: 0%;}
 .industry-thumb:last-child:after { height: 5.594em; position: absolute; content: ""; background: url('../img/pattern1.png') no-repeat center center; background-size: contain; bottom: 0; width: 5.594em; left: 0; }
 .right-border { border-right: 8px solid #f2f2f2 }
 .problems-we-solve{margin-top: 45px;}
@@ -489,6 +501,8 @@ h3.cust-engagement-title span, h3.services-e2esupport-title span { font-family: 
 .services-block .services-block-title span { padding: 0px 15px; display: inline-block;  }
 .services-block .services-block-title span h4 { font-size: 12px; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; text-transform: uppercase; }
 .services-block .col-sm-2, .services-block .col-sm-4, .services-block .col-sm-6{border-right:4px solid #fff }
+.grocers-experience{background: #f2f2f2; margin-top: 90px; margin-bottom: 90px; padding-top: 30px; padding-bottom: 30px}
+.grocers-experience h2.section-title{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.714em;color: #1e407b;}
 .page-title h3 span { text-transform: none;}
 .services-block .services-block-title span.btn { position: absolute; right: 0; top: 7px; }
 a.problemsolve-thumb { display: block; color: #fff }
@@ -1037,9 +1051,15 @@ h4.media-sub-heading { min-height: 60px; line-height: 27px; }
 }
 
 @media (max-width: 768px) {
-.case-studies-content .case-item {  min-height: 310px; float: left; }
-.problems-content .problem-item { height: 128px; width: 31%; margin: 25px 0px; }
-.problems-content .problem-item h4 { width: 83%; margin-top: 15px; }
+	p{margin-bottom: 10px}
+	.page-title h2{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica;margin-bottom: 20px; font-size: 20px; color: #1e407b}
+	.case-studies-content .case-item {  min-height: 310px; float: left; }
+	.problems-content .problem-item { height: 128px; width: 31%; margin: 25px 0px; }
+	.problems-content .problem-item h4 { width: 83%; margin-top: 15px; }
+	.intro-page-sub p{font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; margin-bottom: 10px}
+	.intro-page-sub ul.custom-bullet{position: relative; margin-left: 0px}
+	.intro-page-sub ul.custom-bullet li:before{left: 0}
+	.intro-page-sub ul.custom-bullet li{padding-left: 0}
 }
 
 @media (max-width: 640px) {
@@ -1572,7 +1592,7 @@ Services We Provide Styles
 .himss-header-banner { background: url('../img/banners/himss-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
 .optimize-your-specialty-network { background: url('../img/banners/5-ways-to-optimize-your-specialty-network.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
 .pick-the-right-partner-for-success-header-banner { background: url('../img/banners/pick-the-right-partner-for-success-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
-.data-head{color:#1e407b; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; padding-left:44px;}
+.data-head{color:#1e407b; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; padding-left:44px; margin-bottom:0}
 .data-main-head{color:#1e407b; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;     padding: 0 28px 20px 10px;}
 
 /* Solution We deliver Landing page */
