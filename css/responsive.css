@@ -91,6 +91,7 @@
 .case-am-item{width: 30.3%;height: 532px;}
 .case-item .case-bank {margin:10px;}
 a.services-e2esupport-name{padding: 5px 5px 5px 35px}
+	.lh-history::before{height: 33.313em;}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1023px) {
@@ -519,7 +520,7 @@ p.healthcare-help{overflow: auto}
 }
 @media only screen and (min-width: 320px) and (max-width: 360px) {
 .carousel-caption.caption-left{margin-top: 30%!important;}
-.lh-history::before {width: 100vw;height: 31em;}
+.lh-history::before {width: 100vw;height: 34em;}
 .aboutus-who-what,.about-what-we-do {margin-left: 0!important;}
 .about-who-we-are, .about-what-we-do {overflow: visible;}
 .aboutus-who-what .container .row div:nth-child(1){margin-top: 20px!important;margin-bottom: 20px!important;}

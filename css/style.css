@@ -104,6 +104,7 @@ ul.top-nav-op li a{color: #333}
     bottom: -11px; content: ''; display: block; height: 8em; width: 8em; right:-28px; position: absolute; z-index: 1; background-size: contain;}
   .swag-prize-wheel h2{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.714em; color: #179bd7; }
   .swag-prize-wheel p span{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; color: #179bd7; }
+.onepager-lhoverview-btn{background: #faa635; border-radius: 0px; border: 0px; color: #fff; padding: 5px 25px; margin-top: 10px;}
 @media (max-width: 767px) {
 	.navbar-wrapper-op .navbar-default .navbar-nav > li > a{overflow: auto;padding: 10px 20px; font-size: 16px} 
 	.navbar-wrapper-op .navbar-default .navbar-nav > li > a:hover span,.navbar-wrapper-op .navbar-default .navbar-nav > li > a.active span{border-bottom: 0px;text-decoration: underline;}
@@ -136,6 +137,7 @@ ul.top-nav-op li a{color: #333}
 
 	.navbar-nav { float: left; margin: 0; }
 	.navbar-nav > li { float: left; }
+	
 }
 .navbar-nav > li > .dropdown-menu, .navbar-wrapper-op .navbar-nav > li > .dropdown-menu { margin-top: 0; }
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu { border-top-right-radius: 3px; border-top-left-radius: 3px; border-bottom-right-radius: 0; border-bottom-left-radius: 0; }
@@ -311,6 +313,7 @@ a.services-e2esupport-name h4.media-heading span{font-family: 'Lato-Black', Aria
 }
 @media(min-width: 1200px){	
 	.liquidlabs .media-object img{width: 120px; }
+	.onepager-lhoverview-btn{margin-left: 85px;}
 }
 
 /* #innovation-page */
