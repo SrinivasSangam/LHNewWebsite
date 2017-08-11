@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /first-data-sommelier-event.htm/
+Disallow: /data-sommelier-event.html
+Disallow: /first-data-sommelier-event.html
